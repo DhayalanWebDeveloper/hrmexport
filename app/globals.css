@@ -151,3 +151,220 @@
     height: 9px;
   }
 }
+
+/* ============================================================
+   Page-specific CSS copied from the reference homepage's inline
+   <style> blocks (homepagescorcecode.md lines 135-391, 753-763,
+   4084-4088, 4188-4239). The CDN template CSS doesn't ship these
+   — without them the "Know More" mid-banner button is mis-placed,
+   product cards lose their green border, the cat-box circle
+   borders vanish, nav-tabs don't get the olive background, the
+   3rd-level dropdown menu can't open, fixed-sec-fot loses its
+   dark pill, and mobile layout gets the wrong hero offsets.
+   ============================================================ */
+
+/* Middle banner "Know More" button placement */
+.about-one__btn.thm-btn.hbbtn {
+  position: relative;
+  top: -86px;
+  left: 5%;
+}
+
+/* Product card styling (OurProducts / project-one cards) */
+.project-one__img img {
+  height: auto;
+}
+.project-one__img::before {
+  display: none;
+}
+.project-one__img {
+  border: 3px solid #afc836;
+  padding: 10px;
+  border-radius: 15px;
+  background: #ffffff;
+}
+.project-one__single .p-content {
+  margin-top: 10px;
+}
+.project-one__single .p-content a {
+  color: #000000;
+}
+.product__all-single-inner {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+/* Product tab navigation (OurProducts nav-tabs) */
+.card .nav-tabs {
+  border: 1px dashed #cccccc;
+  background: #c0cd82;
+}
+.nav-tabs > .nav-item > .nav-link {
+  border: 1px dashed #016327;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+/* 3rd-level Products dropdown in Header — opens when hovering the
+   2nd-level list item. Data-driven menu from lib/products.ts. */
+.main-menu__list > li > ul > li > ul > li:hover > ul {
+  opacity: 1;
+  visibility: visible;
+  display: inline;
+  transform: scaleY(1) translateZ(0px);
+}
+.main-menu__list > li > ul > li > ul > li > ul {
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  min-width: 270px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  opacity: 0;
+  visibility: hidden;
+  transform-origin: top center;
+  transform: scaleY(0) translateZ(100px);
+  transition: opacity 500ms ease, visibility 500ms ease, transform 700ms ease;
+  z-index: 99;
+  background-color: #ffffff;
+  padding: 25px 20px 24px;
+  border-bottom-left-radius: var(--gardon-bdr-radius, 20px);
+  border-bottom-right-radius: var(--gardon-bdr-radius, 20px);
+}
+
+/* Single-line ellipsis helper */
+.oneline {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+/* ProductsCategories cat-box circular image frame */
+.cat-box img {
+  border-radius: 50%;
+  padding: 8px;
+  border: 1px dashed #016327;
+  transition: transform 0.2s ease-in-out;
+}
+.cat-box img:hover {
+  transform: translateY(-20px);
+}
+
+/* Desktop-only spacing & owl-nav placement for sub-sliders */
+@media only screen and (min-width: 601px) {
+  .main-menu .main-menu__list > li + li,
+  .stricky-header .main-menu__list > li + li {
+    margin-left: 40px !important;
+  }
+  .setowlicon .owl-nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-between !important;
+    width: 100%;
+    top: 48%;
+  }
+  .setowlicon .owl-nav button span {
+    background: #016327 !important;
+    padding: 10px 13px !important;
+    font-size: 24px;
+    color: #ffffff;
+  }
+  .feature-one__single {
+    padding: 25px 25px 25px;
+  }
+}
+
+/* Mobile (<= 500px) — homepage-specific overrides */
+@media only screen and (max-width: 500px) {
+  .about-one__btn.thm-btn.hbbtn {
+    padding: 0px 10px;
+    font-size: 12px;
+    top: -40px;
+    left: 4%;
+  }
+  .fixed-sec-fot {
+    left: inherit !important;
+    right: 6px !important;
+  }
+  .mborder { order: 1; }
+  .project-one__single .p-content p { line-height: 18px; }
+  .project-one__single .p-content a { font-size: 14px; }
+  .main-header__top-social { margin-bottom: 10px; }
+  .main-header__top-close-time-and-social { display: contents; }
+  .main-header__top-social a + a { margin-left: 16px; }
+  .mobpimg .mt-50 { margin-top: 0px; }
+  .mobpimg .project-one__title { font-size: 14px; line-height: 18px; }
+  .mobpimg .about-one__btn.thm-btn { padding: 1px 10px; font-size: 14px; }
+  .mobileshowflex { display: flex !important; }
+  .mobpimg img { height: 160px !important; }
+  .bdmbcolor { background: #afc836 !important; }
+  .site-footer__bottom-inner a { color: #c8c8c8; }
+  .main-header__top-inner { padding: 6px 10px 6px; }
+  .main-slider { top: -200px !important; }
+  .main-header { top: 12px; }
+  .feature-one.feature-one-two { margin-top: -160px; }
+  .main-slider .item {
+    z-index: 10;
+    margin-top: 200px;
+  }
+  .feature-one__title a {
+    color: var(--gardon-black, #000);
+    transition: all 500ms ease;
+    font-size: 16px;
+    line-height: 1px;
+  }
+  .feature-one__title {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-top: 19px;
+  }
+  .feature-one__single {
+    position: relative;
+    transition: all 500ms ease;
+    box-shadow: inset -13px 1px 17px 0px rgba(0, 0, 0, 0.1);
+    display: block;
+    border: 1px solid #025e2e;
+    padding: 11px 11px 17px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+/* ActionButtons floating menu (fixed-sec-fot + shakehv) */
+.shakehv {
+  text-align: center;
+  line-height: 45px;
+  border-radius: 36px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.shakehv:hover {
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+}
+.fixed-sec-fot {
+  position: fixed;
+  left: 10px;
+  bottom: 24%;
+  z-index: 8000;
+  display: grid;
+  background: #212529;
+  padding: 10px 10px;
+  border-radius: 50px;
+}
+.fixed-sec-fot a:hover { color: #b1cc00; }
+.fixed-sec-fot span {
+  font-size: 30px !important;
+  margin-bottom: 22px;
+  color: #b0c800;
+}
+.fixed-sec-fot .fnt { font-size: 23px !important; }
+
+/* intl-tel-input dropdown width in EnquiryForm */
+.iti.iti--allow-dropdown { width: 100%; }
