@@ -27,6 +27,28 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/bootstrap/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/animate/animate.min.css" />
+        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/animate/custom-animate.css" />
+        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/fontawesome/css/all.min.css" />
+        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/jarallax/jarallax.css" />
+        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/odometer/odometer.min.css" />
+        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/swiper/swiper.min.css" />
+        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/gardon-icons/style.css" />
+        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/reey-font/stylesheet.css" />
+        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/alagambe-font/stylesheet.css" />
+        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/owl-carousel/owl.carousel.min.css" />
+        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/owl-carousel/owl.theme.default.min.css" />
+        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/vegas/vegas.min.css" />
+        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/jquery-ui/jquery-ui.css" />
+        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/twenty-twenty/twentytwenty.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" crossOrigin="anonymous" />
+        <link rel="stylesheet" href="https://www.hrmexports.com/assets/css/hrmexports.css" />
+        <link rel="stylesheet" href="https://www.hrmexports.com/assets/css/hrmexports-responsive.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css" />
+      </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );
