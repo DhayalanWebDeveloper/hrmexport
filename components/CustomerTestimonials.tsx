@@ -33,7 +33,7 @@ const owlOptions = `{
                                 "autoplay": true,
                                 "nav":false,
                                 "dots":true,
-                                "navText": ["<span class=\\"fa fa-angle-left\\"></span>","<span class=\\"fa fa-angle-right\\"></span>"],
+                                "navText": ["<i class=\\"fa-solid fa-arrow-left-long\\"></i>","<i class=\\"fa-solid fa-arrow-right-long\\"></i>"],
                                 "responsive":{
                                     "0":{
                                         "items":1
@@ -55,7 +55,7 @@ export default function CustomerTestimonials() {
           <div className="col-xl-4">
             <div className="testimonial-one__left">
               <div className="section-title text-left">
-                <div className="section-title__icon">
+                <div className="section-title__icon left">
                   <img
                     src="/assets/images/icon/section-title-icon.png"
                     alt="HRM Exports"
@@ -89,7 +89,7 @@ export default function CustomerTestimonials() {
                         ></div>
                         <div className="testimonial-one__review flex gap-1 text-hrm-lime">
                           {Array.from({ length: t.stars }).map((_, s) => (
-                            <i key={s} className="fa fa-star"></i>
+                            <i key={s} className="fa-solid fa-star"></i>
                           ))}
                         </div>
                         <p className="testimonial-one__text-2">{t.text}</p>

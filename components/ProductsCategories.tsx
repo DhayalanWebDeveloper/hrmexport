@@ -29,7 +29,7 @@ export default function ProductsCategories() {
             className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-6 wow fadeInUp"
             data-wow-delay="100ms"
           >
-            <Link href="/indian-basmati-rice.html" className="block group">
+            <Link href="/indian-basmati-rice" className="block group">
               <div className="cat-box text-center transition-all duration-300 group-hover:drop-shadow-lg">
                 <img
                   src="/storage/app/public/images/67612c8e2068a.jpg"
@@ -44,7 +44,7 @@ export default function ProductsCategories() {
             className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-6 wow fadeInUp"
             data-wow-delay="100ms"
           >
-            <Link href="/indian-non-basmati-rice.html" className="block group">
+            <Link href="/indian-non-basmati-rice" className="block group">
               <div className="cat-box text-center transition-all duration-300 group-hover:drop-shadow-lg">
                 <img
                   src="/storage/app/public/images/67612c98327dc.jpg"
@@ -59,7 +59,7 @@ export default function ProductsCategories() {
             className="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-6 wow fadeInUp"
             data-wow-delay="100ms"
           >
-            <Link href="/pesticide-residue-free-rice.html" className="block group">
+            <Link href="/pesticide-residue-free-rice" className="block group">
               <div className="cat-box text-center transition-all duration-300 group-hover:drop-shadow-lg">
                 <img
                   src="/storage/app/public/images/67612c9db5317.jpg"

@@ -10,7 +10,7 @@ export default function Header() {
             <ul className="list-unstyled main-header__contact-list mobilehide">
               <li>
                 <div className="icon">
-                  <i className="fas fa-phone-square"></i>
+                  <i className="fa-solid fa-square-phone"></i>
                 </div>
                 <div className="text">
                   <p><a href="tel:+91 73 5700 0031" className="transition-colors duration-300 hover:text-[#afc836]">+91 73 5700 0031</a></p>
@@ -18,7 +18,7 @@ export default function Header() {
               </li>
               <li>
                 <div className="icon">
-                  <i className="fas fa-envelope"></i>
+                  <i className="fa-solid fa-envelope"></i>
                 </div>
                 <div className="text">
                   <p><a href="mailto:info@hrmexports.com" className="transition-colors duration-300 hover:text-[#afc836]">info@hrmexports.com</a></p>
@@ -27,10 +27,10 @@ export default function Header() {
             </ul>
             <div className="main-header__top-close-time-and-social">
               <div className="main-header__top-social">
-                <a href="https://www.facebook.com/hrmexport" className="transition-colors duration-300 hover:text-[#afc836]"><i className="fab fa-facebook"></i></a>
-                <a href="https://www.linkedin.com/company/hrmexports/" className="transition-colors duration-300 hover:text-[#afc836]"><i className="fab fa-linkedin"></i></a>
-                <a href="https://instagram.com/hrmexports" className="transition-colors duration-300 hover:text-[#afc836]"><i className="fab fa-instagram"></i></a>
-                <a href="https://www.twitter.com/hrm" className="transition-colors duration-300 hover:text-[#afc836]"><i className="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/hrmexport" className="transition-colors duration-300 hover:text-[#afc836]"><i className="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/hrmexports/" className="transition-colors duration-300 hover:text-[#afc836]"><i className="fa-brands fa-linkedin"></i></a>
+                <a href="https://instagram.com/hrmexports" className="transition-colors duration-300 hover:text-[#afc836]"><i className="fa-brands fa-instagram"></i></a>
+                <a href="https://www.twitter.com/hrm" className="transition-colors duration-300 hover:text-[#afc836]"><i className="fa-brands fa-twitter"></i></a>
               </div>
               <div id="google_translate_element" className="ms-3"></div>
             </div>
@@ -47,7 +47,7 @@ export default function Header() {
                   </div>
                 </div>
                 <div className="main-menu__main-menu-box">
-                  <a href="#" className="mobile-nav__toggler"><i className="fa fa-bars"></i></a>
+                  <a href="#" className="mobile-nav__toggler"><i className="fa-solid fa-bars"></i></a>
                   <ul className="main-menu__list">
                     <li><Link href="/" className="transition-colors duration-300 hover:text-[#afc836]">Home </Link></li>
 

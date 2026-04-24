@@ -1,13 +1,9 @@
-import Header from "@/components/Header";
 import EnquiryForm from "@/components/EnquiryForm";
-import Footer from "@/components/Footer";
-import ActionButtons from "@/components/ActionButtons";
 import Link from "next/link";
 
 export default function BrandPage() {
   return (
     <div className="page-wrapper">
-      <Header />
 
       {/* Page Header */}
       <section className="page-header">
@@ -387,7 +383,7 @@ export default function BrandPage() {
               data-wow-duration="1500ms"
             >
               <div className="icon">
-                <span className="fas fa-leaf"></span>
+                <span className="fa-solid fa-leaf"></span>
               </div>
               <div className=" ml-10">
                 <p>
@@ -402,7 +398,7 @@ export default function BrandPage() {
               data-wow-duration="1500ms"
             >
               <div className="icon">
-                <span className="fas fa-leaf"></span>
+                <span className="fa-solid fa-leaf"></span>
               </div>
               <div className=" ml-10">
                 <p>
@@ -418,7 +414,7 @@ export default function BrandPage() {
               data-wow-duration="1500ms"
             >
               <div className="icon">
-                <span className="fas fa-leaf"></span>
+                <span className="fa-solid fa-leaf"></span>
               </div>
               <div className=" ml-10">
                 <p>
@@ -434,7 +430,7 @@ export default function BrandPage() {
               data-wow-duration="1500ms"
             >
               <div className="icon">
-                <span className="fas fa-leaf"></span>
+                <span className="fa-solid fa-leaf"></span>
               </div>
               <div className=" ml-10">
                 <p>
@@ -473,8 +469,6 @@ export default function BrandPage() {
       </section>
 
       <EnquiryForm />
-      <Footer />
-      <ActionButtons />
     </div>
   );
 }

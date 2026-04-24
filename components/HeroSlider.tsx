@@ -27,7 +27,10 @@ export default function HeroSlider() {
       const desktopOpts = {
         loop: true,
         items: 1,
-        navText: ['<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>'],
+        navText: [
+          '<i class="fa-solid fa-arrow-left-long"></i>',
+          '<i class="fa-solid fa-arrow-right-long"></i>',
+        ],
         margin: 0,
         dots: true,
         nav: true,

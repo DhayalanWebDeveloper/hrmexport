@@ -1,13 +1,9 @@
-import Header from "@/components/Header";
 import EnquiryForm from "@/components/EnquiryForm";
-import Footer from "@/components/Footer";
-import ActionButtons from "@/components/ActionButtons";
 import Link from "next/link";
 
 export default function HistoryPage() {
   return (
     <div className="page-wrapper">
-      <Header />
 
       {/* Page Header */}
       <section className="page-header">
@@ -65,11 +61,11 @@ export default function HistoryPage() {
                 <div className="content">
                   <div className="timeline-content-info">
                     <span className="timeline-content-info-title">
-                      <i className="fa fa-certificate" aria-hidden="true"></i>
+                      <i className="fa-solid fa-certificate" aria-hidden="true"></i>
                       HRM EXPORTS began in
                     </span>
                     <span className="timeline-content-info-date">
-                      <i className="fa fa-calendar" aria-hidden="true"></i>
+                      <i className="fa-solid fa-calendar" aria-hidden="true"></i>
                       1969
                     </span>
                   </div>
@@ -87,11 +83,11 @@ export default function HistoryPage() {
                 <div className="content">
                   <div className="timeline-content-info">
                     <span className="timeline-content-info-title">
-                      <i className="fa fa-certificate" aria-hidden="true"></i>
+                      <i className="fa-solid fa-certificate" aria-hidden="true"></i>
                       M/s Hanuman Rice Mills established in
                     </span>
                     <span className="timeline-content-info-date">
-                      <i className="fa fa-calendar" aria-hidden="true"></i>
+                      <i className="fa-solid fa-calendar" aria-hidden="true"></i>
                       1990
                     </span>
                   </div>
@@ -108,11 +104,11 @@ export default function HistoryPage() {
                 <div className="content">
                   <div className="timeline-content-info">
                     <span className="timeline-content-info-title">
-                      <i className="fa fa-certificate" aria-hidden="true"></i>
+                      <i className="fa-solid fa-certificate" aria-hidden="true"></i>
                       Next generation in
                     </span>
                     <span className="timeline-content-info-date">
-                      <i className="fa fa-calendar" aria-hidden="true"></i>
+                      <i className="fa-solid fa-calendar" aria-hidden="true"></i>
                       1992
                     </span>
                   </div>
@@ -128,11 +124,11 @@ export default function HistoryPage() {
                 <div className="content">
                   <div className="timeline-content-info">
                     <span className="timeline-content-info-title">
-                      <i className="fa fa-certificate" aria-hidden="true"></i>
+                      <i className="fa-solid fa-certificate" aria-hidden="true"></i>
                       Increased Production Capacity in
                     </span>
                     <span className="timeline-content-info-date">
-                      <i className="fa fa-calendar" aria-hidden="true"></i>
+                      <i className="fa-solid fa-calendar" aria-hidden="true"></i>
                       2002
                     </span>
                   </div>
@@ -148,11 +144,11 @@ export default function HistoryPage() {
                 <div className="content">
                   <div className="timeline-content-info">
                     <span className="timeline-content-info-title">
-                      <i className="fa fa-certificate" aria-hidden="true"></i>
+                      <i className="fa-solid fa-certificate" aria-hidden="true"></i>
                       Infrastructure Modernization
                     </span>
                     <span className="timeline-content-info-date">
-                      <i className="fa fa-calendar" aria-hidden="true"></i>
+                      <i className="fa-solid fa-calendar" aria-hidden="true"></i>
                       2014
                     </span>
                   </div>
@@ -169,11 +165,11 @@ export default function HistoryPage() {
                 <div className="content">
                   <div className="timeline-content-info">
                     <span className="timeline-content-info-title">
-                      <i className="fa fa-certificate" aria-hidden="true"></i>
+                      <i className="fa-solid fa-certificate" aria-hidden="true"></i>
                       Taking HRM 2.O Forward
                     </span>
                     <span className="timeline-content-info-date">
-                      <i className="fa fa-calendar" aria-hidden="true"></i>
+                      <i className="fa-solid fa-calendar" aria-hidden="true"></i>
                       2020
                     </span>
                   </div>
@@ -206,8 +202,6 @@ export default function HistoryPage() {
       </section>
 
       <EnquiryForm />
-      <Footer />
-      <ActionButtons />
     </div>
   );
 }

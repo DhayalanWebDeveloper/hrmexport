@@ -1,134 +1,73 @@
-type Product = {
-  name: string;
-  image: string;
-  href: string;
-};
+"use client";
 
-type Tab = {
-  id: string;
-  label: string;
-  products: Product[];
-};
+import { useEffect, useRef } from "react";
+import Link from "next/link";
+import { productCategories } from "@/lib/products";
 
-const tabs: Tab[] = [
-  {
-    id: 'basmati',
-    label: 'Basmati Rice',
-    products: [
-      {
-        name: '1121 BASMATI RICE',
-        image: '/storage/images/67a47e7c2df47.jpg',
-        href: '/1121-basmati-rice',
-      },
-      {
-        name: '1718 BASMATI RICE',
-        image: '/storage/images/67a4884436e27.jpg',
-        href: '/1718-basmati-rice',
-      },
-      {
-        name: '1509 BASMATI RICE',
-        image: '/storage/images/67a48862d9184.jpg',
-        href: '/1509-basmati-rice',
-      },
-      {
-        name: '1401 BASMATI RICE',
-        image: '/storage/images/67a4886ab0837.jpg',
-        href: '/1401-basmati-rice',
-      },
-      {
-        name: 'PUSA BASMATI RICE',
-        image: '/storage/images/67a48872b51e0.jpg',
-        href: '/pusa-basmati-rice',
-      },
-      {
-        name: 'TRADITIONAL BASMATI RICE',
-        image: '/storage/images/67a4887b2a40a.jpg',
-        href: '/traditional-basmati-rice',
-      },
-      {
-        name: 'BEHROUZ BASMATI RICE',
-        image: '/storage/images/66e6b24739d3d.png',
-        href: '/behrouz-basmati-rice-exporter-in-india',
-      },
-      {
-        name: 'BASMATI RICE',
-        image: '/storage/images/66e844d1b5fa6.jpg',
-        href: '/basmati-rice',
-      },
-    ],
-  },
-  {
-    id: 'non-basmati',
-    label: 'Non-Basmati Rice',
-    products: [
-      {
-        name: 'SUGANDHA RICE',
-        image: '/storage/images/67a4898b583bd.jpg',
-        href: '/sugandha-rice',
-      },
-      {
-        name: 'SHARBATI RICE',
-        image: '/storage/images/67a489945bd60.jpg',
-        href: '/sharbati-rice',
-      },
-      {
-        name: 'PR11 RICE',
-        image: '/storage/images/67a489a067bf2.jpg',
-        href: '/pr11-rice',
-      },
-      {
-        name: 'PR 14 RICE',
-        image: '/storage/images/67a489aa3aaf1.jpg',
-        href: '/pr-14-rice',
-      },
-      {
-        name: 'PARMAL RICE',
-        image: '/storage/images/67a489b2438bb.jpg',
-        href: '/parmal-rice',
-      },
-      {
-        name: 'SONA MASOORI RICE',
-        image: '/storage/images/67a489bbaa914.jpg',
-        href: '/sona-masoori-rice',
-      },
-    ],
-  },
-  {
-    id: 'pesticide-residue-free',
-    label: 'Pesticide Residue Free',
-    products: [
-      {
-        name: 'PESTICIDE RESIDUE FREE STEAM RICE',
-        image: '/storage/images/67a48b12bc5ad.jpg',
-        href: '/pesticide-residue-free-steam-rice',
-      },
-      {
-        name: 'PESTICIDE RESIDUE FREE SELLA RICE',
-        image: '/storage/images/67a48b210dd0f.jpg',
-        href: '/pesticide-residue-free-sella-rice',
-      },
-      {
-        name: 'PESTICIDE RESIDUE FREE GOLDEN SELLA RICE',
-        image: '/storage/images/67a48b29b6307.jpg',
-        href: '/pesticide-residue-free-golden-sella-rice',
-      },
-      {
-        name: 'PESTICIDE RESIDUE FREE RAW RICE',
-        image: '/storage/images/67a48b357b962.jpg',
-        href: '/pesticide-residue-free-raw-rice',
-      },
-    ],
-  },
-];
+type OwlJQuery = ((el: Element) => {
+  owlCarousel: (opts: Record<string, unknown>) => void;
+}) & { fn?: { owlCarousel?: unknown } };
 
 export default function OurProducts() {
+  const desktopRef = useRef<HTMLDivElement>(null);
+
+  // Flatten every variety across every category into a single product list
+  // so the slider cycles through the full catalog (matches reference behavior).
+  const products = productCategories.flatMap((cat) => cat.varieties);
+
+  useEffect(() => {
+    let cancelled = false;
+    let attempts = 0;
+
+    const init = () => {
+      if (cancelled) return;
+      attempts++;
+      const $ = (window as unknown as { jQuery?: OwlJQuery }).jQuery;
+      if (!$ || typeof $ !== "function" || !$.fn?.owlCarousel) {
+        if (attempts < 40) window.setTimeout(init, 200);
+        return;
+      }
+
+      if (desktopRef.current && !desktopRef.current.classList.contains("owl-loaded")) {
+        try {
+          $(desktopRef.current).owlCarousel({
+            items: 4,
+            margin: 10,
+            loop: true,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 3500,
+            dots: false,
+            navText: [
+              '<i class="fa-solid fa-chevron-left"></i>',
+              '<i class="fa-solid fa-chevron-right"></i>',
+            ],
+            responsiveClass: true,
+            responsive: {
+              0: { items: 1, nav: true },
+              600: { items: 3, nav: false },
+              1000: { items: 4, nav: true, loop: false },
+            },
+          });
+        } catch {
+          if (attempts < 40) window.setTimeout(init, 200);
+        }
+      }
+    };
+
+    const t = window.setTimeout(init, 300);
+    return () => {
+      cancelled = true;
+      window.clearTimeout(t);
+    };
+  }, []);
+
   return (
     <section
       className="project-one pt-100"
       style={{
-        backgroundImage:
-          "url('/assets/images/backgrounds/footer-bg-1.jpg')",
-        backgroundSize: 'cover',
+        backgroundImage: "url('/assets/images/backgrounds/footer-bg-1.jpg')",
+        backgroundSize: "cover",
       }}
     >
       <div className="container">
@@ -155,79 +94,37 @@ export default function OurProducts() {
           </h3>
         </div>
 
-        <div className="card border-0 bg-transparent">
-          <div className="card-header border-0 bg-transparent">
-            <ul
-              className="nav nav-tabs justify-content-center border-0 gap-2 flex-wrap"
-              role="tablist"
+        <div
+          ref={desktopRef}
+          className="owl-carousel productowl owl-theme setowlicon"
+        >
+          {products.map((p) => (
+            <div
+              key={p.slug}
+              className="item wow fadeInUp"
+              data-wow-delay="300ms"
+              data-wow-duration="1500ms"
             >
-              {tabs.map((tab, idx) => (
-                <li className="nav-item" role="presentation" key={tab.id}>
-                  <a
-                    className={`nav-link ${idx === 0 ? 'active' : ''}`}
-                    data-bs-toggle="tab"
-                    href={`#${tab.id}`}
-                    id={`${tab.id}-tab`}
-                    role="tab"
-                    aria-controls={tab.id}
-                    aria-selected={idx === 0 ? 'true' : 'false'}
-                  >
-                    {tab.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div className="card-body">
-            <div className="tab-content">
-              {tabs.map((tab, idx) => (
-                <div
-                  key={tab.id}
-                  className={`tab-pane fade ${idx === 0 ? 'show active' : ''}`}
-                  id={tab.id}
-                  role="tabpanel"
-                  aria-labelledby={`${tab.id}-tab`}
-                >
-                  <div className="row">
-                    {tab.products.map((product, pidx) => (
-                      <div
-                        key={product.href}
-                        className="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-6 mb-4 wow fadeInUp"
-                        data-wow-delay={`${100 + (pidx % 4) * 100}ms`}
-                        data-wow-duration="1500ms"
+              <div className="project-one__single px-2">
+                <div className="project-one__img">
+                  <div className="p-inimg">
+                    <img src={p.image} alt={p.name} />
+                  </div>
+                  <div className="p-content text-center">
+                    <p>
+                      <Link
+                        href={`/${p.slug}`}
+                        className="oneline transition-colors duration-300 hover:text-[#016327]"
+                        title={p.name.toUpperCase()}
                       >
-                        <div className="project-one__single px-2 transition duration-300 hover:shadow-xl hover:-translate-y-1">
-                          <div className="project-one__img">
-                            <div className="p-inimg">
-                              <img
-                                src={product.image}
-                                alt={product.name}
-                                className="img-fluid"
-                              />
-                            </div>
-                            <div className="p-content text-center">
-                              <p>
-                                <a
-                                  href={product.href}
-                                  className="oneline"
-                                  data-toggle="tooltip"
-                                  data-placement="top"
-                                  title={product.name}
-                                >
-                                  {product.name}
-                                </a>
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
+                        {p.name.toUpperCase()}
+                      </Link>
+                    </p>
                   </div>
                 </div>
-              ))}
+              </div>
             </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>

@@ -1,7 +1,4 @@
-import Header from "@/components/Header";
 import EnquiryForm from "@/components/EnquiryForm";
-import Footer from "@/components/Footer";
-import ActionButtons from "@/components/ActionButtons";
 import Link from "next/link";
 
 export default function QualityControlPage() {
@@ -149,7 +146,7 @@ export default function QualityControlPage() {
                   <ul className="list-unstyled pricing-one__list">
                     <li>
                       <div className="icon">
-                        <i className="fa fa-leaf"></i>
+                        <i className="fa-solid fa-leaf"></i>
                       </div>
                       <div className="text">
                         <p className="text-justify">
@@ -164,7 +161,7 @@ export default function QualityControlPage() {
                     </li>
                     <li>
                       <div className="icon">
-                        <i className="fa fa-leaf"></i>
+                        <i className="fa-solid fa-leaf"></i>
                       </div>
                       <div className="text">
                         <p className="text-justify">
@@ -177,7 +174,7 @@ export default function QualityControlPage() {
                     </li>
                     <li>
                       <div className="icon">
-                        <i className="fa fa-leaf"></i>
+                        <i className="fa-solid fa-leaf"></i>
                       </div>
                       <div className="text">
                         <p className="text-justify">
@@ -190,7 +187,7 @@ export default function QualityControlPage() {
                     </li>
                     <li>
                       <div className="icon">
-                        <i className="fa fa-leaf"></i>
+                        <i className="fa-solid fa-leaf"></i>
                       </div>
                       <div className="text">
                         <p className="text-justify">
@@ -204,7 +201,7 @@ export default function QualityControlPage() {
                     </li>
                     <li>
                       <div className="icon">
-                        <i className="fa fa-leaf"></i>
+                        <i className="fa-solid fa-leaf"></i>
                       </div>
                       <div className="text">
                         <p className="text-justify">
@@ -219,7 +216,7 @@ export default function QualityControlPage() {
                     </li>
                     <li>
                       <div className="icon">
-                        <i className="fa fa-leaf"></i>
+                        <i className="fa-solid fa-leaf"></i>
                       </div>
                       <div className="text">
                         <p className="text-justify">
@@ -233,7 +230,7 @@ export default function QualityControlPage() {
                     </li>
                     <li>
                       <div className="icon">
-                        <i className="fa fa-leaf"></i>
+                        <i className="fa-solid fa-leaf"></i>
                       </div>
                       <div className="text">
                         <p className="text-justify">
@@ -246,7 +243,7 @@ export default function QualityControlPage() {
                     </li>
                     <li>
                       <div className="icon">
-                        <i className="fa fa-leaf"></i>
+                        <i className="fa-solid fa-leaf"></i>
                       </div>
                       <div className="text">
                         <p className="text-justify">
@@ -262,7 +259,7 @@ export default function QualityControlPage() {
                     </li>
                     <li>
                       <div className="icon">
-                        <i className="fa fa-leaf"></i>
+                        <i className="fa-solid fa-leaf"></i>
                       </div>
                       <div className="text">
                         <p className="text-justify">
@@ -276,7 +273,7 @@ export default function QualityControlPage() {
                     </li>
                     <li>
                       <div className="icon">
-                        <i className="fa fa-leaf"></i>
+                        <i className="fa-solid fa-leaf"></i>
                       </div>
                       <div className="text">
                         <p className="text-justify">
@@ -298,8 +295,6 @@ export default function QualityControlPage() {
       </section>
 
       <EnquiryForm />
-      <Footer />
-      <ActionButtons />
     </div>
   );
 }

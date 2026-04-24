@@ -116,7 +116,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="transition-colors duration-300 hover:text-hrm-lime"
                 >
-                  <i className="fab fa-facebook"></i>
+                  <i className="fa-brands fa-facebook"></i>
                 </a>
                 <a
                   href="https://www.linkedin.com/company/hrmexports/"
@@ -124,7 +124,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="transition-colors duration-300 hover:text-hrm-lime"
                 >
-                  <i className="fab fa-linkedin"></i>
+                  <i className="fa-brands fa-linkedin"></i>
                 </a>
                 <a
                   href="https://instagram.com/hrmexports"
@@ -132,7 +132,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="transition-colors duration-300 hover:text-hrm-lime"
                 >
-                  <i className="fab fa-instagram"></i>
+                  <i className="fa-brands fa-instagram"></i>
                 </a>
                 <a
                   href="https://www.twitter.com/hrm"
@@ -140,7 +140,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="transition-colors duration-300 hover:text-hrm-lime"
                 >
-                  <i className="fab fa-twitter"></i>
+                  <i className="fa-brands fa-twitter"></i>
                 </a>
               </div>
               <div className="mt-50 text-center">

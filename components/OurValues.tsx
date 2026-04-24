@@ -66,7 +66,7 @@ export default function OurValues() {
               <div className="col-xl-6 col-lg-6 col-md-12 mb-3">
                 <img
                   src="/basmati-rice/static/Excellence-Offered-1.webp"
-                  className="img-fluid transition-transform duration-500 hover:scale-105"
+                  className="img-fluid w-full h-full object-cover rounded-lg transition-transform duration-500 hover:scale-105"
                   alt="Excellence Offered"
                 />
               </div>
@@ -101,7 +101,7 @@ export default function OurValues() {
               <div className="col-xl-6 col-lg-6 col-md-12 mb-3 mborder">
                 <img
                   src="/basmati-rice/static/Strong-Belief-system1.webp"
-                  className="img-fluid transition-transform duration-500 hover:scale-105"
+                  className="img-fluid w-full h-full object-cover rounded-lg transition-transform duration-500 hover:scale-105"
                   alt="Strong Belief system"
                 />
               </div>
@@ -114,7 +114,7 @@ export default function OurValues() {
               <div className="col-xl-6 col-lg-6 col-md-12 mb-3 mborder">
                 <img
                   src="/basmati-rice/static/Smart-Work1.webp"
-                  className="img-fluid transition-transform duration-500 hover:scale-105"
+                  className="img-fluid w-full h-full object-cover rounded-lg transition-transform duration-500 hover:scale-105"
                   alt="Smart-Work"
                 />
               </div>
@@ -152,7 +152,7 @@ export default function OurValues() {
               <div className="col-xl-6 col-lg-6 col-md-12 mb-3 mborder">
                 <img
                   src="/basmati-rice/static/Service-to-society1.webp"
-                  className="img-fluid transition-transform duration-500 hover:scale-105"
+                  className="img-fluid w-full h-full object-cover rounded-lg transition-transform duration-500 hover:scale-105"
                   alt="Service-to-society"
                 />
               </div>

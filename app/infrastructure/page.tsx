@@ -1,13 +1,9 @@
-import Header from "@/components/Header";
 import EnquiryForm from "@/components/EnquiryForm";
-import Footer from "@/components/Footer";
-import ActionButtons from "@/components/ActionButtons";
 import Link from "next/link";
 
 export default function InfrastructurePage() {
   return (
     <div className="page-wrapper">
-      <Header />
 
       {/* Page Header */}
       <section className="page-header">
@@ -186,8 +182,6 @@ export default function InfrastructurePage() {
       </section>
 
       <EnquiryForm />
-      <Footer />
-      <ActionButtons />
     </div>
   );
 }

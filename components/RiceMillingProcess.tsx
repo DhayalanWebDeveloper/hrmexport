@@ -311,7 +311,7 @@ export default function RiceMillingProcess() {
                                 return (
                                   <li key={bidx} {...wowProps}>
                                     <div className="icon">
-                                      <span className="fas fa-leaf"></span>
+                                      <span className="fa-solid fa-leaf"></span>
                                     </div>
                                     <div className=" ml-10">
                                       {typeof bullet === "string" ? (

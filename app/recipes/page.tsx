@@ -1,7 +1,4 @@
-import Header from "@/components/Header";
 import EnquiryForm from "@/components/EnquiryForm";
-import Footer from "@/components/Footer";
-import ActionButtons from "@/components/ActionButtons";
 import Link from "next/link";
 
 export default function RecipesPage() {
@@ -255,8 +252,6 @@ export default function RecipesPage() {
       </section>
 
       <EnquiryForm />
-      <Footer />
-      <ActionButtons />
     </div>
   );
 }

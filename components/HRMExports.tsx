@@ -61,7 +61,7 @@ export default function HRMExports() {
             <div className="col-xl-8 col-12">
               <div className="about-one__right">
                 <div className="section-title text-left">
-                  <div className="section-title__icon">
+                  <div className="section-title__icon left">
                     <img
                       src="/assets/images/icon/section-title-icon.png"
                       alt="HRM Exports"

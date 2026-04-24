@@ -1,38 +1,8 @@
-const swiperOptions = `{"spaceBetween": 10,
-                    "slidesPerView": 5,
-                    "loop": true,
-                    "navigation": {
-                        "nextEl": "#brand-one__swiper-button-next",
-                        "prevEl": "#brand-one__swiper-button-prev"
-                    },
-                    "autoplay": { "delay": 0,"disableOnInteraction": false },
-                    "speed": 2000,
-                    "breakpoints": {
-                        "0": {
-                            "spaceBetween": 30,
-                            "slidesPerView": 2
-                        },
-                        "375": {
-                            "spaceBetween": 30,
-                            "slidesPerView": 3
-                        },
-                        "575": {
-                            "spaceBetween": 30,
-                            "slidesPerView": 4
-                        },
-                        "767": {
-                            "spaceBetween": 50,
-                            "slidesPerView": 5
-                        },
-                        "991": {
-                            "spaceBetween": 50,
-                            "slidesPerView": 6
-                        },
-                        "1199": {
-                            "spaceBetween": 50,
-                            "slidesPerView": 7
-                        }
-                    }}`;
+"use client";
+
+import { useEffect, useRef } from "react";
+
+type SwiperCtor = new (el: Element, opts: Record<string, unknown>) => unknown;
 
 const certificates = [
   "/assets/images/resources/certificate-logo-5.png",
@@ -47,8 +17,61 @@ const certificates = [
 ];
 
 export default function WeAreCertified() {
+  const swiperRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    let attempts = 0;
+
+    const init = () => {
+      if (cancelled) return;
+      attempts++;
+      const Swiper = (window as unknown as { Swiper?: SwiperCtor }).Swiper;
+      if (!Swiper) {
+        if (attempts < 40) window.setTimeout(init, 200);
+        return;
+      }
+
+      if (
+        swiperRef.current &&
+        !swiperRef.current.classList.contains("swiper-initialized")
+      ) {
+        try {
+          new Swiper(swiperRef.current, {
+            slidesPerView: 5,
+            spaceBetween: 30,
+            loop: true,
+            speed: 3500,
+            allowTouchMove: true,
+            autoplay: {
+              delay: 0,
+              disableOnInteraction: false,
+              pauseOnMouseEnter: false,
+            },
+            breakpoints: {
+              0: { slidesPerView: 2, spaceBetween: 20 },
+              375: { slidesPerView: 3, spaceBetween: 25 },
+              575: { slidesPerView: 4, spaceBetween: 30 },
+              767: { slidesPerView: 5, spaceBetween: 40 },
+              991: { slidesPerView: 6, spaceBetween: 40 },
+              1199: { slidesPerView: 7, spaceBetween: 50 },
+            },
+          });
+        } catch {
+          if (attempts < 40) window.setTimeout(init, 200);
+        }
+      }
+    };
+
+    const t = window.setTimeout(init, 300);
+    return () => {
+      cancelled = true;
+      window.clearTimeout(t);
+    };
+  }, []);
+
   return (
-    <section className="brand-one brand-two pt-100 bg-hrm-cream/30">
+    <section className="brand-one brand-two pt-100">
       <div className="container">
         <div className="section-title text-center">
           <div className="section-title__icon">
@@ -74,8 +97,8 @@ export default function WeAreCertified() {
         </div>
         <div className="brand-one__inner">
           <div
-            className="thm-swiper__slider swiper-container"
-            data-swiper-options={swiperOptions}
+            ref={swiperRef}
+            className="thm-swiper__slider swiper-container swiper"
           >
             <div className="swiper-wrapper">
               {certificates.map((src, idx) => (
@@ -85,8 +108,8 @@ export default function WeAreCertified() {
                 >
                   <img
                     src={src}
-                    alt="HRM Exports"
-                    className="img-fluid transition duration-300 hover:scale-105 hover:shadow-2xl"
+                    alt="HRM Exports certificate"
+                    className="img-fluid max-h-[120px] w-auto object-contain transition duration-300 hover:scale-110"
                   />
                 </div>
               ))}

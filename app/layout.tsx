@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import ActionButtons from "@/components/ActionButtons";
 import TemplateInit from "@/components/TemplateInit";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -26,26 +30,26 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap"
           rel="stylesheet"
         />
+        {/* Core template CSS */}
         <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/bootstrap/css/bootstrap.min.css" />
         <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/animate/animate.min.css" />
         <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/animate/custom-animate.css" />
         <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/fontawesome/css/all.min.css" />
-        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/jarallax/jarallax.css" />
-        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/odometer/odometer.min.css" />
-        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/swiper/swiper.min.css" />
         <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/gardon-icons/style.css" />
         <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/reey-font/stylesheet.css" />
         <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/alagambe-font/stylesheet.css" />
+
+        {/* Plugin CSS — each one matches an actively-used component */}
+        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/odometer/odometer.min.css" />
+        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/swiper/swiper.min.css" />
         <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/owl-carousel/owl.carousel.min.css" />
         <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/owl-carousel/owl.theme.default.min.css" />
-        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/vegas/vegas.min.css" />
-        <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/jquery-ui/jquery-ui.css" />
         <link rel="stylesheet" href="https://www.hrmexports.com/assets/vendors/twenty-twenty/twentytwenty.css" />
-        <link
-          rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-          crossOrigin="anonymous"
-        />
+
+        {/* Font Awesome is now installed locally via `@fortawesome/fontawesome-free`
+            and imported in app/globals.css — no CDN link needed here. */}
+
+        {/* Template site CSS */}
         <link rel="stylesheet" href="https://www.hrmexports.com/assets/css/hrmexports.css" />
         <link rel="stylesheet" href="https://www.hrmexports.com/assets/css/hrmexports-responsive.css" />
       </head>
@@ -53,7 +57,12 @@ export default function RootLayout({
         <div className="custom-cursor__cursor"></div>
         <div className="custom-cursor__cursor-two"></div>
 
-        {children}
+        <div className="page-wrapper">
+          <Header />
+          {children}
+          <Footer />
+          <ActionButtons />
+        </div>
 
         {/* jQuery first — everything depends on it */}
         <Script
@@ -61,22 +70,16 @@ export default function RootLayout({
           strategy="beforeInteractive"
         />
 
-        {/* Vendor JS — order matches original site */}
-        <Script src="https://www.hrmexports.com/assets/vendors/jarallax/jarallax.min.js" strategy="afterInteractive" />
+        {/* Vendor JS — kept only what is actively used by components or by
+            hrmexportsss.js init. Template init functions guard every
+            plugin call with `if ($('.x').length)` so removing an unused
+            vendor is safe as long as no component references that plugin. */}
         <Script src="https://www.hrmexports.com/assets/vendors/bootstrap/js/bootstrap.bundle.min.js" strategy="afterInteractive" />
         <Script src="https://www.hrmexports.com/assets/vendors/jquery-appear/jquery.appear.min.js" strategy="afterInteractive" />
-        <Script src="https://www.hrmexports.com/assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js" strategy="afterInteractive" />
         <Script src="https://www.hrmexports.com/assets/vendors/odometer/odometer.min.js" strategy="afterInteractive" />
         <Script src="https://www.hrmexports.com/assets/vendors/swiper/swiper.min.js" strategy="afterInteractive" />
-        <Script src="https://www.hrmexports.com/assets/vendors/wnumb/wNumb.min.js" strategy="afterInteractive" />
         <Script src="https://www.hrmexports.com/assets/vendors/wow/wow.js" strategy="afterInteractive" />
-        <Script src="https://www.hrmexports.com/assets/vendors/isotope/isotope.js" strategy="afterInteractive" />
-        <Script src="https://www.hrmexports.com/assets/vendors/countdown/countdown.min.js" strategy="afterInteractive" />
         <Script src="https://www.hrmexports.com/assets/vendors/owl-carousel/owl.carousel.min.js" strategy="afterInteractive" />
-        <Script src="https://www.hrmexports.com/assets/vendors/vegas/vegas.min.js" strategy="afterInteractive" />
-        <Script src="https://www.hrmexports.com/assets/vendors/jquery-ui/jquery-ui.js" strategy="afterInteractive" />
-        <Script src="https://www.hrmexports.com/assets/vendors/circleType/jquery.circleType.js" strategy="afterInteractive" />
-        <Script src="https://www.hrmexports.com/assets/vendors/circleType/jquery.lettering.min.js" strategy="afterInteractive" />
         <Script src="https://www.hrmexports.com/assets/vendors/twenty-twenty/twentytwenty.js" strategy="afterInteractive" />
         <Script src="https://www.hrmexports.com/assets/vendors/twenty-twenty/jquery.event.move.js" strategy="afterInteractive" />
 

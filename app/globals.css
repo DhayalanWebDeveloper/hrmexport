@@ -1,5 +1,138 @@
 @import "tailwindcss";
 
+/* ============================================================
+   Font Awesome webfont overrides. FA is imported from the installed
+   package in layout.tsx, but the relative `url(../webfonts/…)` paths
+   in that bundled CSS break under Next.js + Tailwind v4 bundling. The
+   webfonts are also copied to `public/webfonts/`, so we redeclare the
+   same font families with absolute `/webfonts/…` URLs and force the
+   font-family + weight on `.fa-solid`, `.fa-regular`, `.fa-brands` and
+   their FA5 aliases so glyphs render regardless of the CSS-variable
+   chain shipped by FA.
+   ============================================================ */
+@font-face {
+  font-family: "Font Awesome 7 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("/webfonts/fa-solid-900.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Font Awesome 7 Free";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("/webfonts/fa-regular-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Font Awesome 7 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("/webfonts/fa-brands-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("/webfonts/fa-solid-900.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Font Awesome 6 Free";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("/webfonts/fa-regular-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Font Awesome 6 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("/webfonts/fa-brands-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("/webfonts/fa-solid-900.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("/webfonts/fa-regular-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("/webfonts/fa-brands-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("/webfonts/fa-solid-900.woff2") format("woff2");
+}
+
+.fa,
+.fas,
+.fa-solid,
+i.fa-solid,
+span.fa-solid,
+i.fas,
+span.fas {
+  font-family: "Font Awesome 7 Free", "Font Awesome 6 Free",
+    "Font Awesome 5 Free", "FontAwesome" !important;
+  font-weight: 900 !important;
+  font-style: normal !important;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+}
+
+.far,
+.fa-regular,
+i.fa-regular,
+span.fa-regular,
+i.far,
+span.far {
+  font-family: "Font Awesome 7 Free", "Font Awesome 6 Free",
+    "Font Awesome 5 Free" !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+}
+
+.fab,
+.fa-brands,
+i.fa-brands,
+span.fa-brands,
+i.fab,
+span.fab {
+  font-family: "Font Awesome 7 Brands", "Font Awesome 6 Brands",
+    "Font Awesome 5 Brands" !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+}
+
 /* Hybrid mode: the HRM Exports template CSS (loaded via CDN in layout.tsx) still
    drives the bulk of the layout, typography, and vendor-JS-driven animations
    (Swiper, Vegas, WOW, Owl, etc.). Tailwind utilities are layered on top for
@@ -18,15 +151,39 @@
   --animate-float-slow: float 6s ease-in-out infinite;
 
   @keyframes shake {
-    10%, 90% { transform: translate3d(-1px, 0, 0); }
-    20%, 80% { transform: translate3d(2px, 0, 0); }
-    30%, 50%, 70% { transform: translate3d(-2px, 0, 0); }
-    40%, 60% { transform: translate3d(2px, 0, 0); }
+
+    10%,
+    90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+      transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+      transform: translate3d(-2px, 0, 0);
+    }
+
+    40%,
+    60% {
+      transform: translate3d(2px, 0, 0);
+    }
   }
 
   @keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-8px); }
+
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-8px);
+    }
   }
 }
 
@@ -35,12 +192,23 @@
    the desktop (`mobilehide`) and mobile (`mobileshow`) hero carousels
    render at the same time, duplicating the slider. */
 @media only screen and (max-width: 600px) {
-  .mobileshow { display: block !important; }
-  .mobilehide { display: none !important; }
+  .mobileshow {
+    display: block !important;
+  }
+
+  .mobilehide {
+    display: none !important;
+  }
 }
+
 @media only screen and (min-width: 601px) {
-  .mobileshow { display: none !important; }
-  .mobilehide { display: block !important; }
+  .mobileshow {
+    display: none !important;
+  }
+
+  .mobilehide {
+    display: flex !important;
+  }
 }
 
 /* Hero slider Owl controls — position arrows as a horizontal pair in the
@@ -54,7 +222,7 @@
   right: 24px;
   bottom: 24px;
   display: flex;
-  gap: 10px;
+  gap: 0px !important;
   margin: 0 !important;
   z-index: 6;
 }
@@ -62,7 +230,7 @@
 .main-slider__carousel .owl-nav button.owl-prev,
 .main-slider__carousel .owl-nav button.owl-next {
   background: rgba(255, 255, 255, 0.85) !important;
-  border: 1px solid #016327 !important;
+  /* border: 1px solid #016327 !important; */
   border-radius: 6px;
   width: 44px;
   height: 44px;
@@ -132,20 +300,25 @@
   .main-slider__carousel .owl-nav {
     right: 12px;
     bottom: 12px;
-    gap: 6px;
+    /* gap: 6px; */
   }
+
   .main-slider__carousel .owl-nav button.owl-prev,
   .main-slider__carousel .owl-nav button.owl-next {
     width: 36px;
     height: 36px;
   }
+
   .main-slider__carousel .owl-nav button span,
-  .main-slider__carousel .owl-nav button i { font-size: 16px; }
+  .main-slider__carousel .owl-nav button i {
+    font-size: 16px;
+  }
 
   .main-slider__carousel .owl-dots {
     right: 8px;
     gap: 7px;
   }
+
   .main-slider__carousel .owl-dots .owl-dot span {
     width: 9px;
     height: 9px;
@@ -163,6 +336,14 @@
    dark pill, and mobile layout gets the wrong hero offsets.
    ============================================================ */
 
+/* Scroll-to-top button — the template CSS rotates its inner <i> by -90deg
+   because it was designed for an arrow-right icon. We now use fa-arrow-up,
+   which already points up, so cancel that rotation. */
+.scroll-to-top i,
+.scroll-to-target.scroll-to-top i {
+  transform: none !important;
+}
+
 /* Middle banner "Know More" button placement */
 .about-one__btn.thm-btn.hbbtn {
   position: relative;
@@ -174,21 +355,26 @@
 .project-one__img img {
   height: auto;
 }
+
 .project-one__img::before {
   display: none;
 }
+
 .project-one__img {
   border: 3px solid #afc836;
   padding: 10px;
   border-radius: 15px;
   background: #ffffff;
 }
+
 .project-one__single .p-content {
   margin-top: 10px;
 }
+
 .project-one__single .p-content a {
   color: #000000;
 }
+
 .product__all-single-inner {
   padding: 10px;
   border-radius: 15px;
@@ -199,7 +385,8 @@
   border: 1px dashed #cccccc;
   background: #c0cd82;
 }
-.nav-tabs > .nav-item > .nav-link {
+
+.nav-tabs>.nav-item>.nav-link {
   border: 1px dashed #016327;
   margin-bottom: 10px;
   color: #000000;
@@ -207,13 +394,14 @@
 
 /* 3rd-level Products dropdown in Header — opens when hovering the
    2nd-level list item. Data-driven menu from lib/products.ts. */
-.main-menu__list > li > ul > li > ul > li:hover > ul {
+.main-menu__list>li>ul>li>ul>li:hover>ul {
   opacity: 1;
   visibility: visible;
   display: inline;
   transform: scaleY(1) translateZ(0px);
 }
-.main-menu__list > li > ul > li > ul > li > ul {
+
+.main-menu__list>li>ul>li>ul>li>ul {
   position: absolute;
   top: 0%;
   left: 100%;
@@ -249,29 +437,34 @@
   border: 1px dashed #016327;
   transition: transform 0.2s ease-in-out;
 }
+
 .cat-box img:hover {
   transform: translateY(-20px);
 }
 
 /* Desktop-only spacing & owl-nav placement for sub-sliders */
 @media only screen and (min-width: 601px) {
-  .main-menu .main-menu__list > li + li,
-  .stricky-header .main-menu__list > li + li {
+
+  .main-menu .main-menu__list>li+li,
+  .stricky-header .main-menu__list>li+li {
     margin-left: 40px !important;
   }
+
   .setowlicon .owl-nav {
     position: absolute;
     display: flex;
-    justify-content: space-between !important;
+    /* justify-content: space-between !important; */
     width: 100%;
-    top: 48%;
+    /* top: 48%; */
   }
+
   .setowlicon .owl-nav button span {
     background: #016327 !important;
     padding: 10px 13px !important;
     font-size: 24px;
     color: #ffffff;
   }
+
   .feature-one__single {
     padding: 25px 25px 25px;
   }
@@ -285,43 +478,101 @@
     top: -40px;
     left: 4%;
   }
+
   .fixed-sec-fot {
     left: inherit !important;
     right: 6px !important;
   }
-  .mborder { order: 1; }
-  .project-one__single .p-content p { line-height: 18px; }
-  .project-one__single .p-content a { font-size: 14px; }
-  .main-header__top-social { margin-bottom: 10px; }
-  .main-header__top-close-time-and-social { display: contents; }
-  .main-header__top-social a + a { margin-left: 16px; }
-  .mobpimg .mt-50 { margin-top: 0px; }
-  .mobpimg .project-one__title { font-size: 14px; line-height: 18px; }
-  .mobpimg .about-one__btn.thm-btn { padding: 1px 10px; font-size: 14px; }
-  .mobileshowflex { display: flex !important; }
-  .mobpimg img { height: 160px !important; }
-  .bdmbcolor { background: #afc836 !important; }
-  .site-footer__bottom-inner a { color: #c8c8c8; }
-  .main-header__top-inner { padding: 6px 10px 6px; }
-  .main-slider { top: -200px !important; }
-  .main-header { top: 12px; }
-  .feature-one.feature-one-two { margin-top: -160px; }
+
+  .mborder {
+    order: 1;
+  }
+
+  .project-one__single .p-content p {
+    line-height: 18px;
+  }
+
+  .project-one__single .p-content a {
+    font-size: 14px;
+  }
+
+  .main-header__top-social {
+    margin-bottom: 10px;
+  }
+
+  .main-header__top-close-time-and-social {
+    display: contents;
+  }
+
+  .main-header__top-social a+a {
+    margin-left: 16px;
+  }
+
+  .mobpimg .mt-50 {
+    margin-top: 0px;
+  }
+
+  .mobpimg .project-one__title {
+    font-size: 14px;
+    line-height: 18px;
+  }
+
+  .mobpimg .about-one__btn.thm-btn {
+    padding: 1px 10px;
+    font-size: 14px;
+  }
+
+  .mobileshowflex {
+    display: flex !important;
+  }
+
+  .mobpimg img {
+    height: 160px !important;
+  }
+
+  .bdmbcolor {
+    background: #afc836 !important;
+  }
+
+  .site-footer__bottom-inner a {
+    color: #c8c8c8;
+  }
+
+  .main-header__top-inner {
+    padding: 6px 10px 6px;
+  }
+
+  .main-slider {
+    top: -200px !important;
+  }
+
+  .main-header {
+    top: 12px;
+  }
+
+  .feature-one.feature-one-two {
+    margin-top: -160px;
+  }
+
   .main-slider .item {
     z-index: 10;
     margin-top: 200px;
   }
+
   .feature-one__title a {
     color: var(--gardon-black, #000);
     transition: all 500ms ease;
     font-size: 16px;
     line-height: 1px;
   }
+
   .feature-one__title {
     font-size: 20px;
     font-weight: 600;
     line-height: 25px;
     margin-top: 19px;
   }
+
   .feature-one__single {
     position: relative;
     transition: all 500ms ease;
@@ -343,11 +594,13 @@
   color: #ffffff;
   cursor: pointer;
 }
+
 .shakehv:hover {
   animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
   transform: translate3d(0, 0, 0);
   perspective: 1000px;
 }
+
 .fixed-sec-fot {
   position: fixed;
   left: 10px;
@@ -358,13 +611,22 @@
   padding: 10px 10px;
   border-radius: 50px;
 }
-.fixed-sec-fot a:hover { color: #b1cc00; }
+
+.fixed-sec-fot a:hover {
+  color: #b1cc00;
+}
+
 .fixed-sec-fot span {
   font-size: 30px !important;
   margin-bottom: 22px;
   color: #b0c800;
 }
-.fixed-sec-fot .fnt { font-size: 23px !important; }
+
+.fixed-sec-fot .fnt {
+  font-size: 23px !important;
+}
 
 /* intl-tel-input dropdown width in EnquiryForm */
-.iti.iti--allow-dropdown { width: 100%; }
+.iti.iti--allow-dropdown {
+  width: 100%;
+}

@@ -1,9 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import Header from "@/components/Header";
 import EnquiryForm from "@/components/EnquiryForm";
-import Footer from "@/components/Footer";
-import ActionButtons from "@/components/ActionButtons";
 import {
   findBySlug,
   getAllSlugs,
@@ -27,7 +24,6 @@ export default async function ProductPage({
 
   return (
     <div className="page-wrapper">
-      <Header />
 
       {/* Page Header */}
       <section className="page-header">
@@ -98,8 +94,6 @@ export default async function ProductPage({
       )}
 
       <EnquiryForm />
-      <Footer />
-      <ActionButtons />
     </div>
   );
 }

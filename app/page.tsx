@@ -1,4 +1,3 @@
-import Header from "@/components/Header";
 import HeroSlider from "@/components/HeroSlider";
 import ProductsCategories from "@/components/ProductsCategories";
 import HRMExports from "@/components/HRMExports";
@@ -15,13 +14,10 @@ import RiceRecipes from "@/components/RiceRecipes";
 import LatestArticles from "@/components/LatestArticles";
 import MapSection from "@/components/Map";
 import EnquiryForm from "@/components/EnquiryForm";
-import Footer from "@/components/Footer";
-import ActionButtons from "@/components/ActionButtons";
 
 export default function Home() {
   return (
     <div className="page-wrapper">
-      <Header />
       <HeroSlider />
       <ProductsCategories />
       <HRMExports />
@@ -49,8 +45,6 @@ export default function Home() {
       <LatestArticles />
       <MapSection />
       <EnquiryForm />
-      <Footer />
-      <ActionButtons />
     </div>
   );
 }

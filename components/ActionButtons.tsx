@@ -11,7 +11,7 @@ export default function ActionButtons() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span className="fab fa-whatsapp"></span>
+          <span className="fa-brands fa-whatsapp"></span>
         </a>
 
         <a
@@ -21,7 +21,7 @@ export default function ActionButtons() {
           data-bs-placement="right"
           title="Send Enquiry"
         >
-          <span className="fa fa-envelope fnt"></span>
+          <span className="fa-solid fa-envelope fnt"></span>
         </a>
 
         <a
@@ -31,7 +31,7 @@ export default function ActionButtons() {
           data-bs-placement="right"
           title="Call"
         >
-          <span className="fa fa-phone fnt" style={{ rotate: "90deg" }}></span>
+          <span className="fa-solid fa-phone fnt" style={{ rotate: "90deg" }}></span>
         </a>
 
         <a
@@ -43,7 +43,7 @@ export default function ActionButtons() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <span className="fa fa-paper-plane fnt mb-0"></span>
+          <span className="fa-solid fa-paper-plane fnt mb-0"></span>
         </a>
       </div>
 
@@ -51,8 +51,9 @@ export default function ActionButtons() {
         href="#"
         data-target="html"
         className="scroll-to-target scroll-to-top transition-transform hover:scale-110"
+        aria-label="Scroll to top"
       >
-        <i className="icon-right-arrow"></i>
+        <i className="fa-solid fa-arrow-up"></i>
       </a>
     </>
   );

@@ -1,14 +1,10 @@
-import Header from "@/components/Header";
 import EnquiryForm from "@/components/EnquiryForm";
-import Footer from "@/components/Footer";
-import ActionButtons from "@/components/ActionButtons";
 import Map from "@/components/Map";
 import Link from "next/link";
 
 export default function ContactPage() {
   return (
     <div className="page-wrapper">
-      <Header />
 
       {/* Page Header */}
       <section className="page-header">
@@ -135,7 +131,7 @@ export default function ContactPage() {
                       India, Karnal-132001, India
                     </li>
                     <li>
-                      <i className="far fa-envelope"></i>
+                      <i className="fa-regular fa-envelope"></i>
                       <a
                         href="mailto:info@hrmexports.com"
                         className="text-white transition-colors duration-300 hover:text-[#afc836]"
@@ -144,7 +140,7 @@ export default function ContactPage() {
                       </a>
                     </li>
                     <li>
-                      <i className="fas fa-phone"></i>
+                      <i className="fa-solid fa-phone"></i>
                       Mr. Vipin Garg :
                       <a
                         href="tel:+91 73 5700 0031"
@@ -155,7 +151,7 @@ export default function ContactPage() {
                       </a>
                     </li>
                     <li>
-                      <i className="fas fa-phone"></i>
+                      <i className="fa-solid fa-phone"></i>
                       Mr. Aakash Garg :{" "}
                       <a
                         href="tel:+91 73 5100 0031"
@@ -173,7 +169,7 @@ export default function ContactPage() {
                         href="https://www.facebook.com/hrmexport"
                         className="transition-colors duration-300 hover:text-[#afc836]"
                       >
-                        <i className="fab fa-facebook"></i>
+                        <i className="fa-brands fa-facebook"></i>
                       </a>
                     </li>
                     <li>
@@ -182,7 +178,7 @@ export default function ContactPage() {
                         href="https://www.linkedin.com/company/hrmexports/"
                         className="transition-colors duration-300 hover:text-[#afc836]"
                       >
-                        <i className="fab fa-linkedin"></i>
+                        <i className="fa-brands fa-linkedin"></i>
                       </a>
                     </li>
                     <li>
@@ -191,7 +187,7 @@ export default function ContactPage() {
                         href="https://instagram.com/hrmexports"
                         className="transition-colors duration-300 hover:text-[#afc836]"
                       >
-                        <i className="fab fa-instagram"></i>
+                        <i className="fa-brands fa-instagram"></i>
                       </a>
                     </li>
                     <li>
@@ -200,7 +196,7 @@ export default function ContactPage() {
                         href="https://www.twitter.com/hrm"
                         className="transition-colors duration-300 hover:text-[#afc836]"
                       >
-                        <i className="fab fa-twitter"></i>
+                        <i className="fa-brands fa-twitter"></i>
                       </a>
                     </li>
                   </ul>
@@ -213,8 +209,6 @@ export default function ContactPage() {
 
       <Map />
       <EnquiryForm />
-      <Footer />
-      <ActionButtons />
     </div>
   );
 }
