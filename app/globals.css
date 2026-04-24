@@ -29,3 +29,125 @@
     50% { transform: translateY(-8px); }
   }
 }
+
+/* Responsive visibility helpers — the original page defined these in an
+   inline <style> block, so they aren't in the CDN CSS. Without them both
+   the desktop (`mobilehide`) and mobile (`mobileshow`) hero carousels
+   render at the same time, duplicating the slider. */
+@media only screen and (max-width: 600px) {
+  .mobileshow { display: block !important; }
+  .mobilehide { display: none !important; }
+}
+@media only screen and (min-width: 601px) {
+  .mobileshow { display: none !important; }
+  .mobilehide { display: block !important; }
+}
+
+/* Hero slider Owl controls — position arrows as a horizontal pair in the
+   bottom-right corner, and dots as a vertical stack down the right edge. */
+.main-slider__carousel {
+  position: relative;
+}
+
+.main-slider__carousel .owl-nav {
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+  display: flex;
+  gap: 10px;
+  margin: 0 !important;
+  z-index: 6;
+}
+
+.main-slider__carousel .owl-nav button.owl-prev,
+.main-slider__carousel .owl-nav button.owl-next {
+  background: rgba(255, 255, 255, 0.85) !important;
+  border: 1px solid #016327 !important;
+  border-radius: 6px;
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
+  padding: 0 !important;
+}
+
+.main-slider__carousel .owl-nav button.owl-prev:hover,
+.main-slider__carousel .owl-nav button.owl-next:hover {
+  background: #016327 !important;
+  transform: translateY(-2px);
+}
+
+.main-slider__carousel .owl-nav button span,
+.main-slider__carousel .owl-nav button i {
+  color: #016327;
+  font-size: 20px;
+  line-height: 1;
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+.main-slider__carousel .owl-nav button:hover span,
+.main-slider__carousel .owl-nav button:hover i {
+  color: #ffffff;
+}
+
+.main-slider__carousel .owl-dots {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex !important;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 !important;
+  z-index: 6;
+}
+
+.main-slider__carousel .owl-dots .owl-dot {
+  display: block;
+}
+
+.main-slider__carousel .owl-dots .owl-dot span {
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid #016327;
+  border-radius: 50%;
+  display: block;
+  margin: 0 !important;
+  transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.main-slider__carousel .owl-dots .owl-dot.active span,
+.main-slider__carousel .owl-dots .owl-dot:hover span {
+  background: #016327;
+  transform: scale(1.2);
+}
+
+/* Mobile — keep the controls visible but shrink/reposition so they don't
+   crowd smaller screens. */
+@media (max-width: 600px) {
+  .main-slider__carousel .owl-nav {
+    right: 12px;
+    bottom: 12px;
+    gap: 6px;
+  }
+  .main-slider__carousel .owl-nav button.owl-prev,
+  .main-slider__carousel .owl-nav button.owl-next {
+    width: 36px;
+    height: 36px;
+  }
+  .main-slider__carousel .owl-nav button span,
+  .main-slider__carousel .owl-nav button i { font-size: 16px; }
+
+  .main-slider__carousel .owl-dots {
+    right: 8px;
+    gap: 7px;
+  }
+  .main-slider__carousel .owl-dots .owl-dot span {
+    width: 9px;
+    height: 9px;
+  }
+}
