@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Header from "@/components/Header";
 import HeroSlider from "@/components/HeroSlider";
 import ProductsCategories from "@/components/ProductsCategories";
@@ -14,9 +13,10 @@ import ProduceToProvide from "@/components/ProduceToProvide";
 import QualityRice from "@/components/QualityRice";
 import RiceRecipes from "@/components/RiceRecipes";
 import LatestArticles from "@/components/LatestArticles";
-import Map from "@/components/Map";
+import MapSection from "@/components/Map";
 import EnquiryForm from "@/components/EnquiryForm";
 import Footer from "@/components/Footer";
+import ActionButtons from "@/components/ActionButtons";
 
 export default function Home() {
   return (
@@ -28,8 +28,15 @@ export default function Home() {
       <OurValues />
       <OurProducts />
       <section className="position-relative">
-        <img src="https://www.hrmexports.com/assets/images/middle-banner.jpg" alt="middle banner" className="img-fluid" style={{width: "100%"}} />
-        <Link href="/brand" className="about-one__btn thm-btn hbbtn">Know More</Link>
+        <img
+          src="https://www.hrmexports.com/assets/images/middle-banner.jpg"
+          alt="middle banner"
+          className="img-fluid"
+          style={{ width: "100%" }}
+        />
+        <a href="/brand" className="about-one__btn thm-btn hbbtn">
+          Know More
+        </a>
       </section>
       <VisionMission />
       <RiceMillingProcess />
@@ -40,9 +47,10 @@ export default function Home() {
       <QualityRice />
       <RiceRecipes />
       <LatestArticles />
-      <Map />
+      <MapSection />
       <EnquiryForm />
       <Footer />
+      <ActionButtons />
     </div>
   );
 }

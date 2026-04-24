@@ -1,112 +1,255 @@
-'use client';
 import Link from 'next/link';
-import { useState } from 'react';
 
 export default function Header() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   return (
-    <header className="w-full relative z-50 font-sans">
-      {/* Top Bar */}
-      <div className="bg-[#0B5C32] text-white text-sm py-2 px-4 md:px-8 hidden md:flex justify-between items-center shadow-md relative z-20">
-        <div className="flex space-x-6">
-          <div className="flex items-center space-x-2">
-            <i className="fas fa-phone-square"></i>
-            <a href="tel:+91 73 5700 0031" className="hover:text-[#B4D333] transition-colors">+91 73 5700 0031</a>
-          </div>
-          <div className="flex items-center space-x-2">
-            <i className="fas fa-envelope"></i>
-            <a href="mailto:info@hrmexports.com" className="hover:text-[#B4D333] transition-colors">info@hrmexports.com</a>
-          </div>
-        </div>
-        <div className="flex items-center space-x-4">
-          <div className="flex space-x-4">
-            <a href="https://www.facebook.com/hrmexport" className="hover:text-[#B4D333] transition-colors"><i className="fab fa-facebook"></i></a>
-            <a href="https://www.linkedin.com/company/hrmexports/" className="hover:text-[#B4D333] transition-colors"><i className="fab fa-linkedin"></i></a>
-            <a href="https://instagram.com/hrmexports" className="hover:text-[#B4D333] transition-colors"><i className="fab fa-instagram"></i></a>
-            <a href="https://www.twitter.com/hrm" className="hover:text-[#B4D333] transition-colors"><i className="fab fa-twitter"></i></a>
-          </div>
-          <div id="google_translate_element" className="ml-3"></div>
-        </div>
-      </div>
-
-      {/* Main Nav */}
-      <nav className="bg-white md:bg-white/90 md:backdrop-blur-md w-full z-10 shadow-lg border-b-4 border-[#B4D333]">
-        <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-3 md:py-0">
-          
-          {/* Logo */}
-          <div className="flex-shrink-0 relative bg-white md:px-6 md:pb-4 rounded-b-xl shadow-sm z-30">
-            <Link href="/">
-              <img src="https://www.hrmexports.com/assets/images/resources/logo-1.png" className="w-40 md:w-48 object-contain" alt="HRM Exports" />
-            </Link>
-          </div>
-
-          {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-8 text-gray-800 font-semibold text-[15px]">
-            <Link href="/" className="hover:text-[#0B5C32] py-8 transition-colors">Home</Link>
-            
-            <div className="relative group py-8">
-              <a href="#" className="hover:text-[#0B5C32] flex items-center transition-colors">Company <i className="fas fa-chevron-down text-[10px] ml-1"></i></a>
-              <ul className="absolute top-[80px] left-0 w-56 bg-white shadow-xl rounded-md py-2 invisible opacity-0 translate-y-4 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 z-50 border-t-2 border-[#0B5C32]">
-                <li><Link href="/about" className="block px-4 py-2 hover:bg-gray-50 hover:text-[#0B5C32]">About Us</Link></li>
-                <li><Link href="/history" className="block px-4 py-2 hover:bg-gray-50 hover:text-[#0B5C32]">History</Link></li>
-                <li><Link href="/infrastructure" className="block px-4 py-2 hover:bg-gray-50 hover:text-[#0B5C32]">Infrastructure</Link></li>
-                <li><Link href="/certificates" className="block px-4 py-2 hover:bg-gray-50 hover:text-[#0B5C32]">Certifications</Link></li>
-              </ul>
+    <>
+      <header className="main-header">
+        <div className="main-header__top">
+          <div className="main-header__top-inner">
+            <ul className="list-unstyled main-header__contact-list mobilehide">
+              <li>
+                <div className="icon">
+                  <i className="fas fa-phone-square"></i>
+                </div>
+                <div className="text">
+                  <p><a href="tel:+91 73 5700 0031" className="transition-colors duration-300 hover:text-[#afc836]">+91 73 5700 0031</a></p>
+                </div>
+              </li>
+              <li>
+                <div className="icon">
+                  <i className="fas fa-envelope"></i>
+                </div>
+                <div className="text">
+                  <p><a href="mailto:info@hrmexports.com" className="transition-colors duration-300 hover:text-[#afc836]">info@hrmexports.com</a></p>
+                </div>
+              </li>
+            </ul>
+            <div className="main-header__top-close-time-and-social">
+              <div className="main-header__top-social">
+                <a href="https://www.facebook.com/hrmexport" className="transition-colors duration-300 hover:text-[#afc836]"><i className="fab fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/company/hrmexports/" className="transition-colors duration-300 hover:text-[#afc836]"><i className="fab fa-linkedin"></i></a>
+                <a href="https://instagram.com/hrmexports" className="transition-colors duration-300 hover:text-[#afc836]"><i className="fab fa-instagram"></i></a>
+                <a href="https://www.twitter.com/hrm" className="transition-colors duration-300 hover:text-[#afc836]"><i className="fab fa-twitter"></i></a>
+              </div>
+              <div id="google_translate_element" className="ms-3"></div>
             </div>
+          </div>
+        </div>
+        <nav className="main-menu">
+          <div className="main-menu__wrapper">
+            <div className="main-menu__wrapper-inner">
+              <div className="main-menu__left">
+                <div className="main-menu__logo">
+                  <Link href="/"><img src="https://www.hrmexports.com/assets/images/resources/logo-1.png" className="w-2 transition-transform duration-300 hover:scale-105" alt="HRM Exports" /></Link>
+                  <div className="main-menu__shape-1">
+                    <img src="https://www.hrmexports.com/assets/images/shapes/main-menu-shape-1.png" alt="HRM Exports" />
+                  </div>
+                </div>
+                <div className="main-menu__main-menu-box">
+                  <a href="#" className="mobile-nav__toggler"><i className="fa fa-bars"></i></a>
+                  <ul className="main-menu__list">
+                    <li><Link href="/" className="transition-colors duration-300 hover:text-[#afc836]">Home </Link></li>
 
-            <Link href="/brand" className="hover:text-[#0B5C32] py-8 transition-colors">Behrouz Brand</Link>
+                    <li className="dropdown">
+                      <a href="#" className="transition-colors duration-300 hover:text-[#afc836]">Company </a>
+                      <ul className="sub-menu">
+                        <li><Link href="/about">About Us</Link></li>
+                        <li><Link href="/history">History </Link></li>
+                        <li><Link href="/infrastructure">Infrastructure </Link></li>
+                        <li><Link href="/certificates">Certifications </Link></li>
+                      </ul>
+                    </li>
 
-            <div className="relative group py-8">
-              <a href="#" className="hover:text-[#0B5C32] flex items-center transition-colors">Products <i className="fas fa-chevron-down text-[10px] ml-1"></i></a>
-              <ul className="absolute top-[80px] left-0 w-64 bg-white shadow-xl rounded-md py-2 invisible opacity-0 translate-y-4 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 z-50 border-t-2 border-[#0B5C32]">
-                <li className="relative group/sub">
-                  <Link href="/indian-basmati-rice.html" className="flex justify-between items-center px-4 py-2 hover:bg-gray-50 hover:text-[#0B5C32]">
-                    INDIAN BASMATI RICE <i className="fas fa-chevron-right text-[10px]"></i>
-                  </Link>
-                  <ul className="absolute top-0 left-full w-64 bg-white shadow-xl rounded-md py-2 invisible opacity-0 -translate-x-4 group-hover/sub:visible group-hover/sub:opacity-100 group-hover/sub:translate-x-0 transition-all duration-300 z-50 border-t-2 border-[#0B5C32]">
-                    <li><Link href="/1121-basmati-rice.html" className="block px-4 py-2 hover:bg-gray-50 hover:text-[#0B5C32]">1121 BASMATI RICE</Link></li>
-                    <li><Link href="/1718-basmati-rice.html" className="block px-4 py-2 hover:bg-gray-50 hover:text-[#0B5C32]">1718 BASMATI RICE</Link></li>
-                    <li><Link href="/1509-basmati-rice.html" className="block px-4 py-2 hover:bg-gray-50 hover:text-[#0B5C32]">1509 BASMATI RICE</Link></li>
+                    <li><Link href="/brand" className="transition-colors duration-300 hover:text-[#afc836]">Behrouz Brand</Link> </li>
+
+                    <li className="dropdown">
+                      <a href="#" className="transition-colors duration-300 hover:text-[#afc836]">Products</a>
+                      <ul className="sub-menu">
+                        <li className="dropdown">
+                          <a href="https://www.hrmexports.com/indian-basmati-rice.html">INDIAN BASMATI RICE</a>
+                          <ul className="sub-menu">
+                            <li className="dropdown">
+                              <a href="https://www.hrmexports.com/1121-basmati-rice.html">1121 BASMATI RICE</a>
+                              <ul className="sub-menu">
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1121-raw-basmati-rice.html">1121 RAW BASMATI RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1121-golden-sella-basmati-rice.html">1121 GOLDEN SELLA BASMATI RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1121-sella-basmati-rice.html">1121 SELLA BASMATI RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1121-steam-basmati-rice.html">1121 STEAM BASMATI RICE</a></li>
+                              </ul>
+                            </li>
+                            <li className="dropdown">
+                              <a href="https://www.hrmexports.com/1718-basmati-rice.html">1718 BASMATI RICE</a>
+                              <ul className="sub-menu">
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1718-steam-basmati-rice.html">1718 STEAM BASMATI RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1718-sella-basmati-rice.html">1718 SELLA BASMATI RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1718-golden-sella-basmati-rice.html">1718 GOLDEN SELLA BASMATI RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1718-raw-basmati-rice.html">1718 RAW BASMATI RICE</a></li>
+                              </ul>
+                            </li>
+                            <li className="dropdown">
+                              <a href="https://www.hrmexports.com/1509-basmati-rice.html">1509 BASMATI RICE</a>
+                              <ul className="sub-menu">
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1509-steam-basmati-rice.html">1509 STEAM BASMATI RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1509-raw-basmati-rice.html">1509 RAW BASMATI RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1509-sella-basmati-rice.html">1509 SELLA BASMATI RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1509-golden-sella-basmati-rice.html">1509 GOLDEN SELLA BASMATI RICE</a></li>
+                              </ul>
+                            </li>
+                            <li className="dropdown">
+                              <a href="https://www.hrmexports.com/1401-basmati-rice.html">1401 BASMATI RICE</a>
+                              <ul className="sub-menu">
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1401-steam-basmati-rice.html">1401 STEAM BASMATI RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1401-raw-basmati-rice.html">1401 RAW BASMATI RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1401-sella-basmati-rice.html">1401 SELLA BASMATI RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1401-golden-sella-basmati-rice.html">1401 GOLDEN SELLA BASMATI RICE</a></li>
+                              </ul>
+                            </li>
+                            <li className="dropdown">
+                              <a href="https://www.hrmexports.com/pusa-basmati-rice.html">PUSA BASMATI RICE</a>
+                              <ul className="sub-menu">
+                                <li className="dropdown"><a href="https://www.hrmexports.com/pusa-raw-basmati-rice.html">PUSA RAW BASMATI RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/pusa-steam-basmati-rice.html">PUSA STEAM BASMATI RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/pusa-sella-basmati-rice.html">PUSA SELLA BASMATI RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/pusa-golden-sella-basmati-rice.html">PUSA GOLDEN SELLA BASMATI RICE</a></li>
+                              </ul>
+                            </li>
+                            <li className="dropdown">
+                              <a href="https://www.hrmexports.com/traditional-basmati-rice.html">TRADITIONAL BASMATI RICE</a>
+                              <ul className="sub-menu">
+                                <li className="dropdown"><a href="https://www.hrmexports.com/traditional-raw-basmati-rice.html">TRADITIONAL RAW BASMATI RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/traditional-sella-basmati-rice.html">TRADITIONAL SELLA BASMATI RICE</a></li>
+                              </ul>
+                            </li>
+                            <li className="dropdown">
+                              <a href="https://www.hrmexports.com/behrouz-basmati-rice.html">Behrouz Basmati Rice</a>
+                              <ul className="sub-menu">
+                                <li className="dropdown"><a href="https://www.hrmexports.com/behrouz-basmati-rice-exporter-in-india.html">Behrouz Basmati Rice Exporter in India</a></li>
+                              </ul>
+                            </li>
+                            <li className="dropdown">
+                              <a href="https://www.hrmexports.com/basmati-rice.html">Basmati Rice</a>
+                              <ul className="sub-menu">
+                                <li className="dropdown"><a href="https://www.hrmexports.com/basmati-rice.html">Basmati Rice</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li className="dropdown">
+                          <a href="https://www.hrmexports.com/indian-non-basmati-rice.html">INDIAN NON BASMATI RICE</a>
+                          <ul className="sub-menu">
+                            <li className="dropdown">
+                              <a href="https://www.hrmexports.com/sugandha-rice.html">SUGANDHA RICE</a>
+                              <ul className="sub-menu">
+                                <li className="dropdown"><a href="https://www.hrmexports.com/sugandha-raw-rice.html">SUGANDHA RAW RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/sugandha-steam-rice.html">SUGANDHA STEAM RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/sugandha-white-sella-rice.html">SUGANDHA WHITE SELLA RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/sugandha-golden-sella-rice.html">SUGANDHA GOLDEN SELLA RICE</a></li>
+                              </ul>
+                            </li>
+                            <li className="dropdown">
+                              <a href="https://www.hrmexports.com/sharbati-rice.html">SHARBATI RICE</a>
+                              <ul className="sub-menu">
+                                <li className="dropdown"><a href="https://www.hrmexports.com/sharbati-raw-rice.html">SHARBATI RAW RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/sharbati-steam-rice.html">SHARBATI STEAM RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/sharbati-sella-rice.html">SHARBATI SELLA RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/sharbati-golden-sella-rice.html">SHARBATI GOLDEN SELLA RICE</a></li>
+                              </ul>
+                            </li>
+                            <li className="dropdown">
+                              <a href="https://www.hrmexports.com/pr11-rice.html">PR11 RICE</a>
+                              <ul className="sub-menu">
+                                <li className="dropdown"><a href="https://www.hrmexports.com/pr11-raw-rice.html">PR11 RAW RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/pr11-steam-rice.html">PR11 STEAM RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/pr11-sella-rice.html">PR11 SELLA RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/pr11-golden-sella-rice.html">PR11 GOLDEN SELLA RICE</a></li>
+                              </ul>
+                            </li>
+                            <li className="dropdown">
+                              <a href="https://www.hrmexports.com/pr-14-rice.html">PR 14 RICE</a>
+                              <ul className="sub-menu">
+                                <li className="dropdown"><a href="https://www.hrmexports.com/pr-14-raw-rice.html">PR 14 RAW RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/pr-14-steam-rice.html">PR 14 STEAM RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/pr-14-sella-rice.html">PR 14 SELLA RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/pr14-golden-sella-rice.html">PR14 GOLDEN SELLA RICE</a></li>
+                              </ul>
+                            </li>
+                            <li className="dropdown">
+                              <a href="https://www.hrmexports.com/parmal-rice.html">PARMAL RICE</a>
+                              <ul className="sub-menu">
+                                <li className="dropdown"><a href="https://www.hrmexports.com/parmal-raw-rice.html">PARMAL RAW RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/parmal-steam-rice.html">PARMAL STEAM RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/parmal-sella-rice.html">PARMAL SELLA RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/parmal-golden-sella-rice.html">PARMAL GOLDEN SELLA RICE</a></li>
+                              </ul>
+                            </li>
+                            <li className="dropdown">
+                              <a href="https://www.hrmexports.com/sona-masoori-rice.html">SONA MASOORI RICE</a>
+                              <ul className="sub-menu">
+                                <li className="dropdown"><a href="https://www.hrmexports.com/sona-masoori-raw-rice.html">SONA MASOORI RAW RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/sona-masoori-steam-rice.html">SONA MASOORI STEAM RICE</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                        <li className="dropdown">
+                          <a href="https://www.hrmexports.com/pesticide-residue-free-rice.html">PESTICIDE RESIDUE FREE RICE</a>
+                          <ul className="sub-menu">
+                            <li className="dropdown">
+                              <a href="https://www.hrmexports.com/pesticide-residue-free-steam-rice.html">PESTICIDE RESIDUE FREE STEAM RICE</a>
+                              <ul className="sub-menu">
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1121-pesticide-residue-free-steam-rice.html">1121 PESTICIDE RESIDUE FREE STEAM RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1509-pesticide-residue-free-steam-rice.html">1509 PESTICIDE RESIDUE FREE STEAM RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/pusa-basmati-pesticide-residue-free-steam-rice.html">PUSA BASMATI PESTICIDE RESIDUE FREE STEAM RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/sharbati-pesticide-residue-free-steam-rice.html">SHARBATI PESTICIDE RESIDUE FREE STEAM RICE</a></li>
+                              </ul>
+                            </li>
+                            <li className="dropdown">
+                              <a href="https://www.hrmexports.com/pesticide-residue-free-sella-rice.html">PESTICIDE RESIDUE FREE SELLA RICE</a>
+                              <ul className="sub-menu">
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1121-pesticide-residue-free-sella-rice.html">1121 PESTICIDE RESIDUE FREE SELLA RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1509-pesticide-residue-free-sella-rice.html">1509 PESTICIDE RESIDUE FREE SELLA RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/pusa-pesticide-residue-free-sella-rice.html">PUSA PESTICIDE RESIDUE FREE SELLA RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/sugandha-pesticide-residue-free-sella-rice.html">SUGANDHA PESTICIDE RESIDUE FREE SELLA RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/sharbati-pesticide-residue-free-sella-rice.html">SHARBATI PESTICIDE RESIDUE FREE SELLA RICE</a></li>
+                              </ul>
+                            </li>
+                            <li className="dropdown">
+                              <a href="https://www.hrmexports.com/pesticide-residue-free-golden-sella-rice.html">PESTICIDE RESIDUE FREE GOLDEN SELLA RICE</a>
+                              <ul className="sub-menu">
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1121-pesticide-residue-free-golden-sella-rice.html">1121 PESTICIDE RESIDUE FREE GOLDEN SELLA RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1509-pesticide-residue-free-golden-sella-rice.html">1509 PESTICIDE RESIDUE FREE GOLDEN SELLA RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/sugandha-pesticide-residue-free-golden-sella-rice.html">SUGANDHA PESTICIDE RESIDUE FREE GOLDEN SELLA RICE</a></li>
+                              </ul>
+                            </li>
+                            <li className="dropdown">
+                              <a href="https://www.hrmexports.com/pesticide-residue-free-raw-rice.html">PESTICIDE RESIDUE FREE RAW RICE</a>
+                              <ul className="sub-menu">
+                                <li className="dropdown"><a href="https://www.hrmexports.com/1401-pesticide-residue-free-raw-rice.html">1401 PESTICIDE RESIDUE FREE RAW RICE</a></li>
+                                <li className="dropdown"><a href="https://www.hrmexports.com/pusa-pesticide-residue-free-raw-rice.html">PUSA PESTICIDE RESIDUE FREE RAW RICE</a></li>
+                              </ul>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                    </li>
+                    <li><Link href="/quality-control" className="transition-colors duration-300 hover:text-[#afc836]">Quality Control</Link></li>
+                    <li><Link href="/recipes" className="transition-colors duration-300 hover:text-[#afc836]">Recipes</Link></li>
+                    <li><Link href="/contact" className="transition-colors duration-300 hover:text-[#afc836]">Contact Us</Link></li>
                   </ul>
-                </li>
-                <li><Link href="/indian-non-basmati-rice.html" className="block px-4 py-2 hover:bg-gray-50 hover:text-[#0B5C32]">INDIAN NON BASMATI RICE</Link></li>
-                <li><Link href="/pesticide-residue-free-rice.html" className="block px-4 py-2 hover:bg-gray-50 hover:text-[#0B5C32]">PESTICIDE RESIDUE FREE RICE</Link></li>
-              </ul>
+                </div>
+              </div>
+              <div className="main-menu__right">
+                <div className="main-menu__btn-box">
+                  <a href="https://www.hrmexports.com/assets/images/hrm_exports_catalogue.pdf" download className="thm-btn main-menu__btn transition-all duration-300 hover:brightness-110 hover:shadow-lg"> E-Brochure </a>
+                </div>
+              </div>
             </div>
-
-            <Link href="/quality-control" className="hover:text-[#0B5C32] py-8 transition-colors">Quality Control</Link>
-            <Link href="/recipes" className="hover:text-[#0B5C32] py-8 transition-colors">Recipes</Link>
-            <Link href="/contact" className="hover:text-[#0B5C32] py-8 transition-colors">Contact Us</Link>
           </div>
-
-          {/* E-Brochure Button & Mobile Toggle */}
-          <div className="flex items-center space-x-4 pr-2">
-            <a href="https://www.hrmexports.com/assets/images/hrm_exports_catalogue.pdf" download className="hidden lg:block bg-[#B4D333] hover:bg-[#9cbd28] text-white px-6 py-3 rounded-sm font-semibold transition-colors shadow-md">
-              E-Brochure
-            </a>
-            <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="md:hidden text-2xl text-gray-800 p-2">
-              <i className="fa fa-bars"></i>
-            </button>
-          </div>
-        </div>
-
-        {/* Mobile Menu */}
-        <div className={`md:hidden overflow-hidden transition-all duration-300 ${mobileMenuOpen ? 'max-h-screen opacity-100 pb-4' : 'max-h-0 opacity-0'}`}>
-          <div className="bg-white px-6 flex flex-col space-y-4 text-gray-800 font-semibold">
-            <Link href="/" className="border-b border-gray-100 pb-2 hover:text-[#0B5C32]">Home</Link>
-            <Link href="/about" className="border-b border-gray-100 pb-2 hover:text-[#0B5C32]">Company</Link>
-            <Link href="/brand" className="border-b border-gray-100 pb-2 hover:text-[#0B5C32]">Behrouz Brand</Link>
-            <Link href="/products" className="border-b border-gray-100 pb-2 hover:text-[#0B5C32]">Products</Link>
-            <Link href="/quality-control" className="border-b border-gray-100 pb-2 hover:text-[#0B5C32]">Quality Control</Link>
-            <Link href="/recipes" className="border-b border-gray-100 pb-2 hover:text-[#0B5C32]">Recipes</Link>
-            <Link href="/contact" className="pb-2 hover:text-[#0B5C32]">Contact Us</Link>
-            <a href="https://www.hrmexports.com/assets/images/hrm_exports_catalogue.pdf" download className="bg-[#B4D333] text-white text-center px-6 py-3 rounded-md font-bold w-full shadow-md">
-              Download E-Brochure
-            </a>
-          </div>
-        </div>
-      </nav>
-    </header>
+        </nav>
+      </header>
+      <div className="stricky-header stricked-menu main-menu">
+        <div className="sticky-header__content"></div>
+      </div>
+    </>
   );
 }

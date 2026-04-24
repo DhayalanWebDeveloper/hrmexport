@@ -1,26 +1,31 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* Hybrid mode: the HRM Exports template CSS (loaded via CDN in layout.tsx) still
+   drives the bulk of the layout, typography, and vendor-JS-driven animations
+   (Swiper, Vegas, WOW, Owl, etc.). Tailwind utilities are layered on top for
+   color accents, hover transitions, and polish. */
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+@theme {
+  --color-hrm-green: #016327;
+  --color-hrm-green-dark: #025e2e;
+  --color-hrm-lime: #afc836;
+  --color-hrm-lime-soft: #b0c800;
+  --color-hrm-olive: #c0cd82;
+  --color-hrm-cream: #f8f4ec;
+  --color-hrm-dark: #212529;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  --animate-shake: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  --animate-float-slow: float 6s ease-in-out infinite;
+
+  @keyframes shake {
+    10%, 90% { transform: translate3d(-1px, 0, 0); }
+    20%, 80% { transform: translate3d(2px, 0, 0); }
+    30%, 50%, 70% { transform: translate3d(-2px, 0, 0); }
+    40%, 60% { transform: translate3d(2px, 0, 0); }
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-8px); }
+  }
 }
