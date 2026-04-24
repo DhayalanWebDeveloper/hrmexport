@@ -5,7 +5,7 @@ export default function EnquiryForm() {
         className="contact-four__bg"
         style={{
           backgroundImage:
-            "url(https://www.hrmexports.com/assets/images/backgrounds/footer-bg-1.jpg)",
+            "url(/assets/images/backgrounds/footer-bg-1.jpg)",
           backgroundPosition: "50% 50%",
           backgroundColor: "rgba(0, 0, 0, 0.7)",
           backgroundRepeat: "no-repeat",
@@ -17,7 +17,7 @@ export default function EnquiryForm() {
         <div className="section-title text-center">
           <div className="section-title__icon">
             <img
-              src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
+              src="/assets/images/icon/section-title-icon.png"
               alt="Contact with me"
             />
           </div>

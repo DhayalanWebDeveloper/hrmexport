@@ -33,6 +33,7 @@ export default function HeroSlider() {
         nav: true,
         animateOut: "slideOutDown",
         animateIn: "zoomIn",
+        active: true,
         smartSpeed: 1000,
         autoplay: true,
         autoplayTimeout: 4000,
@@ -73,16 +74,16 @@ export default function HeroSlider() {
         className="main-slider__carousel owl-carousel owl-theme thm-owl__carousel mobilehide setowlicon"
       >
         <div className="item main-slider__slide-2 py-0 bg-white">
-          <img src="https://www.hrmexports.com/assets/images/backgrounds/Welcome-Banner1.webp" alt="banner 1" className="img-fluid w-full" />
+          <img src="/assets/images/backgrounds/Welcome-Banner1.webp" alt="banner 1" className="img-fluid w-full" />
         </div>
         <div className="item main-slider__slide-2 py-0 bg-white">
-          <img src="https://www.hrmexports.com/assets/images/backgrounds/banner02.webp" alt="banner 2" className="img-fluid w-full" />
+          <img src="/assets/images/backgrounds/banner02.webp" alt="banner 2" className="img-fluid w-full" />
         </div>
         <div className="item main-slider__slide-2 py-0 bg-white">
-          <img src="https://www.hrmexports.com/assets/images/backgrounds/banner03.webp" alt="banner 3" className="img-fluid w-full" />
+          <img src="/assets/images/backgrounds/banner03.webp" alt="banner 3" className="img-fluid w-full" />
         </div>
         <div className="item main-slider__slide-2 py-0 bg-white">
-          <img src="https://www.hrmexports.com/assets/images/backgrounds/banner04.webp" alt="banner 4" className="img-fluid w-full" />
+          <img src="/assets/images/backgrounds/banner04.webp" alt="banner 4" className="img-fluid w-full" />
         </div>
       </div>
 
@@ -91,16 +92,16 @@ export default function HeroSlider() {
         className="main-slider__carousel owl-carousel owl-theme thm-owl__carousel mobileshow setowlicon"
       >
         <div className="item main-slider__slide-2 py-0 bg-white">
-          <img src="https://www.hrmexports.com/assets/images/backgrounds/mobilebann102.jpg" alt="banner m1" className="img-fluid w-full" />
+          <img src="/assets/images/backgrounds/mobilebann102.jpg" alt="banner m1" className="img-fluid w-full" />
         </div>
         <div className="item main-slider__slide-2 py-0 bg-white">
-          <img src="https://www.hrmexports.com/assets/images/backgrounds/mobilebanner1.jpg" alt="banner m2" className="img-fluid w-full" />
+          <img src="/assets/images/backgrounds/mobilebanner1.jpg" alt="banner m2" className="img-fluid w-full" />
         </div>
         <div className="item main-slider__slide-2 py-0 bg-white">
-          <img src="https://www.hrmexports.com/assets/images/backgrounds/mobile3.webp" alt="banner m3" className="img-fluid w-full" />
+          <img src="/assets/images/backgrounds/mobile3.webp" alt="banner m3" className="img-fluid w-full" />
         </div>
         <div className="item main-slider__slide-2 py-0 bg-white">
-          <img src="https://www.hrmexports.com/assets/images/backgrounds/mobile4.webp" alt="banner m4" className="img-fluid w-full" />
+          <img src="/assets/images/backgrounds/mobile4.webp" alt="banner m4" className="img-fluid w-full" />
         </div>
       </div>
     </section>

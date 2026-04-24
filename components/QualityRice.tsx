@@ -5,7 +5,7 @@ export default function QualityRice() {
         className="counter-one__bg"
         style={{
           backgroundImage:
-            "url(https://www.hrmexports.com/assets/images/backgrounds/counter-one-bg.jpg)",
+            "url(/assets/images/backgrounds/counter-one-bg.jpg)",
         }}
       ></div>
       <div className="container">
@@ -15,7 +15,7 @@ export default function QualityRice() {
               <div className="section-title text-left">
                 <div className="section-title__icon">
                   <img
-                    src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
+                    src="/assets/images/icon/section-title-icon.png"
                     alt="HRM Exports"
                   />
                 </div>
@@ -40,7 +40,7 @@ export default function QualityRice() {
                   <div className="counter-one__single">
                     <div className="counter-one__icon">
                       <img
-                        src="https://www.hrmexports.com/assets/images/icon/icon-5.png"
+                        src="/assets/images/icon/icon-5.png"
                         alt="Experience"
                       />
                     </div>
@@ -77,7 +77,7 @@ export default function QualityRice() {
                   <div className="counter-one__single">
                     <div className="counter-one__icon">
                       <img
-                        src="https://www.hrmexports.com/assets/images/icon/icon-6.png"
+                        src="/assets/images/icon/icon-6.png"
                         alt="Rice Products"
                       />
                     </div>
@@ -114,7 +114,7 @@ export default function QualityRice() {
                   <div className="counter-one__single">
                     <div className="counter-one__icon">
                       <img
-                        src="https://www.hrmexports.com/assets/images/icon/icon-7.png"
+                        src="/assets/images/icon/icon-7.png"
                         alt="Production"
                       />
                     </div>
@@ -144,7 +144,7 @@ export default function QualityRice() {
                   <div className="counter-one__single">
                     <div className="counter-one__icon">
                       <img
-                        src="https://www.hrmexports.com/assets/images/icon/icon-8.png"
+                        src="/assets/images/icon/icon-8.png"
                         alt="Exporting Countries"
                       />
                     </div>

@@ -1,6 +1,8 @@
 import Header from "@/components/Header";
 import EnquiryForm from "@/components/EnquiryForm";
 import Footer from "@/components/Footer";
+import ActionButtons from "@/components/ActionButtons";
+import Link from "next/link";
 
 export default function AboutPage() {
   return (
@@ -13,7 +15,7 @@ export default function AboutPage() {
           className="page-header-bg"
           style={{
             backgroundImage:
-              "url(https://www.hrmexports.com/assets/images/backgrounds/abt.jpg)",
+              "url(/assets/images/backgrounds/abt.jpg)",
           }}
         ></div>
         <div className="container">
@@ -21,7 +23,7 @@ export default function AboutPage() {
             <h2>About Us</h2>
             <ul className="thm-breadcrumb list-unstyled">
               <li>
-                <a href="/">Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
                 <span>&gt;</span>
@@ -43,8 +45,8 @@ export default function AboutPage() {
                 data-wow-duration="1500ms"
               >
                 <img
-                  src="https://www.hrmexports.com/assets/images/resources/about-1.png"
-                  className="img-fluid"
+                  src="/assets/images/resources/about-1.png"
+                  className="img-fluid transition-transform duration-500 hover:scale-105"
                   alt="Who we are"
                 />
               </div>
@@ -54,8 +56,8 @@ export default function AboutPage() {
                 <div className="section-title text-left">
                   <div className="section-title__icon">
                     <img
-                      src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
-                      alt="Who we are"
+                      src="/assets/images/icon/section-title-icon.png"
+                      alt="Who we are 2"
                     />
                   </div>
                   <span
@@ -78,27 +80,28 @@ export default function AboutPage() {
                   data-wow-delay="500ms"
                   data-wow-duration="1500ms"
                 >
+                  {" "}
                   In a commodity market, competitive prices are a given, and
-                  supplier options are a necessity. Too often, though, that's the
-                  whole story in the rice industry – which is why HRM Exports a
-                  Rice Manufacturers, Suppliers &amp; Exporters in India set out to
-                  be more than you've come to expect.We understand the benefits
-                  of a closer relationship with the customer, HRM Exports has
-                  taken the industrial rice supply chain back to its roots – and
-                  into the 21st century. We know what works and what doesn't –
-                  and because we've built HRM Exports from the ground up, nothing
-                  prevents us from doing everything right.HRM Exports is a
-                  supplier with something more to offer! Today, we at HRM
-                  Exports commit to achieve customer satisfaction with quality,
-                  quantity, services and are delighted to provide consumers fine
-                  food with rice of unmatched quality.
+                  supplier options are a necessity. Too often, though, that&apos;s
+                  the whole story in the rice industry &ndash; which is why HRM
+                  Exports a Rice Manufacturers, Suppliers &amp; Exporters in India
+                  set out to be more than you&apos;ve come to expect.We understand
+                  the benefits of a closer relationship with the customer, HRM
+                  Exports has taken the industrial rice supply chain back to its
+                  roots &ndash; and into the 21st century. We know what works and
+                  what doesn&apos;t &ndash; and because we&apos;ve built HRM
+                  Exports from the ground up, nothing prevents us from doing
+                  everything right.HRM Exports is a supplier with something more
+                  to offer! Today, we at HRM Exports commit to achieve customer
+                  satisfaction with quality, quantity, services and are delighted
+                  to provide consumers fine food with rice of unmatched quality.
                 </p>
               </div>
             </div>
           </div>
           <div className="row pt-50">
             <div className="col-xl-6">
-              <div>
+              <div className="">
                 <p
                   className="about-four__text text-justify wow fadeInUp"
                   data-wow-delay="700ms"
@@ -108,10 +111,9 @@ export default function AboutPage() {
                   needs of our customers to ensure that nothing but the very best
                   rice and rice products enamor your table, making every meal of
                   the day, fulfilling and cherishing. All of this evolves from a
-                  dedicated team involved in stringent Quality Control, with
-                  fully equipped QC centers and micro-biological labs,
-                  manufacturing and processing facilities that are ISO
-                  9001:2008 certified.
+                  dedicated team involved in stringent Quality Control, with fully
+                  equipped QC centers and micro-biological labs, manufacturing and
+                  processing facilities that are ISO 9001:2008 certified.
                 </p>
                 <p
                   className="about-four__text text-justify wow fadeInUp"
@@ -119,17 +121,17 @@ export default function AboutPage() {
                   data-wow-duration="1500ms"
                 >
                   We are a group of young and enthusiastic individuals who have
-                  come together for a single goal of being a global leader in
-                  rice industry. We believe that India is known for our Basmati
-                  Rice, Non-Basmati export is key to our country's growth.
-                  Prioritizing in exporting Indian Basmati &amp; Non-Basmati, we are
-                  also analysts and researchers who possess an up to date global
-                  food market database to help you. HRM Export is a leading Rice
-                  Manufacturers, Suppliers &amp; Exporters in India of all kinds of
-                  Indian Basmati Rice &amp; Non-Basmati Rice to a number of
-                  destinations around the globe. We keep our core focus on
+                  come together for a single goal of being a global leader in rice
+                  industry. We believe that India is known for our Basmati Rice,
+                  Non-Basmati export is key to our country&apos;s growth.
+                  Prioritizing in exporting Indian Basmati &amp; Non-Basmati, we
+                  are also analysts and researchers who possess an up to date
+                  global food market database to help you. HRM Export is a leading
+                  Rice Manufacturers, Suppliers &amp; Exporters in India of all
+                  kinds of Indian Basmati Rice &amp; Non-Basmati Rice to a number
+                  of destinations around the globe. We keep our core focus on
                   commitment to the highest quality standards and gain the trust
-                  and appreciation of our customers.
+                  and and appreciation of our customers.
                 </p>
               </div>
             </div>
@@ -140,8 +142,8 @@ export default function AboutPage() {
                 data-wow-duration="1500ms"
               >
                 <img
-                  src="https://www.hrmexports.com/assets/images/resources/about-2.png"
-                  className="img-fluid"
+                  src="/assets/images/resources/about-2.png"
+                  className="img-fluid transition-transform duration-500 hover:scale-105"
                   alt="about-2"
                 />
               </div>
@@ -162,8 +164,8 @@ export default function AboutPage() {
                 data-wow-duration="1500ms"
               >
                 <img
-                  src="https://www.hrmexports.com/assets/images/resources/vision.png"
-                  className="img-fluid"
+                  src="/assets/images/resources/vision.png"
+                  className="img-fluid transition-transform duration-500 hover:scale-105"
                   alt="vision"
                 />
               </div>
@@ -173,8 +175,8 @@ export default function AboutPage() {
                 <div className="section-title text-left">
                   <div className="section-title__icon">
                     <img
-                      src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
-                      alt="Vision"
+                      src="/assets/images/icon/section-title-icon.png"
+                      alt="Vision 2"
                     />
                   </div>
                   <h3
@@ -192,8 +194,8 @@ export default function AboutPage() {
                 >
                   We aim to provide consistently fine quality of rice for
                   connoisseurs worldwide and innovation marks our approach to
-                  marching towards excellence in our field. Our objective is to
-                  be consistent in quality and assure timely delivery of finest
+                  marching towards excellence in our field. Our objective is to be
+                  consistent in quality and assure timely delivery of finest
                   materials manufactured using ethical processes and help in the
                   prosperity of everyone concerned.
                 </p>
@@ -204,12 +206,12 @@ export default function AboutPage() {
           {/* Mission */}
           <div className="row pt-50">
             <div className="col-xl-6">
-              <div>
+              <div className="">
                 <div className="section-title text-left">
                   <div className="section-title__icon">
                     <img
-                      src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
-                      alt="Mission"
+                      src="/assets/images/icon/section-title-icon.png"
+                      alt="Mission 1"
                     />
                   </div>
                   <h3
@@ -228,8 +230,8 @@ export default function AboutPage() {
                   Our mission is to make the world experience the true Indian and
                   Natural flavours in its authentic form that brings joy and
                   happiness to the palates of global consumers. Our vision is to
-                  make HRM Exports as the most trusted and preferred food brand
-                  in Rice from India in the global markets.
+                  make HRM Exports as the most trusted and preferred food brand in
+                  Rice from India in the global markets.
                 </p>
               </div>
             </div>
@@ -240,8 +242,8 @@ export default function AboutPage() {
                 data-wow-duration="1500ms"
               >
                 <img
-                  src="https://www.hrmexports.com/assets/images/resources/mission.png"
-                  className="img-fluid"
+                  src="/assets/images/resources/mission.png"
+                  className="img-fluid transition-transform duration-500 hover:scale-105"
                   alt="Mission"
                 />
               </div>
@@ -257,9 +259,9 @@ export default function AboutPage() {
                 data-wow-duration="1500ms"
               >
                 <img
-                  src="https://www.hrmexports.com/assets/images/resources/what_we_do.png"
-                  className="img-fluid"
-                  alt="What We Do"
+                  src="/assets/images/resources/what_we_do.png"
+                  className="img-fluid transition-transform duration-500 hover:scale-105"
+                  alt="What We Do 1"
                 />
               </div>
             </div>
@@ -268,7 +270,7 @@ export default function AboutPage() {
                 <div className="section-title text-left">
                   <div className="section-title__icon">
                     <img
-                      src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
+                      src="/assets/images/icon/section-title-icon.png"
                       alt="What We Do"
                     />
                   </div>
@@ -304,11 +306,11 @@ export default function AboutPage() {
           {/* Company Responsibility */}
           <div className="row pt-50">
             <div className="col-xl-6">
-              <div>
+              <div className="">
                 <div className="section-title text-left">
                   <div className="section-title__icon">
                     <img
-                      src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
+                      src="/assets/images/icon/section-title-icon.png"
                       alt="Company Responsibility"
                     />
                   </div>
@@ -348,11 +350,11 @@ export default function AboutPage() {
                   data-wow-duration="1500ms"
                 >
                   The company believes that an organisation is as good as the
-                  people who work for it – their combined talents, skills,
-                  knowledge, experience and passion makes them who they are.
-                  Hence HRM Exports continuous goal is to inspire and motivate
-                  their people to hone their talents, increase their knowledge
-                  &amp; skills and achieve extraordinary results at their workplace.
+                  people who work for it &ndash; their combined talents, skills,
+                  knowledge, experience and passion makes them who they are. Hence
+                  HRM Exports continuous goal is to inspire and motivate their
+                  people to hone their talents, increase their knowledge &amp;
+                  skills and achieve extraordinary results at their workplace.
                 </p>
               </div>
             </div>
@@ -363,8 +365,8 @@ export default function AboutPage() {
                 data-wow-duration="1500ms"
               >
                 <img
-                  src="https://www.hrmexports.com/assets/images/resources/company_responsibility.png"
-                  className="img-fluid"
+                  src="/assets/images/resources/company_responsibility.png"
+                  className="img-fluid transition-transform duration-500 hover:scale-105"
                   alt="company_responsibility"
                 />
               </div>
@@ -380,8 +382,8 @@ export default function AboutPage() {
                 data-wow-duration="1500ms"
               >
                 <img
-                  src="https://www.hrmexports.com/assets/images/resources/our_social_initatives.png"
-                  className="img-fluid"
+                  src="/assets/images/resources/our_social_initatives.png"
+                  className="img-fluid transition-transform duration-500 hover:scale-105"
                   alt="our_social_initatives"
                 />
               </div>
@@ -391,8 +393,8 @@ export default function AboutPage() {
                 <div className="section-title text-left">
                   <div className="section-title__icon">
                     <img
-                      src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
-                      alt="Our Social Initiatives"
+                      src="/assets/images/icon/section-title-icon.png"
+                      alt="Our Social Initatives"
                     />
                   </div>
                   <h3
@@ -400,7 +402,7 @@ export default function AboutPage() {
                     data-wow-delay="500ms"
                     data-wow-duration="1500ms"
                   >
-                    Our Social Initiatives
+                    Our Social Initatives
                   </h3>
                 </div>
                 <p
@@ -408,14 +410,14 @@ export default function AboutPage() {
                   data-wow-delay="600ms"
                   data-wow-duration="1500ms"
                 >
-                  The Company's CSR is in alignment with the initiatives on
+                  The Company&apos;s CSR is in alignment with the initiatives on
                   Eradication of extreme hunger, Enhancement of livelihood
                   projects, Rural development of host communities, Promoting
                   Education, Sanitation Facilities, healthcare, and creating
                   social, environmental, and economic value to the society.
                   Further Company is committed to improving the quality of
-                  education and this Company is continuously taking initiatives
-                  so that education can reach everyone.
+                  education and this Company is continuously taking initiatives so
+                  that education can reach everyone.
                 </p>
               </div>
             </div>
@@ -425,6 +427,7 @@ export default function AboutPage() {
 
       <EnquiryForm />
       <Footer />
+      <ActionButtons />
     </div>
   );
 }

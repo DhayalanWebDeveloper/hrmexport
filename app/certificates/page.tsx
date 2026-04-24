@@ -1,38 +1,10 @@
-'use client';
-
-import { useEffect } from 'react';
 import Header from "@/components/Header";
 import EnquiryForm from "@/components/EnquiryForm";
 import Footer from "@/components/Footer";
+import ActionButtons from "@/components/ActionButtons";
+import Link from "next/link";
 
 export default function CertificatesPage() {
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const el = entry.target as HTMLElement;
-            const delay = el.getAttribute('data-wow-delay') || '0ms';
-            const duration = el.getAttribute('data-wow-duration') || '1s';
-            el.style.animationDelay = delay;
-            el.style.animationDuration = duration;
-            el.style.visibility = 'visible';
-            el.classList.add('animated');
-            observer.unobserve(el);
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    document.querySelectorAll('.wow').forEach((el) => {
-      (el as HTMLElement).style.visibility = 'hidden';
-      observer.observe(el);
-    });
-
-    return () => observer.disconnect();
-  }, []);
-
   return (
     <div className="page-wrapper">
       <Header />
@@ -43,7 +15,7 @@ export default function CertificatesPage() {
           className="page-header-bg"
           style={{
             backgroundImage:
-              "url(https://www.hrmexports.com/assets/images/backgrounds/certi-bg-1.jpg)",
+              "url(/assets/images/backgrounds/certi-bg-1.jpg)",
           }}
         ></div>
         <div className="container">
@@ -51,125 +23,132 @@ export default function CertificatesPage() {
             <h2>Certificates</h2>
             <ul className="thm-breadcrumb list-unstyled">
               <li>
-                <a href="/">Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
                 <span>&gt;</span>
               </li>
-              <li>Certifications</li>
+              <li>Certifications </li>
             </ul>
           </div>
         </div>
       </section>
 
-      {/* Certifications */}
+      {/* Certifications Grid */}
       <section className="services-page">
         <div className="container">
           <div className="section-title text-center">
             <div className="section-title__icon">
               <img
-                src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
+                src="/assets/images/icon/section-title-icon.png"
                 alt="Certifications"
               />
             </div>
-            <h1 className="section-title__title">Certifications</h1>
+            <h1 className="section-title__title">Certifications </h1>
           </div>
           <div className="row">
+            {/* ISO 22000 */}
             <div className="col-xl-4 col-lg-6 col-md-6">
-              <div className="services-one__single">
+              <div className="services-one__single transition duration-300 hover:-translate-y-1 hover:shadow-xl">
                 <div className="services-one__img-box">
                   <img
-                    src="https://www.hrmexports.com/storage/images/650b12619ef97.jpg"
+                    src="/storage/images/650b12619ef97.jpg"
                     alt="ISO 22000 - 2018"
-                    className="img-fluid"
+                    className="img-fluid transition-transform duration-500 hover:scale-105"
                   />
                 </div>
                 <h3 className="services-one__title">
-                  <a href="#">ISO 22000 - 2018</a>
+                  <a href="#" className="transition-colors duration-300 hover:text-[#afc836]">ISO 22000 - 2018</a>
                 </h3>
               </div>
             </div>
+            {/* GMP */}
             <div className="col-xl-4 col-lg-6 col-md-6">
-              <div className="services-one__single">
+              <div className="services-one__single transition duration-300 hover:-translate-y-1 hover:shadow-xl">
                 <div className="services-one__img-box">
                   <img
-                    src="https://www.hrmexports.com/storage/images/650b12ae97c9c.jpg"
+                    src="/storage/images/650b12ae97c9c.jpg"
                     alt="GMP Certificates"
-                    className="img-fluid"
+                    className="img-fluid transition-transform duration-500 hover:scale-105"
                   />
                 </div>
                 <h3 className="services-one__title">
-                  <a href="#">GMP Certificates</a>
+                  <a href="#" className="transition-colors duration-300 hover:text-[#afc836]">GMP Certificates</a>
                 </h3>
               </div>
             </div>
+            {/* QMS */}
             <div className="col-xl-4 col-lg-6 col-md-6">
-              <div className="services-one__single">
+              <div className="services-one__single transition duration-300 hover:-translate-y-1 hover:shadow-xl">
                 <div className="services-one__img-box">
                   <img
-                    src="https://www.hrmexports.com/storage/images/650b12cab2585.jpg"
+                    src="/storage/images/650b12cab2585.jpg"
                     alt="Quality Management System"
-                    className="img-fluid"
+                    className="img-fluid transition-transform duration-500 hover:scale-105"
                   />
                 </div>
                 <h3 className="services-one__title">
-                  <a href="#">Quality Management System</a>
+                  <a href="#" className="transition-colors duration-300 hover:text-[#afc836]">Quality Management System</a>
                 </h3>
               </div>
             </div>
+            {/* GST */}
             <div className="col-xl-4 col-lg-6 col-md-6">
-              <div className="services-one__single">
+              <div className="services-one__single transition duration-300 hover:-translate-y-1 hover:shadow-xl">
                 <div className="services-one__img-box">
                   <img
-                    src="https://www.hrmexports.com/storage/images/650b12feea327.jpg"
+                    src="/storage/images/650b12feea327.jpg"
                     alt="Gst certificate"
-                    className="img-fluid"
+                    className="img-fluid transition-transform duration-500 hover:scale-105"
                   />
                 </div>
                 <h3 className="services-one__title">
-                  <a href="#">Gst certificate</a>
+                  <a href="#" className="transition-colors duration-300 hover:text-[#afc836]">Gst certificate</a>
                 </h3>
               </div>
             </div>
+            {/* FSSAI */}
             <div className="col-xl-4 col-lg-6 col-md-6">
-              <div className="services-one__single">
+              <div className="services-one__single transition duration-300 hover:-translate-y-1 hover:shadow-xl">
                 <div className="services-one__img-box">
                   <img
-                    src="https://www.hrmexports.com/storage/images/650b1319e9139.jpg"
+                    src="/storage/images/650b1319e9139.jpg"
                     alt="HRM Central FSSAI"
-                    className="img-fluid"
+                    className="img-fluid transition-transform duration-500 hover:scale-105"
                   />
                 </div>
                 <h3 className="services-one__title">
-                  <a href="#">HRM Central FSSAI</a>
+                  <a href="#" className="transition-colors duration-300 hover:text-[#afc836]">HRM Central FSSAI</a>
                 </h3>
               </div>
             </div>
+            {/* APEDA */}
             <div className="col-xl-4 col-lg-6 col-md-6">
-              <div className="services-one__single">
+              <div className="services-one__single transition duration-300 hover:-translate-y-1 hover:shadow-xl">
                 <div className="services-one__img-box">
                   <img
-                    src="https://www.hrmexports.com/storage/images/6517bd62d0932.jpg"
+                    src="/storage/images/6517bd62d0932.jpg"
                     alt="APEDA"
-                    className="img-fluid"
+                    className="img-fluid transition-transform duration-500 hover:scale-105"
                   />
                 </div>
                 <h3 className="services-one__title">
-                  <a href="#">APEDA</a>
+                  <a href="#" className="transition-colors duration-300 hover:text-[#afc836]">APEDA</a>
                 </h3>
               </div>
             </div>
+            {/* HACCP */}
             <div className="col-xl-4 col-lg-6 col-md-6">
-              <div className="services-one__single">
+              <div className="services-one__single transition duration-300 hover:-translate-y-1 hover:shadow-xl">
                 <div className="services-one__img-box">
                   <img
-                    src="https://www.hrmexports.com/storage/images/652bacbf374bd.jpg"
+                    src="/storage/images/652bacbf374bd.jpg"
                     alt="HACCP"
-                    className="img-fluid"
+                    className="img-fluid transition-transform duration-500 hover:scale-105"
                   />
                 </div>
                 <h3 className="services-one__title">
-                  <a href="#">HACCP</a>
+                  <a href="#" className="transition-colors duration-300 hover:text-[#afc836]">HACCP</a>
                 </h3>
               </div>
             </div>
@@ -179,6 +158,7 @@ export default function CertificatesPage() {
 
       <EnquiryForm />
       <Footer />
+      <ActionButtons />
     </div>
   );
 }

@@ -6,7 +6,7 @@ export default function Footer() {
       className="site-footer"
       style={{
         backgroundImage:
-          "url(https://www.hrmexports.com/assets/images/backgrounds/footer-bg-1.jpg)",
+          "url(/assets/images/backgrounds/footer-bg-1.jpg)",
         backgroundPosition: "50% 50%",
         backgroundColor: "rgba(0, 0, 0, 0.7)",
         backgroundRepeat: "no-repeat",
@@ -29,7 +29,7 @@ export default function Footer() {
                     className="contact-details__shape-1"
                     style={{
                       backgroundImage:
-                        "url(assets/images/shapes/contact-details-shape-1.png)",
+                        "url(/assets/images/shapes/contact-details-shape-1.png)",
                     }}
                   ></div>
                   <div className="contact-details__icon">
@@ -56,7 +56,7 @@ export default function Footer() {
                     className="contact-details__shape-1"
                     style={{
                       backgroundImage:
-                        "url(assets/images/shapes/contact-details-shape-1.png)",
+                        "url(/assets/images/shapes/contact-details-shape-1.png)",
                     }}
                   ></div>
                   <div className="contact-details__icon">
@@ -89,7 +89,7 @@ export default function Footer() {
                     className="contact-details__shape-1"
                     style={{
                       backgroundImage:
-                        "url(assets/images/shapes/contact-details-shape-1.png)",
+                        "url(/assets/images/shapes/contact-details-shape-1.png)",
                     }}
                   ></div>
                   <div className="contact-details__icon">

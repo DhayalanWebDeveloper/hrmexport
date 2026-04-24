@@ -27,32 +27,32 @@ const tabDelays = [
 const steps: ProcessStep[] = [
   {
     id: "pre_clean",
-    tabIcon: "https://www.hrmexports.com/assets/images/icon/1.png",
+    tabIcon: "/assets/images/icon/1.png",
     tabLabel: "Pre-cleaning",
     tabAlt: "Pre-cleaning",
     title: "Pre-cleaning",
     paragraph:
       "The starting process of the rice mill process is a pre-cleaning process. It removes impurities from it, such as stones, dust and straw, from the raw paddy. Pre-cleaning machines, including de-stoners and separators, are utilized to ensure the purity and quality of the paddy before further processing.",
     bullets: ["Remove impurities.", "Ensure quality and purity"],
-    image: "https://www.hrmexports.com/assets/images/resources/process-1.jpg",
+    image: "/assets/images/resources/process-1.jpg",
     imageAlt: "Parboiling",
     active: true,
   },
   {
     id: "parboiling",
-    tabIcon: "https://www.hrmexports.com/assets/images/icon/2.png",
+    tabIcon: "/assets/images/icon/2.png",
     tabLabel: "Parboiling",
     tabAlt: "Parboiling",
     title: "Parboiling ",
     paragraph:
       "Parboiling is a specialized rice processing technique that involves soaking, steaming, and drying the raw paddy before milling. During the parboiling process the paddy undergoes a partial gelatinization of its starch, resulting in significant changes in the texture of the grain, nutritional profile and cooking characteristics. Parboiling increases the nutritional value of rice by retaining essential nutrients including vitamins and minerals, which may be lost in regular milling.",
     bullets: [" Special processing technique.", "Enhances nutritional value."],
-    image: "https://www.hrmexports.com/assets/images/resources/process-2.jpg",
+    image: "/assets/images/resources/process-2.jpg",
     imageAlt: "Husking",
   },
   {
     id: "husking",
-    tabIcon: "https://www.hrmexports.com/assets/images/icon/3.png",
+    tabIcon: "/assets/images/icon/3.png",
     tabLabel: "Husking",
     tabAlt: "Husking",
     title: "Husking ",
@@ -62,24 +62,24 @@ const steps: ProcessStep[] = [
       " Husking the layer that is outside. ",
       "More space storage and longer shelf life.",
     ],
-    image: "https://www.hrmexports.com/assets/images/resources/process-3.jpg",
+    image: "/assets/images/resources/process-3.jpg",
     imageAlt: "Paddy Separation",
   },
   {
     id: "paddy",
-    tabIcon: "https://www.hrmexports.com/assets/images/icon/4.png",
+    tabIcon: "/assets/images/icon/4.png",
     tabLabel: "Paddy Separation",
     tabAlt: "Paddy Separation",
     title: "Paddy Separation ",
     paragraph:
       "Following husking, paddy separation is performed to separate the unhulled paddy grains from the mixture of paddy and husk. This separation process ensures that only hulled grains proceed to the following milling stages. Paddy separators are used for paddy separation.",
     bullets: ["Apart the Dismantled paddy", "Dividers for Paddy."],
-    image: "https://www.hrmexports.com/assets/images/resources/white.jpg",
+    image: "/assets/images/resources/white.jpg",
     imageAlt: "Whitening",
   },
   {
     id: "whitening",
-    tabIcon: "https://www.hrmexports.com/assets/images/icon/5.png",
+    tabIcon: "/assets/images/icon/5.png",
     tabLabel: "Whitening",
     tabAlt: "Whitening",
     title: "Whitening ",
@@ -89,12 +89,12 @@ const steps: ProcessStep[] = [
       " Removal of the layer that is bran.",
       "Enhances the appearance and improves texture.",
     ],
-    image: "https://www.hrmexports.com/assets/images/resources/process-5.jpg",
+    image: "/assets/images/resources/process-5.jpg",
     imageAlt: "Polishing",
   },
   {
     id: "polishing",
-    tabIcon: "https://www.hrmexports.com/assets/images/icon/6.png",
+    tabIcon: "/assets/images/icon/6.png",
     tabLabel: "Polishing",
     tabAlt: "Polishing",
     title: "Polishing ",
@@ -104,12 +104,12 @@ const steps: ProcessStep[] = [
       " Smoothening the surface of the rice grain.",
       "Obtain the desired amount of Shine and gloss.",
     ],
-    image: "https://www.hrmexports.com/assets/images/resources/process-6.jpg",
+    image: "/assets/images/resources/process-6.jpg",
     imageAlt: "Sorting and Grading",
   },
   {
     id: "sorting",
-    tabIcon: "https://www.hrmexports.com/assets/images/icon/7.png",
+    tabIcon: "/assets/images/icon/7.png",
     tabLabel: "Sorting and Grading",
     tabAlt: "Sorting and Grading",
     title: "Sorting and Grading ",
@@ -119,12 +119,12 @@ const steps: ProcessStep[] = [
       "Ensure uniformity in quality ,size and appearance.",
       "Utilising the colour machines that are electrical.",
     ],
-    image: "https://www.hrmexports.com/assets/images/resources/process-7.jpg",
+    image: "/assets/images/resources/process-7.jpg",
     imageAlt: "Packing",
   },
   {
     id: "weighing",
-    tabIcon: "https://www.hrmexports.com/assets/images/icon/7-1.png",
+    tabIcon: "/assets/images/icon/7-1.png",
     tabLabel: "Packing",
     tabAlt: "Packing",
     title: "Packing ",
@@ -135,12 +135,12 @@ const steps: ProcessStep[] = [
       "Uniform filling and sealing.",
       "Quality and integrity.",
     ],
-    image: "https://www.hrmexports.com/assets/images/resources/process-9.jpg",
+    image: "/assets/images/resources/process-9.jpg",
     imageAlt: "Transportation",
   },
   {
     id: "transportation",
-    tabIcon: "https://www.hrmexports.com/assets/images/icon/7-4.png",
+    tabIcon: "/assets/images/icon/7-4.png",
     tabLabel: "Transportation",
     tabAlt: "Transportation",
     title: "Transportation",
@@ -158,12 +158,12 @@ const steps: ProcessStep[] = [
         text: " Cargo security is offered during movement to minimize theft and tampering. In most instances, the cargo is left with seals as well as tracking systems that track the integrity of the cargo.",
       },
     ],
-    image: "https://www.hrmexports.com/assets/images/resources/trasnport-1.jpg",
+    image: "/assets/images/resources/trasnport-1.jpg",
     imageAlt: "Shipping & Logistics",
   },
   {
     id: "ship",
-    tabIcon: "https://www.hrmexports.com/assets/images/icon/7-4.png",
+    tabIcon: "/assets/images/icon/7-4.png",
     tabLabel: "Shipping & Logistics",
     tabAlt: "Shipping & Logistics",
     title: " Shipping & Logistics ",
@@ -187,7 +187,7 @@ const steps: ProcessStep[] = [
         text: "  The ship departs for the destination port, which could be in another country. The shipping company manages the sea voyage.",
       },
     ],
-    image: "https://www.hrmexports.com/assets/images/resources/process-12.jpg",
+    image: "/assets/images/resources/process-12.jpg",
     imageAlt: "img-6",
   },
 ];
@@ -199,7 +199,7 @@ export default function RiceMillingProcess() {
         <div className="section-title text-center">
           <div className="section-title__icon">
             <img
-              src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
+              src="/assets/images/icon/section-title-icon.png"
               alt="HRM Exports"
             />
           </div>

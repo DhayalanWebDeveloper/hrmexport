@@ -12,7 +12,7 @@ export default function ProduceToProvide() {
       </div>
       <div className="container">
         <div
-          className="before-and-after__img-box wow fadeInUp transition duration-300 hover:-translate-y-1 hover:shadow-xl rounded-lg overflow-hidden"
+          className="before-and-after__img-box wow fadeInUp"
           data-wow-delay="800ms"
           data-wow-duration="1500ms"
         >
@@ -22,11 +22,11 @@ export default function ProduceToProvide() {
               id="wrinkle-before-after"
             >
               <img
-                src="https://www.hrmexports.com/assets/images/resources/before-and-after-img.jpg"
+                src="/assets/images/resources/before-and-after-img.jpg"
                 alt="HRM Exports"
               />
               <img
-                src="https://www.hrmexports.com/assets/images/resources/before-and-after-img-2.jpg"
+                src="/assets/images/resources/before-and-after-img-2.jpg"
                 alt="HRM Exports"
               />
             </div>

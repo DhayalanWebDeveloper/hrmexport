@@ -2,7 +2,7 @@ export default function VisionMission() {
   return (
     <section
       className="why-choose-one process-one relative overflow-hidden"
-      style={{ backgroundImage: "url(https://www.hrmexports.com/assets/images/backgrounds/why-1.png)" }}
+      style={{ backgroundImage: "url(/assets/images/backgrounds/why-1.png)" }}
     >
       <div className="services-two__bg"></div>
       <div className="container">
@@ -12,7 +12,7 @@ export default function VisionMission() {
               <div className="section-title text-left">
                 <div className="section-title__icon">
                   <img
-                    src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
+                    src="/assets/images/icon/section-title-icon.png"
                     alt="HRM Exports"
                   />
                 </div>
@@ -63,7 +63,7 @@ export default function VisionMission() {
                   data-wow-duration="1500ms"
                 >
                   <img
-                    src="https://www.hrmexports.com/assets/images/resources/why-choose-one-img-1.jpg"
+                    src="/assets/images/resources/why-choose-one-img-1.jpg"
                     alt="HRM Exports"
                     className="img-fluid w-full"
                   />

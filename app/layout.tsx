@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import TemplateInit from "@/components/TemplateInit";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
   keywords:
     "Rice Manufacturers In India, Rice Exporters In India, Rice Suppliers In India, Rice Suppliers From India",
   icons: {
-    icon: "https://www.hrmexports.com/assets/images/resources/logo-1.png",
+    icon: "/assets/images/resources/logo-1.png",
   },
 };
 
@@ -81,6 +82,10 @@ export default function RootLayout({
 
         {/* Template init — must load LAST so all plugins are registered */}
         <Script src="https://www.hrmexports.com/assets/js/hrmexportsss.js" strategy="afterInteractive" />
+
+        {/* React-side safety net: re-run WOW + Owl init after hydration in
+            case the template init fired before React mounted the sections. */}
+        <TemplateInit />
       </body>
     </html>
   );

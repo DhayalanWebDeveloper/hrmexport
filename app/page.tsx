@@ -29,7 +29,7 @@ export default function Home() {
       <OurProducts />
       <section className="position-relative">
         <img
-          src="https://www.hrmexports.com/assets/images/middle-banner.jpg"
+          src="/assets/images/middle-banner.jpg"
           alt="middle banner"
           className="img-fluid"
           style={{ width: "100%" }}

@@ -1,41 +1,12 @@
-'use client';
-
-import { useEffect } from 'react';
 import Header from "@/components/Header";
 import EnquiryForm from "@/components/EnquiryForm";
 import Footer from "@/components/Footer";
+import ActionButtons from "@/components/ActionButtons";
+import Link from "next/link";
 
 export default function QualityControlPage() {
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const el = entry.target as HTMLElement;
-            const delay = el.getAttribute('data-wow-delay') || '0ms';
-            const duration = el.getAttribute('data-wow-duration') || '1s';
-            el.style.animationDelay = delay;
-            el.style.animationDuration = duration;
-            el.style.visibility = 'visible';
-            el.classList.add('animated');
-            observer.unobserve(el);
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    document.querySelectorAll('.wow').forEach((el) => {
-      (el as HTMLElement).style.visibility = 'hidden';
-      observer.observe(el);
-    });
-
-    return () => observer.disconnect();
-  }, []);
-
   return (
     <div className="page-wrapper">
-      <Header />
 
       {/* Page Header */}
       <section className="page-header">
@@ -43,7 +14,7 @@ export default function QualityControlPage() {
           className="page-header-bg"
           style={{
             backgroundImage:
-              "url(https://www.hrmexports.com/assets/images/backgrounds/quality-1.jpg)",
+              "url(/assets/images/backgrounds/quality-1.jpg)",
           }}
         ></div>
         <div className="container">
@@ -51,7 +22,7 @@ export default function QualityControlPage() {
             <h2>Quality Control</h2>
             <ul className="thm-breadcrumb list-unstyled">
               <li>
-                <a href="/">Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
                 <span>&gt;</span>
@@ -73,8 +44,9 @@ export default function QualityControlPage() {
                 data-wow-duration="1500ms"
               >
                 <img
-                  src="https://www.hrmexports.com/assets/images/resources/quality_contol-1.png"
+                  src="/assets/images/resources/quality_contol-1.png"
                   alt="quality_contol"
+                  className="transition-transform duration-500 hover:scale-105"
                 />
               </div>
             </div>
@@ -83,7 +55,7 @@ export default function QualityControlPage() {
                 <div className="section-title text-left">
                   <div className="section-title__icon">
                     <img
-                      src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
+                      src="/assets/images/icon/section-title-icon.png"
                       alt="HRM Exports"
                     />
                   </div>
@@ -134,34 +106,33 @@ export default function QualityControlPage() {
               </div>
             </div>
           </div>
-
           <div className="row pt-30">
             <div className="col-xl-4 mb-5">
               <img
-                src="https://www.hrmexports.com/assets/images/resources/qua-1.jpg"
+                src="/assets/images/resources/qua-1.jpg"
                 alt="qua-1"
-                className="img-fluid rounded"
+                className="img-fluid rounded transition-transform duration-500 hover:scale-105"
               />
             </div>
             <div className="col-xl-4 mb-5">
               <img
-                src="https://www.hrmexports.com/assets/images/resources/qua-2.jpg"
+                src="/assets/images/resources/qua-2.jpg"
                 alt="qua-2"
-                className="img-fluid rounded"
+                className="img-fluid rounded transition-transform duration-500 hover:scale-105"
               />
             </div>
             <div className="col-xl-4 mb-5">
               <img
-                src="https://www.hrmexports.com/assets/images/resources/qua-3.jpg"
+                src="/assets/images/resources/qua-3.jpg"
                 alt="qua-3"
-                className="img-fluid rounded"
+                className="img-fluid rounded transition-transform duration-500 hover:scale-105"
               />
             </div>
             <div className="col-xl-12">
               <div
                 className="wow fadeInUp"
                 data-wow-delay="1000ms"
-                data-wow-duration="1500ms"
+                data-wow-duration="1500ms "
               >
                 <p
                   className="about-four__text text-justify wow fadeInUp"
@@ -185,9 +156,9 @@ export default function QualityControlPage() {
                           <span className="font-w-800">
                             Grain Size and Shape :
                           </span>{" "}
-                          Rice grains should have a uniform size and shape, which
-                          is essential for consistent cooking and appearance in
-                          the final product.
+                          Rice grains should have a uniform size and shape,
+                          which is essential for consistent cooking and
+                          appearance in the final product.
                         </p>
                       </div>
                     </li>
@@ -212,7 +183,7 @@ export default function QualityControlPage() {
                         <p className="text-justify">
                           <span className="font-w-800">Moisture Content:</span>{" "}
                           Controlling moisture content is critical to prevent
-                          mold growth and maintain the rice&#39;s quality during
+                          mold growth and maintain the rice&apos;s quality during
                           transportation and storage.
                         </p>
                       </div>
@@ -252,9 +223,7 @@ export default function QualityControlPage() {
                       </div>
                       <div className="text">
                         <p className="text-justify">
-                          <span className="font-w-800">
-                            Cooking and Taste:{" "}
-                          </span>{" "}
+                          <span className="font-w-800">Cooking and Taste: </span>{" "}
                           The aroma and taste of rice greatly influence consumer
                           satisfaction. Exported rice should have the
                           characteristic aroma and taste associated with its
@@ -286,7 +255,7 @@ export default function QualityControlPage() {
                           </span>{" "}
                           Proper packaging is crucial for protecting the rice
                           during transit. Clear and accurate labeling helps
-                          customers identify the product&#39;s origin and
+                          customers identify the product&apos;s origin and
                           specifications.
                         </p>
                       </div>
@@ -297,9 +266,7 @@ export default function QualityControlPage() {
                       </div>
                       <div className="text">
                         <p className="text-justify">
-                          <span className="font-w-800">
-                            Pesticide Residues:
-                          </span>{" "}
+                          <span className="font-w-800">Pesticide Residues:</span>{" "}
                           Exported rice should comply with international
                           regulations regarding the permissible levels of
                           chemical residues, including pesticides and heavy
@@ -332,6 +299,7 @@ export default function QualityControlPage() {
 
       <EnquiryForm />
       <Footer />
+      <ActionButtons />
     </div>
   );
 }

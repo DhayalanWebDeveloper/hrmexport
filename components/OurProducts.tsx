@@ -17,43 +17,43 @@ const tabs: Tab[] = [
     products: [
       {
         name: '1121 BASMATI RICE',
-        image: 'https://www.hrmexports.com/storage/images/67a47e7c2df47.jpg',
-        href: 'https://www.hrmexports.com/1121-basmati-rice.html',
+        image: '/storage/images/67a47e7c2df47.jpg',
+        href: '/1121-basmati-rice',
       },
       {
         name: '1718 BASMATI RICE',
-        image: 'https://www.hrmexports.com/storage/images/67a4884436e27.jpg',
-        href: 'https://www.hrmexports.com/1718-basmati-rice.html',
+        image: '/storage/images/67a4884436e27.jpg',
+        href: '/1718-basmati-rice',
       },
       {
         name: '1509 BASMATI RICE',
-        image: 'https://www.hrmexports.com/storage/images/67a48862d9184.jpg',
-        href: 'https://www.hrmexports.com/1509-basmati-rice.html',
+        image: '/storage/images/67a48862d9184.jpg',
+        href: '/1509-basmati-rice',
       },
       {
         name: '1401 BASMATI RICE',
-        image: 'https://www.hrmexports.com/storage/images/67a4886ab0837.jpg',
-        href: 'https://www.hrmexports.com/1401-basmati-rice.html',
+        image: '/storage/images/67a4886ab0837.jpg',
+        href: '/1401-basmati-rice',
       },
       {
         name: 'PUSA BASMATI RICE',
-        image: 'https://www.hrmexports.com/storage/images/67a48872b51e0.jpg',
-        href: 'https://www.hrmexports.com/pusa-basmati-rice.html',
+        image: '/storage/images/67a48872b51e0.jpg',
+        href: '/pusa-basmati-rice',
       },
       {
         name: 'TRADITIONAL BASMATI RICE',
-        image: 'https://www.hrmexports.com/storage/images/67a4887b2a40a.jpg',
-        href: 'https://www.hrmexports.com/traditional-basmati-rice.html',
+        image: '/storage/images/67a4887b2a40a.jpg',
+        href: '/traditional-basmati-rice',
       },
       {
         name: 'BEHROUZ BASMATI RICE',
-        image: 'https://www.hrmexports.com/storage/images/66e6b24739d3d.png',
-        href: 'https://www.hrmexports.com/behrouz-basmati-rice-exporter-in-india.html',
+        image: '/storage/images/66e6b24739d3d.png',
+        href: '/behrouz-basmati-rice-exporter-in-india',
       },
       {
         name: 'BASMATI RICE',
-        image: 'https://www.hrmexports.com/storage/images/66e844d1b5fa6.jpg',
-        href: 'https://www.hrmexports.com/basmati-rice.html',
+        image: '/storage/images/66e844d1b5fa6.jpg',
+        href: '/basmati-rice',
       },
     ],
   },
@@ -63,33 +63,33 @@ const tabs: Tab[] = [
     products: [
       {
         name: 'SUGANDHA RICE',
-        image: 'https://www.hrmexports.com/storage/images/67a4898b583bd.jpg',
-        href: 'https://www.hrmexports.com/sugandha-rice.html',
+        image: '/storage/images/67a4898b583bd.jpg',
+        href: '/sugandha-rice',
       },
       {
         name: 'SHARBATI RICE',
-        image: 'https://www.hrmexports.com/storage/images/67a489945bd60.jpg',
-        href: 'https://www.hrmexports.com/sharbati-rice.html',
+        image: '/storage/images/67a489945bd60.jpg',
+        href: '/sharbati-rice',
       },
       {
         name: 'PR11 RICE',
-        image: 'https://www.hrmexports.com/storage/images/67a489a067bf2.jpg',
-        href: 'https://www.hrmexports.com/pr11-rice.html',
+        image: '/storage/images/67a489a067bf2.jpg',
+        href: '/pr11-rice',
       },
       {
         name: 'PR 14 RICE',
-        image: 'https://www.hrmexports.com/storage/images/67a489aa3aaf1.jpg',
-        href: 'https://www.hrmexports.com/pr-14-rice.html',
+        image: '/storage/images/67a489aa3aaf1.jpg',
+        href: '/pr-14-rice',
       },
       {
         name: 'PARMAL RICE',
-        image: 'https://www.hrmexports.com/storage/images/67a489b2438bb.jpg',
-        href: 'https://www.hrmexports.com/parmal-rice.html',
+        image: '/storage/images/67a489b2438bb.jpg',
+        href: '/parmal-rice',
       },
       {
         name: 'SONA MASOORI RICE',
-        image: 'https://www.hrmexports.com/storage/images/67a489bbaa914.jpg',
-        href: 'https://www.hrmexports.com/sona-masoori-rice.html',
+        image: '/storage/images/67a489bbaa914.jpg',
+        href: '/sona-masoori-rice',
       },
     ],
   },
@@ -99,23 +99,23 @@ const tabs: Tab[] = [
     products: [
       {
         name: 'PESTICIDE RESIDUE FREE STEAM RICE',
-        image: 'https://www.hrmexports.com/storage/images/67a48b12bc5ad.jpg',
-        href: 'https://www.hrmexports.com/pesticide-residue-free-steam-rice.html',
+        image: '/storage/images/67a48b12bc5ad.jpg',
+        href: '/pesticide-residue-free-steam-rice',
       },
       {
         name: 'PESTICIDE RESIDUE FREE SELLA RICE',
-        image: 'https://www.hrmexports.com/storage/images/67a48b210dd0f.jpg',
-        href: 'https://www.hrmexports.com/pesticide-residue-free-sella-rice.html',
+        image: '/storage/images/67a48b210dd0f.jpg',
+        href: '/pesticide-residue-free-sella-rice',
       },
       {
         name: 'PESTICIDE RESIDUE FREE GOLDEN SELLA RICE',
-        image: 'https://www.hrmexports.com/storage/images/67a48b29b6307.jpg',
-        href: 'https://www.hrmexports.com/pesticide-residue-free-golden-sella-rice.html',
+        image: '/storage/images/67a48b29b6307.jpg',
+        href: '/pesticide-residue-free-golden-sella-rice',
       },
       {
         name: 'PESTICIDE RESIDUE FREE RAW RICE',
-        image: 'https://www.hrmexports.com/storage/images/67a48b357b962.jpg',
-        href: 'https://www.hrmexports.com/pesticide-residue-free-raw-rice.html',
+        image: '/storage/images/67a48b357b962.jpg',
+        href: '/pesticide-residue-free-raw-rice',
       },
     ],
   },
@@ -127,7 +127,7 @@ export default function OurProducts() {
       className="project-one pt-100"
       style={{
         backgroundImage:
-          "url('https://www.hrmexports.com/assets/images/backgrounds/footer-bg-1.jpg')",
+          "url('/assets/images/backgrounds/footer-bg-1.jpg')",
         backgroundSize: 'cover',
       }}
     >
@@ -135,7 +135,7 @@ export default function OurProducts() {
         <div className="section-title text-center">
           <div className="section-title__icon">
             <img
-              src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
+              src="/assets/images/icon/section-title-icon.png"
               alt="HRM Exports"
             />
           </div>

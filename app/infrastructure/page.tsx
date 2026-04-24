@@ -1,38 +1,10 @@
-'use client';
-
-import { useEffect } from 'react';
 import Header from "@/components/Header";
 import EnquiryForm from "@/components/EnquiryForm";
 import Footer from "@/components/Footer";
+import ActionButtons from "@/components/ActionButtons";
+import Link from "next/link";
 
 export default function InfrastructurePage() {
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const el = entry.target as HTMLElement;
-            const delay = el.getAttribute('data-wow-delay') || '0ms';
-            const duration = el.getAttribute('data-wow-duration') || '1s';
-            el.style.animationDelay = delay;
-            el.style.animationDuration = duration;
-            el.style.visibility = 'visible';
-            el.classList.add('animated');
-            observer.unobserve(el);
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    document.querySelectorAll('.wow').forEach((el) => {
-      (el as HTMLElement).style.visibility = 'hidden';
-      observer.observe(el);
-    });
-
-    return () => observer.disconnect();
-  }, []);
-
   return (
     <div className="page-wrapper">
       <Header />
@@ -43,7 +15,7 @@ export default function InfrastructurePage() {
           className="page-header-bg"
           style={{
             backgroundImage:
-              "url(https://www.hrmexports.com/assets/images/backgrounds/infra-bg-1.jpg)",
+              "url(/assets/images/backgrounds/infra-bg-1.jpg)",
           }}
         ></div>
         <div className="container">
@@ -51,7 +23,7 @@ export default function InfrastructurePage() {
             <h2>Infrastructure</h2>
             <ul className="thm-breadcrumb list-unstyled">
               <li>
-                <a href="/">Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
                 <span>&gt;</span>
@@ -62,7 +34,7 @@ export default function InfrastructurePage() {
         </div>
       </section>
 
-      {/* About Section */}
+      {/* Infrastructure Intro */}
       <section className="about-four pb-0">
         <div className="container">
           <div className="row">
@@ -73,8 +45,8 @@ export default function InfrastructurePage() {
                 data-wow-duration="1500ms"
               >
                 <img
-                  src="https://www.hrmexports.com/assets/images/resources/infra-1.jpg"
-                  className="img-fluid"
+                  src="/assets/images/resources/infra-1.jpg"
+                  className="img-fluid transition-transform duration-500 hover:scale-105"
                   alt="infra"
                 />
               </div>
@@ -84,7 +56,7 @@ export default function InfrastructurePage() {
                 <div className="section-title text-left">
                   <div className="section-title__icon">
                     <img
-                      src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
+                      src="/assets/images/icon/section-title-icon.png"
                       alt="Company"
                     />
                   </div>
@@ -112,26 +84,26 @@ export default function InfrastructurePage() {
                   initial stages of our journey we have always believed that our
                   customers deserve nothing less than the best. So it has been a
                   constant endeavour on our part to strive for excellence. HRM
-                  Exports' major manufacturing and processing facility is ideally
-                  located at Karnal. The strategic location of plant ensures
-                  expeditious transportation of harvested paddy from specially
-                  identified collection centre across paddy growing belt of
-                  Northern India, thus minimizing transit damage to the delicate
-                  grain rice.
+                  Exports&apos; major manufacturing and processing facility is
+                  ideally located at Karnal. The strategic location of plant
+                  ensures expeditious transportation of harvested paddy from
+                  specially identified collection centre across paddy growing
+                  belt of Northern India, thus minimizing transit damage to the
+                  delicate grain rice.
                 </p>
                 <p
                   className="about-four__text text-justify wow fadeInUp"
                   data-wow-delay="500ms"
                   data-wow-duration="1500ms"
                 >
-                  HRM Exports has become one of the most famous hub for
-                  producing one of the best quality of 1121 raw/steam and
-                  parboiled / Sella. The rice crop grown is of superior quality
-                  due to the presence of heavy soil. Our daily production
-                  capacity is 230 ton metric tons. Our rice plants are ISO 9001:
-                  2000, and certified. Our rice mills are equipped with latest
-                  technology &amp; machinery which involves rice milling, processing
-                  and packaging.
+                  HRM Exports has become one of the most famous hub for producing
+                  one of the best quality of 1121 raw/steam and parboiled /
+                  Sella. The rice crop grown is of superior quality due to the
+                  presence of heavy soil. Our daily production capacity is 230
+                  ton metric tons. Our rice plants are ISO 9001: 2000, and
+                  certified. Our rice mills are equipped with latest technology
+                  &amp; machinery which involves rice milling, processing and
+                  packaging.
                 </p>
               </div>
             </div>
@@ -139,72 +111,72 @@ export default function InfrastructurePage() {
         </div>
       </section>
 
-      {/* Infrastructure Images */}
+      {/* Services Page - Infrastructure Gallery */}
       <section className="services-page pt-45">
         <div className="container">
           <div className="row">
-            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-              <div className="services-one__single">
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 ">
+              <div className="services-one__single transition duration-300 hover:-translate-y-1 hover:shadow-xl">
                 <div className="services-one__img-box">
                   <img
-                    src="https://www.hrmexports.com/assets/images/resources/history-1.jpg"
+                    src="/assets/images/resources/history-1.jpg"
                     alt="history1"
-                    className="img-fluid"
+                    className="img-fluid transition-transform duration-500 hover:scale-105"
                   />
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-              <div className="services-one__single">
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12  ">
+              <div className="services-one__single transition duration-300 hover:-translate-y-1 hover:shadow-xl">
                 <div className="services-one__img-box">
                   <img
-                    src="https://www.hrmexports.com/assets/images/resources/history-3.jpg"
+                    src="/assets/images/resources/history-3.jpg"
                     alt="history3"
-                    className="img-fluid"
+                    className="img-fluid transition-transform duration-500 hover:scale-105"
                   />
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-              <div className="services-one__single">
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12  ">
+              <div className="services-one__single transition duration-300 hover:-translate-y-1 hover:shadow-xl">
                 <div className="services-one__img-box">
                   <img
-                    src="https://www.hrmexports.com/assets/images/resources/history-5.jpg"
+                    src="/assets/images/resources/history-5.jpg"
                     alt="history5"
-                    className="img-fluid"
+                    className="img-fluid transition-transform duration-500 hover:scale-105"
                   />
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-              <div className="services-one__single">
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12  ">
+              <div className="services-one__single transition duration-300 hover:-translate-y-1 hover:shadow-xl">
                 <div className="services-one__img-box">
                   <img
-                    src="https://www.hrmexports.com/assets/images/resources/history-7.jpg"
+                    src="/assets/images/resources/history-7.jpg"
                     alt="history7"
-                    className="img-fluid"
+                    className="img-fluid transition-transform duration-500 hover:scale-105"
                   />
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-              <div className="services-one__single">
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 ">
+              <div className="services-one__single transition duration-300 hover:-translate-y-1 hover:shadow-xl">
                 <div className="services-one__img-box">
                   <img
-                    src="https://www.hrmexports.com/assets/images/resources/history-8.jpg"
+                    src="/assets/images/resources/history-8.jpg"
                     alt="history8"
-                    className="img-fluid"
+                    className="img-fluid transition-transform duration-500 hover:scale-105"
                   />
                 </div>
               </div>
             </div>
-            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-              <div className="services-one__single">
+            <div className="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 ">
+              <div className="services-one__single transition duration-300 hover:-translate-y-1 hover:shadow-xl">
                 <div className="services-one__img-box">
                   <img
-                    src="https://www.hrmexports.com/assets/images/resources/history-9.jpg"
+                    src="/assets/images/resources/history-9.jpg"
                     alt="history9"
-                    className="img-fluid"
+                    className="img-fluid transition-transform duration-500 hover:scale-105"
                   />
                 </div>
               </div>
@@ -215,6 +187,7 @@ export default function InfrastructurePage() {
 
       <EnquiryForm />
       <Footer />
+      <ActionButtons />
     </div>
   );
 }

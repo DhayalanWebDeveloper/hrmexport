@@ -5,7 +5,7 @@ export default function RiceRecipes() {
     <section
       className="blog-one"
       style={{
-        backgroundImage: "url('assets/static/Rice-Recipes-bg.webp')",
+        backgroundImage: "url('/assets/static/Rice-Recipes-bg.webp')",
         backgroundSize: 'cover',
       }}
     >
@@ -13,7 +13,7 @@ export default function RiceRecipes() {
         <div className="section-title text-center">
           <div className="section-title__icon">
             <img
-              src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
+              src="/assets/images/icon/section-title-icon.png"
               alt="HRM Exports"
             />
           </div>
@@ -39,7 +39,7 @@ export default function RiceRecipes() {
               <div className="blog-one__img-box">
                 <div className="blog-one__img">
                   <img
-                    src="https://www.hrmexports.com/storage/recipe_images/YIeFrGR0YgdUmOmGzZTCsbMJsOa7sBOwBdctl4LH.jpg"
+                    src="/storage/recipe_images/YIeFrGR0YgdUmOmGzZTCsbMJsOa7sBOwBdctl4LH.jpg"
                     alt="HRM Exports"
                   />
                   <Link href="/mushroom-biryani.html">
@@ -92,7 +92,7 @@ export default function RiceRecipes() {
               <div className="blog-one__img-box">
                 <div className="blog-one__img">
                   <img
-                    src="https://www.hrmexports.com/storage/recipe_images/VaIYCwJWfBaSjLdY69plTLsqOMognzK7awUxOsnm.jpg"
+                    src="/storage/recipe_images/VaIYCwJWfBaSjLdY69plTLsqOMognzK7awUxOsnm.jpg"
                     alt="HRM Exports"
                   />
                   <Link href="/lemon-rice.html">
@@ -145,7 +145,7 @@ export default function RiceRecipes() {
               <div className="blog-one__img-box">
                 <div className="blog-one__img">
                   <img
-                    src="https://www.hrmexports.com/storage/recipe_images/ko0UfhwnTJ9NxVlDEuGf5ZIwqbG9BcXdHQDApFzG.jpg"
+                    src="/storage/recipe_images/ko0UfhwnTJ9NxVlDEuGf5ZIwqbG9BcXdHQDApFzG.jpg"
                     alt="HRM Exports"
                   />
                   <Link href="/corn-pulao.html">

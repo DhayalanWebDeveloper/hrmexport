@@ -6,7 +6,7 @@ export default function HRMExports() {
       className="about-one"
       style={{
         backgroundImage:
-          "url('https://www.hrmexports.com/assets/images/backgrounds/Ricebg.webp')",
+          "url('/assets/images/backgrounds/Ricebg.webp')",
         backgroundPosition: '50% 50%',
         backgroundColor: 'rgba(0, 0, 0, 0.7)',
         backgroundRepeat: 'no-repeat',
@@ -26,7 +26,7 @@ export default function HRMExports() {
                 >
                   <div>
                     <img
-                      src="https://www.hrmexports.com/assets/images/resources/ricemanu.png"
+                      src="/assets/images/resources/ricemanu.png"
                       className="img-fluid"
                       alt="HRM Exports"
                     />
@@ -34,13 +34,13 @@ export default function HRMExports() {
                   <div className="about-one__experience">
                     <div className="about-one__experience-shape-1">
                       <img
-                        src="https://www.hrmexports.com/assets/images/shapes/about-one-experience-shape-1.png"
+                        src="/assets/images/shapes/about-one-experience-shape-1.png"
                         alt="HRM Exports"
                       />
                     </div>
                     <div className="about-one__experience-shape-2">
                       <img
-                        src="https://www.hrmexports.com/assets/images/shapes/about-one-experience-shape-2.png"
+                        src="/assets/images/shapes/about-one-experience-shape-2.png"
                         alt="HRM Exports"
                       />
                     </div>
@@ -63,7 +63,7 @@ export default function HRMExports() {
                 <div className="section-title text-left">
                   <div className="section-title__icon">
                     <img
-                      src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
+                      src="/assets/images/icon/section-title-icon.png"
                       alt="HRM Exports"
                     />
                   </div>
@@ -165,14 +165,14 @@ export default function HRMExports() {
                 >
                   <div className="about-one__img">
                     <img
-                      src="https://www.hrmexports.com/assets/images/resources/quantity.webp"
+                      src="/assets/images/resources/quantity.webp"
                       className="img-fluid"
                       alt="HRM Exports"
                     />
                   </div>
                   <div className="about-one__img-two">
                     <img
-                      src="https://www.hrmexports.com/assets/images/resources/about-three-img-2.jpg"
+                      src="/assets/images/resources/about-three-img-2.jpg"
                       alt="HRM Exports"
                     />
                   </div>

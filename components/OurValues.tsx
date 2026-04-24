@@ -4,7 +4,7 @@ export default function OurValues() {
       className="feature-one"
       style={{
         backgroundImage:
-          "url('https://www.hrmexports.com/assets/images/backgrounds/2397327.png')",
+          "url('/assets/images/backgrounds/2397327.png')",
         backgroundPosition: '50% 50%',
         backgroundRepeat: 'no-repeat',
         paddingTop: '70px',
@@ -15,7 +15,7 @@ export default function OurValues() {
         <div className="section-title text-center">
           <div className="section-title__icon">
             <img
-              src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
+              src="/assets/images/icon/section-title-icon.png"
               alt="HRM Exports"
             />
           </div>

@@ -35,15 +35,15 @@ const swiperOptions = `{"spaceBetween": 10,
                     }}`;
 
 const certificates = [
-  "https://www.hrmexports.com/assets/images/resources/certificate-logo-5.png",
-  "https://www.hrmexports.com/assets/images/resources/certificate-logo-6.png",
-  "https://www.hrmexports.com/assets/images/resources/certificate-logo-8.png",
-  "https://www.hrmexports.com/assets/images/resources/certificate-logo-3.png",
-  "https://www.hrmexports.com/assets/images/resources/certificate-logo-4.png",
-  "https://www.hrmexports.com/assets/images/resources/certificate-logo-2.png",
-  "https://www.hrmexports.com/assets/images/resources/certificate-logo-7.png",
-  "https://www.hrmexports.com/assets/images/resources/certificate-logo-9.png",
-  "https://www.hrmexports.com/assets/images/resources/certificate-logo-10.png",
+  "/assets/images/resources/certificate-logo-5.png",
+  "/assets/images/resources/certificate-logo-6.png",
+  "/assets/images/resources/certificate-logo-8.png",
+  "/assets/images/resources/certificate-logo-3.png",
+  "/assets/images/resources/certificate-logo-4.png",
+  "/assets/images/resources/certificate-logo-2.png",
+  "/assets/images/resources/certificate-logo-7.png",
+  "/assets/images/resources/certificate-logo-9.png",
+  "/assets/images/resources/certificate-logo-10.png",
 ];
 
 export default function WeAreCertified() {
@@ -53,7 +53,7 @@ export default function WeAreCertified() {
         <div className="section-title text-center">
           <div className="section-title__icon">
             <img
-              src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
+              src="/assets/images/icon/section-title-icon.png"
               alt="HRM Exports"
             />
           </div>

@@ -1,38 +1,10 @@
-'use client';
-
-import { useEffect } from 'react';
 import Header from "@/components/Header";
 import EnquiryForm from "@/components/EnquiryForm";
 import Footer from "@/components/Footer";
+import ActionButtons from "@/components/ActionButtons";
+import Link from "next/link";
 
 export default function HistoryPage() {
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const el = entry.target as HTMLElement;
-            const delay = el.getAttribute('data-wow-delay') || '0ms';
-            const duration = el.getAttribute('data-wow-duration') || '1s';
-            el.style.animationDelay = delay;
-            el.style.animationDuration = duration;
-            el.style.visibility = 'visible';
-            el.classList.add('animated');
-            observer.unobserve(el);
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    document.querySelectorAll('.wow').forEach((el) => {
-      (el as HTMLElement).style.visibility = 'hidden';
-      observer.observe(el);
-    });
-
-    return () => observer.disconnect();
-  }, []);
-
   return (
     <div className="page-wrapper">
       <Header />
@@ -43,7 +15,7 @@ export default function HistoryPage() {
           className="page-header-bg"
           style={{
             backgroundImage:
-              "url(https://www.hrmexports.com/assets/images/backgrounds/history-bg-1.jpg)",
+              "url(/assets/images/backgrounds/history-bg-1.jpg)",
           }}
         ></div>
         <div className="container">
@@ -51,7 +23,7 @@ export default function HistoryPage() {
             <h2>History</h2>
             <ul className="thm-breadcrumb list-unstyled">
               <li>
-                <a href="/">Home</a>
+                <Link href="/">Home</Link>
               </li>
               <li>
                 <span>&gt;</span>
@@ -63,12 +35,12 @@ export default function HistoryPage() {
       </section>
 
       {/* History Timeline */}
-      <section className="about-four">
+      <section className="about-four  ">
         <div className="timeline">
           <div className="section-title text-center">
             <div className="section-title__icon">
               <img
-                src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
+                src="/assets/images/icon/section-title-icon.png"
                 alt="Who Are Hrm Exports"
               />
             </div>
@@ -90,7 +62,7 @@ export default function HistoryPage() {
           <section className="timeline">
             <ul>
               <li>
-                <div className="content wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
+                <div className="content">
                   <div className="timeline-content-info">
                     <span className="timeline-content-info-title">
                       <i className="fa fa-certificate" aria-hidden="true"></i>
@@ -112,7 +84,7 @@ export default function HistoryPage() {
                 </div>
               </li>
               <li>
-                <div className="content wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <div className="content">
                   <div className="timeline-content-info">
                     <span className="timeline-content-info-title">
                       <i className="fa fa-certificate" aria-hidden="true"></i>
@@ -125,15 +97,15 @@ export default function HistoryPage() {
                   </div>
                   <p className="mt-30 text-justify">
                     Recognizing the need to enhance quality through modern
-                    techniques and expand their business capacities, a new modern
-                    unit named M/s Hanuman Rice Mills was established in Taraori
-                    District Karnal, Haryana, in 1990. As Taraori is known as
-                    the rice bowl of Asia.
+                    techniques and expand their business capacities, a new
+                    modern unit named M/s Hanuman Rice Mills was established in
+                    Taraori District Karnal, Haryana, in 1990. As Taraori is
+                    known as the rice bowl of Asia.
                   </p>
                 </div>
               </li>
               <li>
-                <div className="content wow fadeInUp" data-wow-delay="300ms" data-wow-duration="1500ms">
+                <div className="content">
                   <div className="timeline-content-info">
                     <span className="timeline-content-info-title">
                       <i className="fa fa-certificate" aria-hidden="true"></i>
@@ -153,7 +125,7 @@ export default function HistoryPage() {
                 </div>
               </li>
               <li>
-                <div className="content wow fadeInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
+                <div className="content">
                   <div className="timeline-content-info">
                     <span className="timeline-content-info-title">
                       <i className="fa fa-certificate" aria-hidden="true"></i>
@@ -173,7 +145,7 @@ export default function HistoryPage() {
                 </div>
               </li>
               <li>
-                <div className="content wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
+                <div className="content">
                   <div className="timeline-content-info">
                     <span className="timeline-content-info-title">
                       <i className="fa fa-certificate" aria-hidden="true"></i>
@@ -194,7 +166,7 @@ export default function HistoryPage() {
                 </div>
               </li>
               <li>
-                <div className="content wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
+                <div className="content">
                   <div className="timeline-content-info">
                     <span className="timeline-content-info-title">
                       <i className="fa fa-certificate" aria-hidden="true"></i>
@@ -216,7 +188,6 @@ export default function HistoryPage() {
             </ul>
           </section>
         </div>
-
         <div className="container">
           <p
             className="about-four__text text-justify mt-30 wow fadeInUp"
@@ -227,15 +198,16 @@ export default function HistoryPage() {
             rice export industry. They export rice to more than 50 countries,
             providing non-pesticide rice that adheres to the quality standards
             set by the European Union and the USA. With a commitment to
-            excellence and legacy of 50 years and four generations, HRM EXPORTS
-            continues to contribute to the world&#39;s rice market and uphold their
-            vision of providing high-quality rice to customers worldwide.
+            excellence and legacy of 50 years and four generations , HRM EXPORTS
+            continues to contribute to the world&apos;s rice market and uphold
+            their vision of providing high-quality rice to customers worldwide.
           </p>
         </div>
       </section>
 
       <EnquiryForm />
       <Footer />
+      <ActionButtons />
     </div>
   );
 }

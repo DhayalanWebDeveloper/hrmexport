@@ -1,31 +1,31 @@
 export default function ReasonsToChoose() {
   const reasons = [
     {
-      icon: "https://www.hrmexports.com/assets/images/icon/8.png",
+      icon: "/assets/images/icon/8.png",
       title: "Quality Assurance",
       text:
         "HRM Exports , the name itself promises that you’re getting an quality product that has been grown, harvested, stored and cared.",
     },
     {
-      icon: "https://www.hrmexports.com/assets/images/icon/9.png",
+      icon: "/assets/images/icon/9.png",
       title: "Advanced Milling & Processing",
       text:
         "By using state-of-the-art milling and processing, we are at HRM Exports, the milling and processing the paddy with international quality standards.",
     },
     {
-      icon: "https://www.hrmexports.com/assets/images/icon/10.png",
+      icon: "/assets/images/icon/10.png",
       title: "Ageing",
       text:
         "Our rice will never fail to impress our customers because they are perfectly aged. The result is guaranteed fluffy, super smooth and finest grains.",
     },
     {
-      icon: "https://www.hrmexports.com/assets/images/icon/12.png",
+      icon: "/assets/images/icon/12.png",
       title: "Advanced Testing",
       text:
         "Samples of each procured rice sample go through intense testing by technicians and are approved only after certifications from suitable authorities.",
     },
     {
-      icon: "https://www.hrmexports.com/assets/images/icon/13.png",
+      icon: "/assets/images/icon/13.png",
       title: "On Time Delivery",
       text:
         "We seek to meet the needs of all clients by delivering varieties of rice on time at various price ranges, without compromising on the quality",
@@ -37,7 +37,7 @@ export default function ReasonsToChoose() {
       className="contact-one bdmbcolor relative bg-no-repeat"
       style={{
         padding: "79px 0 95px",
-        backgroundImage: "url('assets/static/Reasons-to-Choose-HRM.webp')",
+        backgroundImage: "url('/assets/static/Reasons-to-Choose-HRM.webp')",
         backgroundSize: "cover",
       }}
     >

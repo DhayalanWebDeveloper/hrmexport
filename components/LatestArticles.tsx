@@ -7,14 +7,14 @@ export default function LatestArticles() {
         className="blog-two__bg"
         style={{
           backgroundImage:
-            'url(https://www.hrmexports.com/assets/images/backgrounds/blog-two-bg.png)',
+            'url(/assets/images/backgrounds/blog-two-bg.png)',
         }}
       ></div>
       <div className="container">
         <div className="section-title text-center">
           <div className="section-title__icon">
             <img
-              src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
+              src="/assets/images/icon/section-title-icon.png"
               alt="HRM Exports"
             />
           </div>
@@ -33,7 +33,7 @@ export default function LatestArticles() {
               <div className="blog-two__img-box">
                 <div className="blog-two__img">
                   <img
-                    src="https://www.hrmexports.com/storage/images/69e210f31f926.png"
+                    src="/storage/images/69e210f31f926.png"
                     alt="HRM Exports"
                   />
                 </div>
@@ -60,7 +60,7 @@ export default function LatestArticles() {
               <div className="blog-two__img-box">
                 <div className="blog-two__img">
                   <img
-                    src="https://www.hrmexports.com/storage/images/69b29d0b236d3.jpg"
+                    src="/storage/images/69b29d0b236d3.jpg"
                     alt="HRM Exports"
                   />
                 </div>
@@ -88,7 +88,7 @@ export default function LatestArticles() {
               <div className="blog-two__img-box">
                 <div className="blog-two__img">
                   <img
-                    src="https://www.hrmexports.com/storage/images/69a016cae83f9.jpg"
+                    src="/storage/images/69a016cae83f9.jpg"
                     alt="HRM Exports"
                   />
                 </div>

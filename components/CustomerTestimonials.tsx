@@ -19,7 +19,7 @@ const testimonials = [
   },
   {
     name: "Mohammad",
-    stars: 4,
+    stars: 5,
     text:
       "Our partnership with HRM Exports has been nothing short of excellent. Their consistent quality, reliability, and professionalism make them our preferred choice, and we look forward to many more years of collaboration.",
   },
@@ -57,7 +57,7 @@ export default function CustomerTestimonials() {
               <div className="section-title text-left">
                 <div className="section-title__icon">
                   <img
-                    src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png"
+                    src="/assets/images/icon/section-title-icon.png"
                     alt="HRM Exports"
                   />
                 </div>
@@ -84,7 +84,7 @@ export default function CustomerTestimonials() {
                           className="testimonial-one__shape-1 opacity-60 transition-opacity duration-300 hover:opacity-100"
                           style={{
                             backgroundImage:
-                              "url('https://www.hrmexports.com/assets/images/shapes/testimonial-one-shape-1.png')",
+                              "url('/assets/images/shapes/testimonial-one-shape-1.png')",
                           }}
                         ></div>
                         <div className="testimonial-one__review flex gap-1 text-hrm-lime">
