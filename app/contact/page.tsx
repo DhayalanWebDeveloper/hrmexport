@@ -127,37 +127,38 @@ export default function ContactPage() {
                   <ul className="list-info">
                     <li>
                       <i className="icon-address"></i>
-                      Factory Address : Sagga Road, Vill. Nariana (Taraori)
-                      India, Karnal-132001, India
+                      No 53, Pillaiyar kovil street, Kottiyampundi,
+                      Viluppuram, Tamil Nadu - 605203
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-user"></i>
+                      Legal Name: JAYARAMAN KANAGARAJ
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-building"></i>
+                      Trade Name: JKR Sozhan Paddy & Rice Trader
+                    </li>
+                    <li>
+                      <i className="fa-solid fa-briefcase"></i>
+                      Constitution of Business: Proprietorship
                     </li>
                     <li>
                       <i className="fa-regular fa-envelope"></i>
                       <a
-                        href="mailto:info@hrmexports.com"
+                        href="mailto:jkrajjkraj84@gmail.com"
                         className="text-white transition-colors duration-300 hover:text-[#afc836]"
                       >
-                        info@hrmexports.com
+                        jkrajjkraj84@gmail.com
                       </a>
                     </li>
                     <li>
                       <i className="fa-solid fa-phone"></i>
-                      Mr. Vipin Garg :
                       <a
-                        href="tel:+91 73 5700 0031"
+                        href="tel:+91 9003374455"
                         className="text-white transition-colors duration-300 hover:text-[#afc836]"
                       >
                         {" "}
-                        +91 73 5700 0031
-                      </a>
-                    </li>
-                    <li>
-                      <i className="fa-solid fa-phone"></i>
-                      Mr. Aakash Garg :{" "}
-                      <a
-                        href="tel:+91 73 5100 0031"
-                        className="text-white transition-colors duration-300 hover:text-[#afc836]"
-                      >
-                        +91 73 5100 0031
+                        +91 9003374455
                       </a>
                     </li>
                   </ul>
