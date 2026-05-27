@@ -3,7 +3,7 @@ export default function ActionButtons() {
     <>
       <div className="fixed-sec-fot">
         <a
-          href="https://api.whatsapp.com/send?phone=917351000031&text=Hello, I saw your Company profile on your Hrm Exports website, can i get more Details?"
+          href="https://api.whatsapp.com/send?phone=919003374455&text=Hello, I saw your Company profile on your Hrm Exports website, can i get more Details?"
           className="float-ban shakehv transition-transform hover:scale-110"
           data-bs-toggle="tooltip"
           data-bs-placement="right"
@@ -25,7 +25,7 @@ export default function ActionButtons() {
         </a>
 
         <a
-          href="tel:+91 73 5700 0031"
+          href="tel:+91 9003374455"
           className="float_1-ban shakehv transition-transform hover:scale-110"
           data-bs-toggle="tooltip"
           data-bs-placement="right"
@@ -35,7 +35,7 @@ export default function ActionButtons() {
         </a>
 
         <a
-          href="https://www.google.com/maps/place/HRM+EXPORTS/@29.7642828,76.8666694,17z/data=!3m1!4b1!4m6!3m5!1s0x390e6bf897401eaf:0xfca271b94f5cc8f!8m2!3d29.7642782!4d76.8692443!16s%2Fg%2F11h0d7_j7?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+          href="https://www.google.com/maps/search/No+53,+Pillaiyar+kovil+street,+Kottiyampundi,+Viluppuram,+Tamil+Nadu+-+605203"
           className="float-ban shakehv transition-transform hover:scale-110"
           data-bs-toggle="tooltip"
           data-bs-placement="right"

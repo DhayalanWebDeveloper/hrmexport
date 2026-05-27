@@ -35,10 +35,10 @@ export default function Footer() {
                   <div className="contact-details__icon">
                     <span className="icon-address"></span>
                   </div>
-                  <h4 className="contact-details__title">Factory Address:</h4>
+                  <h4 className="contact-details__title">Address:</h4>
                   <p className="contact-details__text">
                     {" "}
-                    Sagga Road, Vill. Nariana (Taraori) India, Karnal-132001, India
+                    No 53, Pillaiyar kovil street, Kottiyampundi, Viluppuram, Tamil Nadu - 605203
                   </p>
                 </div>
               </div>
@@ -64,11 +64,7 @@ export default function Footer() {
                   </div>
                   <h4 className="contact-details__title">Contact</h4>
                   <p className="contact-details__text">
-                    Mr. Vipin Garg :
-                    <a href="tel:+91 73 5700 0031"> +91 73 5700 0031</a>
-                    <br />
-                    Mr. Aakash Garg :
-                    <a href="tel:+91 73 5100 0031"> +91 73 5100 0031</a>
+                    <a href="tel:+91 9003374455">+91 9003374455</a>
                   </p>
                 </div>
               </div>
@@ -97,7 +93,7 @@ export default function Footer() {
                   </div>
                   <h4 className="contact-details__title">E- Mail Us</h4>
                   <p className="contact-details__text">
-                    <a href="mailto:info@hrmexports.com">info@hrmexports.com</a>
+                    <a href="mailto:jkrajjkraj84@gmail.com">jkrajjkraj84@gmail.com</a>
                   </p>
                 </div>
               </div>

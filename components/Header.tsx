@@ -13,7 +13,7 @@ export default function Header() {
                   <i className="fa-solid fa-square-phone"></i>
                 </div>
                 <div className="text">
-                  <p><a href="tel:+91 73 5700 0031" className="transition-colors duration-300 hover:text-[#afc836]">+91 73 5700 0031</a></p>
+                  <p><a href="tel:+91 9003374455" className="transition-colors duration-300 hover:text-[#afc836]">+91 9003374455</a></p>
                 </div>
               </li>
               <li>
@@ -21,7 +21,7 @@ export default function Header() {
                   <i className="fa-solid fa-envelope"></i>
                 </div>
                 <div className="text">
-                  <p><a href="mailto:info@hrmexports.com" className="transition-colors duration-300 hover:text-[#afc836]">info@hrmexports.com</a></p>
+                  <p><a href="mailto:jkrajjkraj84@gmail.com" className="transition-colors duration-300 hover:text-[#afc836]">jkrajjkraj84@gmail.com</a></p>
                 </div>
               </li>
             </ul>
