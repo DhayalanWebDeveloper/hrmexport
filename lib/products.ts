@@ -532,7 +532,7 @@ export const productCategories: ProductCategory[] = [
     name: "Indian Basmati Rice",
     image: "/storage/images/65117322264bb.jpg",
     description:
-      "HRM Exports offers the finest Indian Basmati rice — renowned for its exceptional aroma, delicate long grains and exquisite flavor, sourced from select farmers and aged to perfection.",
+      "JKR SOZHAN Exim offers the finest Indian Basmati rice — renowned for its exceptional aroma, delicate long grains and exquisite flavor, sourced from select farmers and aged to perfection.",
     varieties: [
       VARIETY_1121,
       VARIETY_1718,

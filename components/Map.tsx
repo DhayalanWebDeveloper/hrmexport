@@ -10,7 +10,7 @@ export default function Map() {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="HRM Exports Location"
+          title="JKR SOZHAN Exim Location"
         ></iframe>
       </div>
     </section>

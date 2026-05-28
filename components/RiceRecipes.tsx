@@ -14,7 +14,7 @@ export default function RiceRecipes() {
           <div className="section-title__icon">
             <img
               src="/assets/images/icon/section-title-icon.png"
-              alt="HRM Exports"
+              alt="JKR SOZHAN Exim"
             />
           </div>
           <h3
@@ -40,7 +40,7 @@ export default function RiceRecipes() {
                 <div className="blog-one__img">
                   <img
                     src="/storage/recipe_images/YIeFrGR0YgdUmOmGzZTCsbMJsOa7sBOwBdctl4LH.jpg"
-                    alt="HRM Exports"
+                    alt="JKR SOZHAN Exim"
                   />
                   <Link href="/mushroom-biryani.html">
                     <span className="blog-one__plus"></span>
@@ -93,7 +93,7 @@ export default function RiceRecipes() {
                 <div className="blog-one__img">
                   <img
                     src="/storage/recipe_images/VaIYCwJWfBaSjLdY69plTLsqOMognzK7awUxOsnm.jpg"
-                    alt="HRM Exports"
+                    alt="JKR SOZHAN Exim"
                   />
                   <Link href="/lemon-rice.html">
                     <span className="blog-one__plus"></span>
@@ -146,7 +146,7 @@ export default function RiceRecipes() {
                 <div className="blog-one__img">
                   <img
                     src="/storage/recipe_images/ko0UfhwnTJ9NxVlDEuGf5ZIwqbG9BcXdHQDApFzG.jpg"
-                    alt="HRM Exports"
+                    alt="JKR SOZHAN Exim"
                   />
                   <Link href="/corn-pulao.html">
                     <span className="blog-one__plus"></span>

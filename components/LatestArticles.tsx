@@ -15,7 +15,7 @@ export default function LatestArticles() {
           <div className="section-title__icon">
             <img
               src="/assets/images/icon/section-title-icon.png"
-              alt="HRM Exports"
+              alt="JKR SOZHAN Exim"
             />
           </div>
           <span className="section-title__tagline">Our Blogs Updates</span>
@@ -34,7 +34,7 @@ export default function LatestArticles() {
                 <div className="blog-two__img">
                   <img
                     src="/storage/images/69e210f31f926.png"
-                    alt="HRM Exports"
+                    alt="JKR SOZHAN Exim"
                   />
                 </div>
                 <div className="blog-two__date">
@@ -61,7 +61,7 @@ export default function LatestArticles() {
                 <div className="blog-two__img">
                   <img
                     src="/storage/images/69b29d0b236d3.jpg"
-                    alt="HRM Exports"
+                    alt="JKR SOZHAN Exim"
                   />
                 </div>
                 <div className="blog-two__date">
@@ -89,7 +89,7 @@ export default function LatestArticles() {
                 <div className="blog-two__img">
                   <img
                     src="/storage/images/69a016cae83f9.jpg"
-                    alt="HRM Exports"
+                    alt="JKR SOZHAN Exim"
                   />
                 </div>
                 <div className="blog-two__date">

@@ -77,7 +77,7 @@ export default function WeAreCertified() {
           <div className="section-title__icon">
             <img
               src="/assets/images/icon/section-title-icon.png"
-              alt="HRM Exports"
+              alt="JKR SOZHAN Exim"
             />
           </div>
           <span
@@ -108,7 +108,7 @@ export default function WeAreCertified() {
                 >
                   <img
                     src={src}
-                    alt="HRM Exports certificate"
+                    alt="JKR SOZHAN Exim certificate"
                     className="img-fluid max-h-[120px] w-auto object-contain transition duration-300 hover:scale-110"
                   />
                 </div>

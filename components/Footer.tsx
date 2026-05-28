@@ -311,7 +311,7 @@ export default function Footer() {
                 >
                   &copy; Copyright 2026 by{" "}
                   <a href="#" className="text-white">
-                    HRM Exports
+                    JKR SOZHAN Exim
                   </a>{" "}
                   || Develop By{" "}
                   <a

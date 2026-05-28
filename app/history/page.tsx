@@ -37,7 +37,7 @@ export default function HistoryPage() {
             <div className="section-title__icon">
               <img
                 src="/assets/images/icon/section-title-icon.png"
-                alt="Who Are Hrm Exports"
+                alt="Who Are JKR SOZHAN Exim"
               />
             </div>
             <span
@@ -45,7 +45,7 @@ export default function HistoryPage() {
               data-wow-delay="300ms"
               data-wow-duration="1500ms"
             >
-              Who Are Hrm Exports
+              Who Are JKR SOZHAN Exim
             </span>
             <h1
               className="section-title__title wow fadeInUp"
@@ -62,7 +62,7 @@ export default function HistoryPage() {
                   <div className="timeline-content-info">
                     <span className="timeline-content-info-title">
                       <i className="fa-solid fa-certificate" aria-hidden="true"></i>
-                      HRM EXPORTS began in
+                      JKR SOZHAN Exim began in
                     </span>
                     <span className="timeline-content-info-date">
                       <i className="fa-solid fa-calendar" aria-hidden="true"></i>
@@ -70,7 +70,7 @@ export default function HistoryPage() {
                     </span>
                   </div>
                   <p className="mt-30 text-justify">
-                    The story of HRM EXPORTS began in 1969 when Sh. Sewa Ram
+                    The story of JKR SOZHAN Exim began in 1969 when Sh. Sewa Ram
                     Garg, a visionary, along with his three brothers, started a
                     rice business with the aim of providing quality rice to the
                     entire world. They established a self rice unit in 1974
@@ -175,7 +175,7 @@ export default function HistoryPage() {
                   </div>
                   <p className="mt-30 text-justify">
                     In 2020, Hanuman Rice Mills underwent a rebranding and
-                    adopted a new name, M/s HRM EXPORTS, to further propel their
+                    adopted a new name, M/s JKR SOZHAN Exim, to further propel their
                     legacy and achievements in the highly competitive global
                     market.
                   </p>
@@ -190,11 +190,11 @@ export default function HistoryPage() {
             data-wow-delay="500ms"
             data-wow-duration="1500ms"
           >
-            Today, HRM EXPORTS has established itself as a renowned name in the
+            Today, JKR SOZHAN Exim has established itself as a renowned name in the
             rice export industry. They export rice to more than 50 countries,
             providing non-pesticide rice that adheres to the quality standards
             set by the European Union and the USA. With a commitment to
-            excellence and legacy of 50 years and four generations , HRM EXPORTS
+            excellence and legacy of 50 years and four generations , JKR SOZHAN Exim
             continues to contribute to the world&apos;s rice market and uphold
             their vision of providing high-quality rice to customers worldwide.
           </p>

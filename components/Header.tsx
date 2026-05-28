@@ -41,9 +41,9 @@ export default function Header() {
             <div className="main-menu__wrapper-inner">
               <div className="main-menu__left">
                 <div className="main-menu__logo">
-                  <Link href="/"><img src="/images/logo-1.webp" className="w-full h-auto transition-transform duration-300 hover:scale-105" alt="HRM Exports" /></Link>
+                  <Link href="/"><img src="/images/logo-1.webp" className="w-full h-auto transition-transform duration-300 hover:scale-105" alt="JKR SOZHAN Exim" /></Link>
                   <div className="main-menu__shape-1">
-                    <img src="/assets/images/shapes/main-menu-shape-1.png" alt="HRM Exports" />
+                    <img src="/assets/images/shapes/main-menu-shape-1.png" alt="JKR SOZHAN Exim" />
                   </div>
                 </div>
                 <div className="main-menu__main-menu-box">

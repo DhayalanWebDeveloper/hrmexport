@@ -4,13 +4,13 @@ export default function ReasonsToChoose() {
       icon: "/assets/images/icon/8.png",
       title: "Quality Assurance",
       text:
-        "HRM Exports , the name itself promises that you’re getting an quality product that has been grown, harvested, stored and cared.",
+        "JKR SOZHAN Exim , the name itself promises that you’re getting an quality product that has been grown, harvested, stored and cared.",
     },
     {
       icon: "/assets/images/icon/9.png",
       title: "Advanced Milling & Processing",
       text:
-        "By using state-of-the-art milling and processing, we are at HRM Exports, the milling and processing the paddy with international quality standards.",
+        "By using state-of-the-art milling and processing, we are at JKR SOZHAN Exim, the milling and processing the paddy with international quality standards.",
     },
     {
       icon: "/assets/images/icon/10.png",
@@ -51,7 +51,7 @@ export default function ReasonsToChoose() {
             <div className="why-choose-one__left">
               <div className="section-title text-left">
                 <h3 className="section-title__title text-hrm-green">
-                  Reasons to Choose HRM Exports
+                  Reasons to Choose JKR SOZHAN Exim
                 </h3>
               </div>
               <div className="why-choose-one__points-list mt-30">
@@ -64,7 +64,7 @@ export default function ReasonsToChoose() {
                   >
                     <li className="group transition duration-300 hover:-translate-y-1 hover:shadow-xl rounded-md">
                       <div className="icon transition-transform duration-300 group-hover:scale-110">
-                        <img src={r.icon} alt="HRM Exports" />
+                        <img src={r.icon} alt="JKR SOZHAN Exim" />
                       </div>
                       <div className="content">
                         <h3 className="transition-colors duration-300 group-hover:text-hrm-green">

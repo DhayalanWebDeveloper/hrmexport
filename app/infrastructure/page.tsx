@@ -92,7 +92,7 @@ export default function InfrastructurePage() {
                   data-wow-delay="500ms"
                   data-wow-duration="1500ms"
                 >
-                  HRM Exports has become one of the most famous hub for producing
+                  JKR SOZHAN Exim has become one of the most famous hub for producing
                   one of the best quality of 1121 raw/steam and parboiled /
                   Sella. The rice crop grown is of superior quality due to the
                   presence of heavy soil. Our daily production capacity is 230

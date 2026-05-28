@@ -3,7 +3,7 @@ export default function ActionButtons() {
     <>
       <div className="fixed-sec-fot">
         <a
-          href="https://api.whatsapp.com/send?phone=919003374455&text=Hello, I saw your Company profile on your Hrm Exports website, can i get more Details?"
+          href="https://api.whatsapp.com/send?phone=919003374455&text=Hello, I saw your Company profile on your JKR SOZHAN Exim website, can i get more Details?"
           className="float-ban shakehv transition-transform hover:scale-110"
           data-bs-toggle="tooltip"
           data-bs-placement="right"

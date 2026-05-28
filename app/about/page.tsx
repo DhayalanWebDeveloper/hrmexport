@@ -68,7 +68,7 @@ export default function AboutPage() {
                     data-wow-delay="400ms"
                     data-wow-duration="1500ms"
                   >
-                    Welcome to HRM Exports
+                    Welcome to JKR SOZHAN Exim
                   </h1>
                 </div>
                 <p
@@ -87,8 +87,8 @@ export default function AboutPage() {
                   roots &ndash; and into the 21st century. We know what works and
                   what doesn&apos;t &ndash; and because we&apos;ve built HRM
                   Exports from the ground up, nothing prevents us from doing
-                  everything right.HRM Exports is a supplier with something more
-                  to offer! Today, we at HRM Exports commit to achieve customer
+                  everything right.JKR SOZHAN Exim is a supplier with something more
+                  to offer! Today, we at JKR SOZHAN Exim commit to achieve customer
                   satisfaction with quality, quantity, services and are delighted
                   to provide consumers fine food with rice of unmatched quality.
                 </p>
@@ -226,7 +226,7 @@ export default function AboutPage() {
                   Our mission is to make the world experience the true Indian and
                   Natural flavours in its authentic form that brings joy and
                   happiness to the palates of global consumers. Our vision is to
-                  make HRM Exports as the most trusted and preferred food brand in
+                  make JKR SOZHAN Exim as the most trusted and preferred food brand in
                   Rice from India in the global markets.
                 </p>
               </div>
@@ -324,7 +324,7 @@ export default function AboutPage() {
                   data-wow-duration="1500ms"
                 >
                   With a vision to bring authentic Indian delicacies to the whole
-                  world, HRM Exports envisions to improve lives in communities
+                  world, JKR SOZHAN Exim envisions to improve lives in communities
                   they live around, protect workplace rights, respect people,
                   support missions that help people have a better life, provide
                   good jobs, world class quality products and a healthy
@@ -335,7 +335,7 @@ export default function AboutPage() {
                   data-wow-delay="600ms"
                   data-wow-duration="1500ms"
                 >
-                  At workplace, HRM Exports maintains high standards for fair and
+                  At workplace, JKR SOZHAN Exim maintains high standards for fair and
                   dignified treatment of all the people. For everyone, it is not
                   just a place to work, but like another home and everybody is
                   like a big family, closely bonded with each other.
@@ -348,7 +348,7 @@ export default function AboutPage() {
                   The company believes that an organisation is as good as the
                   people who work for it &ndash; their combined talents, skills,
                   knowledge, experience and passion makes them who they are. Hence
-                  HRM Exports continuous goal is to inspire and motivate their
+                  JKR SOZHAN Exim continuous goal is to inspire and motivate their
                   people to hone their talents, increase their knowledge &amp;
                   skills and achieve extraordinary results at their workplace.
                 </p>

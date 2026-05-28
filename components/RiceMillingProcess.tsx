@@ -200,7 +200,7 @@ export default function RiceMillingProcess() {
           <div className="section-title__icon">
             <img
               src="/assets/images/icon/section-title-icon.png"
-              alt="HRM Exports"
+              alt="JKR SOZHAN Exim"
             />
           </div>
           <span
@@ -216,7 +216,7 @@ export default function RiceMillingProcess() {
             Rice Milling Process
           </h3>
           <p className="mtb-15 w-75 mx-auto leading-relaxed">
-            The rice milling operations enable us at HRM Exports to manufacture high-quality rice products which go well in meeting the international requirements and that is ascertained for the need of global customers.
+            The rice milling operations enable us at JKR SOZHAN Exim to manufacture high-quality rice products which go well in meeting the international requirements and that is ascertained for the need of global customers.
           </p>
         </div>
         <div className="row">
