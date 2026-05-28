@@ -34,7 +34,7 @@
    {
    "@context": "https://schema.org/",
    "@type": "ImageObject",
-   "contentUrl": "https://www.hrmexports.com/assets/images/resources/logo-1.png",
+   "contentUrl": "https://www.hrmexports.com/assets/images/resources/logo.png",
    "license": "https://www.hrmexports.com/",
    "acquireLicensePage": "https://www.hrmexports.com/",
    "creditText": "Basmati Rice - JKR SOZHAN Exim",
@@ -52,7 +52,7 @@
    "@context": "https://schema.org",
    "@type": "LocalBusiness",
    "name": "JKR SOZHAN Exim",
-   "image": "https://www.hrmexports.com/assets/images/resources/logo-1.png",
+   "image": "https://www.hrmexports.com/assets/images/resources/logo.png",
    "@id": "https://www.hrmexports.com/",
    "url": "https://www.hrmexports.com/",
    "telephone": "+91-7357000031",
@@ -99,12 +99,12 @@
    <meta name="description" content="JKR SOZHAN Exim is one of the leading top rice manufacturers, suppliers, and exporters in India with trusted quality and delivery at the right time in the global market.">
    <link rel="canonical" href="https://www.hrmexports.com" />
    <!-- Fav Icon -->
-    <link rel="icon" href="https://www.hrmexports.com/assets/images/resources/logo-1.png" type="image/x-icon">
-    <link rel="icon" href="https://www.hrmexports.com/assets/images/resources/logo-1.png" type="image/x-icon">
-    <link rel="icon" href="https://www.hrmexports.com/assets/images/resources/logo-1.png" sizes="32x32" />
-    <link rel="icon" href="https://www.hrmexports.com/assets/images/resources/logo-1.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="https://www.hrmexports.com/assets/images/resources/logo-1.png" />
-    <meta name="msapplication-TileImage" content="https://www.hrmexports.com/assets/images/resources/logo-1.png" />
+    <link rel="icon" href="https://www.hrmexports.com/assets/images/resources/logo.png" type="image/x-icon">
+    <link rel="icon" href="https://www.hrmexports.com/assets/images/resources/logo.png" type="image/x-icon">
+    <link rel="icon" href="https://www.hrmexports.com/assets/images/resources/logo.png" sizes="32x32" />
+    <link rel="icon" href="https://www.hrmexports.com/assets/images/resources/logo.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://www.hrmexports.com/assets/images/resources/logo.png" />
+    <meta name="msapplication-TileImage" content="https://www.hrmexports.com/assets/images/resources/logo.png" />
    
    <!-- fonts -->
    <link rel="preconnect" href="https://fonts.googleapis.com/">
@@ -475,7 +475,7 @@
                <div class="main-menu__wrapper-inner">
                   <div class="main-menu__left">
                      <div class="main-menu__logo">
-                        <a href="https://www.hrmexports.com"><img src="https://www.hrmexports.com/assets/images/resources/logo-1.png" class="w-2" alt="JKR SOZHAN Exim"></a>
+                        <a href="https://www.hrmexports.com"><img src="https://www.hrmexports.com/assets/images/resources/logo.png" class="w-2" alt="JKR SOZHAN Exim"></a>
                         <div class="main-menu__shape-1">
                            <img src="https://www.hrmexports.com/assets/images/shapes/main-menu-shape-1.png" alt="JKR SOZHAN Exim">
                         </div>
@@ -3809,7 +3809,7 @@
 <!--Before And After Start-->
 <section class="before-and-after pt-100">
    <div class="section-title text-center wow fadeInUp" data-wow-delay="700ms" data-wow-duration="1500ms">
-      <h3 class="section-title__title">From Produce To Provide</h3>
+      <h3 class="section-title__title"> Internal & International Trade</h3>
    </div>
    <div class="container">
       <div class="before-and-after__img-box wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
@@ -4367,7 +4367,7 @@ India, Karnal-132001, India</p>
    <div class="mobile-nav__content">
       <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
       <!-- <div class="logo-box">
-               <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo-1.png" width="100"
+               <a href="index.html" aria-label="logo image"><img src="assets/images/resources/logo.png" width="100"
                   alt="" /></a>
             </div> -->
       <!-- /.logo-box -->

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   keywords:
     "Rice Manufacturers In India, Rice Exporters In India, Rice Suppliers In India, Rice Suppliers From India",
   icons: {
-    icon: "/assets/images/resources/logo-1.png",
+    icon: "/assets/images/resources/logo.png",
   },
 };
 

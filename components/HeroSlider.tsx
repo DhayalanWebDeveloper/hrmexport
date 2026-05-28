@@ -77,17 +77,17 @@ export default function HeroSlider() {
         className="main-slider__carousel owl-carousel owl-theme thm-owl__carousel mobilehide setowlicon"
       >
         <div className="item main-slider__slide-2 py-0 bg-white">
-          <img src="/assets/images/backgrounds/Welcome-Banner1.webp" alt="banner 1" className="img-fluid w-full" />
+          <img src="/assets/images/backgrounds/banner-one.png" alt="banner 1" className="img-fluid w-full" />
         </div>
         <div className="item main-slider__slide-2 py-0 bg-white">
-          <img src="/assets/images/backgrounds/banner02.webp" alt="banner 2" className="img-fluid w-full" />
+          <img src="/assets/images/backgrounds/banner-one.png" alt="banner 2" className="img-fluid w-full" />
         </div>
-        <div className="item main-slider__slide-2 py-0 bg-white">
+        {/* <div className="item main-slider__slide-2 py-0 bg-white">
           <img src="/assets/images/backgrounds/banner03.webp" alt="banner 3" className="img-fluid w-full" />
         </div>
         <div className="item main-slider__slide-2 py-0 bg-white">
           <img src="/assets/images/backgrounds/banner04.webp" alt="banner 4" className="img-fluid w-full" />
-        </div>
+        </div> */}
       </div>
 
       <div
