@@ -13,7 +13,7 @@ export default function VisionMission() {
                 <div className="section-title__icon left">
                   <img
                     src="/assets/images/icon/section-title-icon.png"
-                    alt="HRM Exports"
+                    alt="JKR SOZHAN Exim"
                   />
                 </div>
                 <h3
@@ -50,7 +50,7 @@ export default function VisionMission() {
                 data-wow-delay="500ms"
                 data-wow-duration="1500ms"
               >
-                Our mission is to make the world experience the true Indian and Natural flavours in its authentic form that brings joy and happiness to the palates of global consumers. Our vision is to make HRM Exports as the most trusted and preferred food brand in Rice from India in the global markets.
+                Our mission is to make the world experience the true Indian and Natural flavours in its authentic form that brings joy and happiness to the palates of global consumers. Our vision is to make JKR SOZHAN Exim as the most trusted and preferred food brand in Rice from India in the global markets.
               </p>
             </div>
           </div>
@@ -64,7 +64,7 @@ export default function VisionMission() {
                 >
                   <img
                     src="/assets/images/resources/why-choose-one-img-1.jpg"
-                    alt="HRM Exports"
+                    alt="JKR SOZHAN Exim"
                     className="img-fluid w-full"
                   />
                 </div>

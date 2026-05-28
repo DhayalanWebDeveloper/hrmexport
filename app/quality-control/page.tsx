@@ -53,7 +53,7 @@ export default function QualityControlPage() {
                   <div className="section-title__icon">
                     <img
                       src="/assets/images/icon/section-title-icon.png"
-                      alt="HRM Exports"
+                      alt="JKR SOZHAN Exim"
                     />
                   </div>
                   <span
@@ -61,7 +61,7 @@ export default function QualityControlPage() {
                     data-wow-delay="600ms"
                     data-wow-duration="1500ms"
                   >
-                    HRM Exports
+                    JKR SOZHAN Exim
                   </span>
                   <h1
                     className="section-title__title wow fadeInUp"
@@ -93,7 +93,7 @@ export default function QualityControlPage() {
                   guidelines of process control and meticulously checked at every
                   stage to ensure uniformity of grain without destroying basic
                   quality of grain. World class state-of-the-art modern
-                  computerised plant installed at HRM Exports has automatically
+                  computerised plant installed at JKR SOZHAN Exim has automatically
                   controlled inflow and outflow system. Our plants are equipped
                   with most modern Pre-cleaners, De-stoners, Precision-sizers,
                   Graders, Paddy Separators, De- huskers, etc. Pre-cleaners,
@@ -136,7 +136,7 @@ export default function QualityControlPage() {
                   data-wow-delay="800ms"
                   data-wow-duration="1500ms"
                 >
-                  At HRM Exports, maintaining stringent quality parameter
+                  At JKR SOZHAN Exim, maintaining stringent quality parameter
                   controls is crucial to ensure that the exported rice meets
                   international standards and customer expectations. Some
                   essential quality parameters that are controlled during rice

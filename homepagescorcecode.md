@@ -11,7 +11,7 @@
       <script type="application/ld+json">{
     "@context": "https://schema.org/",
     "@type": "Product",
-    "name": "HRM Exports",
+    "name": "JKR SOZHAN Exim",
      "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "5",
@@ -26,7 +26,7 @@
           },
           "author": {
               "@type": "Person",
-              "name": "HRM Exports"
+              "name": "JKR SOZHAN Exim"
           }
       } }</script>
   
@@ -37,12 +37,12 @@
    "contentUrl": "https://www.hrmexports.com/assets/images/resources/logo-1.png",
    "license": "https://www.hrmexports.com/",
    "acquireLicensePage": "https://www.hrmexports.com/",
-   "creditText": "Basmati Rice - HRM Exports",
+   "creditText": "Basmati Rice - JKR SOZHAN Exim",
    "creator": {
    "@type": "Person",
-   "name": "HRM Exports"
+   "name": "JKR SOZHAN Exim"
    },
-   "copyrightNotice": "HRM Exports"
+   "copyrightNotice": "JKR SOZHAN Exim"
    }
    </script>
 
@@ -51,7 +51,7 @@
    {
    "@context": "https://schema.org",
    "@type": "LocalBusiness",
-   "name": "HRM Exports",
+   "name": "JKR SOZHAN Exim",
    "image": "https://www.hrmexports.com/assets/images/resources/logo-1.png",
    "@id": "https://www.hrmexports.com/",
    "url": "https://www.hrmexports.com/",
@@ -93,10 +93,10 @@
     
    
    <title>
-            Best Rice Manufacturers, Suppliers &amp; Exporters in India | HRM Exports
+            Best Rice Manufacturers, Suppliers &amp; Exporters in India | JKR SOZHAN Exim
          </title>
    <meta name="keywords" content="Rice Manufacturers In India, Rice Exporters In India, Rice Suppliers In India, Rice Suppliers From India">
-   <meta name="description" content="HRM Exports is one of the leading top rice manufacturers, suppliers, and exporters in India with trusted quality and delivery at the right time in the global market.">
+   <meta name="description" content="JKR SOZHAN Exim is one of the leading top rice manufacturers, suppliers, and exporters in India with trusted quality and delivery at the right time in the global market.">
    <link rel="canonical" href="https://www.hrmexports.com" />
    <!-- Fav Icon -->
     <link rel="icon" href="https://www.hrmexports.com/assets/images/resources/logo-1.png" type="image/x-icon">
@@ -475,9 +475,9 @@
                <div class="main-menu__wrapper-inner">
                   <div class="main-menu__left">
                      <div class="main-menu__logo">
-                        <a href="https://www.hrmexports.com"><img src="https://www.hrmexports.com/assets/images/resources/logo-1.png" class="w-2" alt="HRM Exports"></a>
+                        <a href="https://www.hrmexports.com"><img src="https://www.hrmexports.com/assets/images/resources/logo-1.png" class="w-2" alt="JKR SOZHAN Exim"></a>
                         <div class="main-menu__shape-1">
-                           <img src="https://www.hrmexports.com/assets/images/shapes/main-menu-shape-1.png" alt="HRM Exports">
+                           <img src="https://www.hrmexports.com/assets/images/shapes/main-menu-shape-1.png" alt="JKR SOZHAN Exim">
                         </div>
                      </div>
                      <div class="main-menu__main-menu-box">
@@ -770,7 +770,7 @@
    <div class="container">
       <div class="section-title text-center">
          <div class="section-title__icon">
-            <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="HRM Exports">
+            <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="JKR SOZHAN Exim">
          </div>
          <h3 class="section-title__title wow slideInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Products Categories</h3>
       </div>
@@ -849,17 +849,17 @@
                <div class="about-one__left">
                   <div class="about-one__img-box wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                      <div class="">
-                        <img src="https://www.hrmexports.com/assets/images/resources/ricemanu.png" class="img-fluid" alt="HRM Exports">
+                        <img src="https://www.hrmexports.com/assets/images/resources/ricemanu.png" class="img-fluid" alt="JKR SOZHAN Exim">
                      </div>
                      <!--<div class="about-one__img-two">-->
-                     <!--   <img src="https://www.hrmexports.com/assets/images/resources/about-one-img-2.jpg" alt="HRM Exports">-->
+                     <!--   <img src="https://www.hrmexports.com/assets/images/resources/about-one-img-2.jpg" alt="JKR SOZHAN Exim">-->
                      <!--</div>-->
                      <div class="about-one__experience">
                         <div class="about-one__experience-shape-1">
-                           <img src="https://www.hrmexports.com/assets/images/shapes/about-one-experience-shape-1.png" alt="HRM Exports">
+                           <img src="https://www.hrmexports.com/assets/images/shapes/about-one-experience-shape-1.png" alt="JKR SOZHAN Exim">
                         </div>
                         <div class="about-one__experience-shape-2">
-                           <img src="https://www.hrmexports.com/assets/images/shapes/about-one-experience-shape-2.png" alt="HRM Exports">
+                           <img src="https://www.hrmexports.com/assets/images/shapes/about-one-experience-shape-2.png" alt="JKR SOZHAN Exim">
                         </div>
                         <div class="about-one__experience-year">
                            <h3 class="odometer" data-count="50">00</h3>
@@ -875,19 +875,19 @@
                <div class="about-one__right">
                   <div class="section-title text-left">
                      <div class="section-title__icon">
-                        <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="HRM Exports">
+                        <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="JKR SOZHAN Exim">
                      </div>
-                     <h2 class="section-title__title wow slideInUp" data-wow-delay="200ms" data-wow-duration="1500ms">HRM Exports</h2>
+                     <h2 class="section-title__title wow slideInUp" data-wow-delay="200ms" data-wow-duration="1500ms">JKR SOZHAN Exim</h2>
                      <h1 class="section-title__title wow slideInUp" style="font-size: 30px;" data-wow-delay="200ms" data-wow-duration="1500ms">Rice Manufacturers, Suppliers & Exporters in India</h1>
                   </div>                
                   
                   <p class="about-one__text-1 wow slideInUp" data-wow-delay="300ms" data-wow-duration="1500ms">Discover the Magic of Rice - Simple, Satisfying, and Versatile</p>
                   
                    <p class="about-one__text-2 text-justify wow slideInUp" data-wow-delay="400ms" data-wow-duration="1500ms">
-                   HRM Exports is a leading exporter of premium quality agricultural products, known for its commitment to excellence and customer satisfaction. With a strong focus on quality control and sustainable practices. We delivers a diverse range of products globally, ensuring timely delivery and competitive pricing to meet international standards.</p>
+                   JKR SOZHAN Exim is a leading exporter of premium quality agricultural products, known for its commitment to excellence and customer satisfaction. With a strong focus on quality control and sustainable practices. We delivers a diverse range of products globally, ensuring timely delivery and competitive pricing to meet international standards.</p>
                    
                   <p class="about-one__text-2 text-justify wow slideInUp" data-wow-delay="400ms" data-wow-duration="1500ms ">
-                  In a commodity market, Competitive prices are given, and supplier options are a necessity. Too often, though, that’s the whole story in the rice industry – which is why HRM Exports set out to be more than you’ve come to expect.We understand the benefits of a closer relationship with the customer, HRM Exports has taken the industrial rice supply chain back to its roots – and into the 21st century
+                  In a commodity market, Competitive prices are given, and supplier options are a necessity. Too often, though, that’s the whole story in the rice industry – which is why JKR SOZHAN Exim set out to be more than you’ve come to expect.We understand the benefits of a closer relationship with the customer, JKR SOZHAN Exim has taken the industrial rice supply chain back to its roots – and into the 21st century
                   </p>
                </div>
             </div>
@@ -895,7 +895,7 @@
          <div class="row" style="padding-top:100px;">
             <div class="col-xl-8 d-flex align-items-center">
                <div class="">
-                  <p class="about-one__text-1  wow slideInUp" data-wow-delay="500ms" data-wow-duration="1500ms">Today, we at HRM Exports commit to achieve customer satisfaction with quality, quantity and  services.</p>
+                  <p class="about-one__text-1  wow slideInUp" data-wow-delay="500ms" data-wow-duration="1500ms">Today, we at JKR SOZHAN Exim commit to achieve customer satisfaction with quality, quantity and  services.</p>
                   <p class="about-one__text-2 text-justify wow slideInUp" data-wow-delay="600ms" data-wow-duration="1500ms ">We are  delighted to provide consumers fine food with rice of unmatched quality.We work with farmers, partner food companies and respond to the needs of our customers to ensure that nothing but the very best rice and rice products enamor your table, making every meal of the day, fulfilling and cherishing. </p>
                   <div class="about-one__btn-box wow slideInUp" data-wow-delay="700ms" data-wow-duration="1500ms">
                      <a href="https://www.hrmexports.com/about" class="about-one__btn thm-btn">Read More</a>
@@ -906,10 +906,10 @@
                <div class="about-one__left about-one__right">
                   <div class="about-one__img-box wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
                      <div class="about-one__img">
-                        <img src="https://www.hrmexports.com/assets/images/resources/quantity.webp" class="img-fluid" alt="HRM Exports">
+                        <img src="https://www.hrmexports.com/assets/images/resources/quantity.webp" class="img-fluid" alt="JKR SOZHAN Exim">
                      </div>
                      <div class="about-one__img-two">
-                        <img src="https://www.hrmexports.com/assets/images/resources/about-three-img-2.jpg" alt="HRM Exports">
+                        <img src="https://www.hrmexports.com/assets/images/resources/about-three-img-2.jpg" alt="JKR SOZHAN Exim">
                      </div>
                   </div>
                </div>
@@ -929,7 +929,7 @@
    <div class="container">
       <div class="section-title text-center">
          <div class="section-title__icon">
-            <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="HRM Exports">
+            <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="JKR SOZHAN Exim">
          </div>
          <span class="section-title__tagline wow slideInUp" data-wow-delay="100ms" data-wow-duration="1500ms">Always Dedicated and Devoted
          </span>
@@ -969,7 +969,7 @@
                              <!--</div>-->
                              <h3 class="feature-one__title"><a href="team.html">Strong Belief system</a></h3>
                              <p class="feature-one__text mt-15 text-justify">
-                                At HRM Exports, we have a belief that by providing our basmati rice to the world, we can play our part in eradicating global hunger..
+                                At JKR SOZHAN Exim, we have a belief that by providing our basmati rice to the world, we can play our part in eradicating global hunger..
                              </p>
                           </div>
                        </div>
@@ -1037,7 +1037,7 @@
    <div class="container">
       <div class="section-title text-center">
          <div class="section-title__icon">
-            <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="HRM Exports">
+            <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="JKR SOZHAN Exim">
          </div>
          <span class="section-title__tagline text-white wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">Selection of pure and top grade Rice</span>
          <h3 class="section-title__title wow text-white fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Our Products</h3>
@@ -1048,7 +1048,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a47e7c2df47.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a47e7c2df47.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -1061,7 +1061,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a4884436e27.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a4884436e27.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -1074,7 +1074,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a48862d9184.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a48862d9184.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -1087,7 +1087,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a4886ab0837.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a4886ab0837.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -1100,7 +1100,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a48872b51e0.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a48872b51e0.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -1113,7 +1113,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a4887b2a40a.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a4887b2a40a.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -1126,7 +1126,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a4898b583bd.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a4898b583bd.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -1139,7 +1139,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a489945bd60.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a489945bd60.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -1152,7 +1152,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a489a067bf2.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a489a067bf2.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -1165,7 +1165,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a489aa3aaf1.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a489aa3aaf1.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -1178,7 +1178,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a489b2438bb.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a489b2438bb.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -1191,7 +1191,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a489bbaa914.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a489bbaa914.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -1204,7 +1204,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a48b12bc5ad.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a48b12bc5ad.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -1217,7 +1217,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a48b210dd0f.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a48b210dd0f.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -1230,7 +1230,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a48b29b6307.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a48b29b6307.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -1243,7 +1243,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a48b357b962.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a48b357b962.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -1259,7 +1259,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/6777a90a97126.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/6777a90a97126.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/6777a90a97126.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1284,7 +1284,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/66e844d1b5fa6.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/66e844d1b5fa6.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/66e844d1b5fa6.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1309,7 +1309,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/651aa0d391fbd.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/651aa0d391fbd.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/651aa0d391fbd.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1334,7 +1334,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650fdb645ceb1.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650fdb645ceb1.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650fdb645ceb1.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1359,7 +1359,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650fdac5ceea2.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650fdac5ceea2.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650fdac5ceea2.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1384,7 +1384,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650fda15812d9.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650fda15812d9.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650fda15812d9.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1409,7 +1409,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650fd80105b79.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650fd80105b79.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650fd80105b79.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1434,7 +1434,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650fd6b2baed9.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650fd6b2baed9.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650fd6b2baed9.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1459,7 +1459,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650fd4e568135.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650fd4e568135.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650fd4e568135.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1484,7 +1484,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650fd2802bb82.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650fd2802bb82.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650fd2802bb82.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1509,7 +1509,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/65101cc617e41.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/65101cc617e41.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/65101cc617e41.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1534,7 +1534,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/651300ba144c0.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/651300ba144c0.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/651300ba144c0.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1559,7 +1559,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/651300ad34986.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/651300ad34986.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/651300ad34986.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1584,7 +1584,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/65130092ccc6a.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/65130092ccc6a.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/65130092ccc6a.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1609,7 +1609,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/6513008392bf0.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/6513008392bf0.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/6513008392bf0.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1634,7 +1634,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/6513006536c18.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/6513006536c18.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/6513006536c18.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1659,7 +1659,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/65130052840b1.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/65130052840b1.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/65130052840b1.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1684,7 +1684,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650c33abb56ad.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650c33abb56ad.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650c33abb56ad.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1709,7 +1709,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650c32f498831.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650c32f498831.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650c32f498831.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1734,7 +1734,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650c321aa3ea7.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650c321aa3ea7.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650c321aa3ea7.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1759,7 +1759,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650c3139b483a.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650c3139b483a.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650c3139b483a.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1784,7 +1784,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650c302170600.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650c302170600.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650c302170600.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1809,7 +1809,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650c2f72b82ca.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650c2f72b82ca.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650c2f72b82ca.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1834,7 +1834,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650c29de42cbb.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650c29de42cbb.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650c29de42cbb.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1859,7 +1859,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650c2900388ac.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650c2900388ac.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650c2900388ac.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1884,7 +1884,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650c28093ae43.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650c28093ae43.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650c28093ae43.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1909,7 +1909,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650c250fb9eef.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650c250fb9eef.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650c250fb9eef.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1934,7 +1934,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650c1fd31e94a.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650c1fd31e94a.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650c1fd31e94a.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1959,7 +1959,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650c1dd6f4087.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650c1dd6f4087.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650c1dd6f4087.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -1984,7 +1984,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650c1a15aeb84.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650c1a15aeb84.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650c1a15aeb84.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2009,7 +2009,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/651d20efb4b32.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/651d20efb4b32.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/651d20efb4b32.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2034,7 +2034,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650c171eb167a.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650c171eb167a.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650c171eb167a.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2059,7 +2059,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/651d2003e4586.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/651d2003e4586.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/651d2003e4586.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2084,7 +2084,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/651d1fd724955.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/651d1fd724955.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/651d1fd724955.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2109,7 +2109,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/651d1fa488358.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/651d1fa488358.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/651d1fa488358.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2134,7 +2134,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650c037739b3e.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650c037739b3e.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650c037739b3e.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2159,7 +2159,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650c01d4611e1.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650c01d4611e1.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650c01d4611e1.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2184,7 +2184,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650bfd85ec580.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650bfd85ec580.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650bfd85ec580.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2209,7 +2209,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650bfc272b48a.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650bfc272b48a.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650bfc272b48a.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2234,7 +2234,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650bf8a648a6c.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650bf8a648a6c.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650bf8a648a6c.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2259,7 +2259,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/651aa61b8129b.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/651aa61b8129b.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/651aa61b8129b.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2284,7 +2284,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650bf63d1dee8.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650bf63d1dee8.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650bf63d1dee8.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2309,7 +2309,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/651aa40da0874.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/651aa40da0874.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/651aa40da0874.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2334,7 +2334,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/651aa44441407.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/651aa44441407.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/651aa44441407.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2359,7 +2359,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/651aa6c509325.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/651aa6c509325.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/651aa6c509325.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2384,7 +2384,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/651aa6a7a658f.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/651aa6a7a658f.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/651aa6a7a658f.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2409,7 +2409,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650c2a6c54f5b.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650c2a6c54f5b.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650c2a6c54f5b.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2434,7 +2434,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650b2054a2666.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650b2054a2666.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650b2054a2666.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2459,7 +2459,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/651d20cd31b0a.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/651d20cd31b0a.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/651d20cd31b0a.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2484,7 +2484,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650c0fca8e255.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650c0fca8e255.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650c0fca8e255.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2509,7 +2509,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650b1e1430e20.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650b1e1430e20.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650b1e1430e20.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2534,7 +2534,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/650b1d6f0b8d7.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/650b1d6f0b8d7.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650b1d6f0b8d7.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2559,7 +2559,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/67a5f68fc491b.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/67a5f68fc491b.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/67a5f68fc491b.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2584,7 +2584,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/651aa3dc4cb65.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/651aa3dc4cb65.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/651aa3dc4cb65.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2609,7 +2609,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/651173f90bdd1.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/651173f90bdd1.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/651173f90bdd1.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2634,7 +2634,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/651173e57373d.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/651173e57373d.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/651173e57373d.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2659,7 +2659,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/66e6b84372b95.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/66e6b84372b95.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/66e6b84372b95.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2684,7 +2684,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/6511734ce445f.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/6511734ce445f.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/6511734ce445f.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2709,7 +2709,7 @@
          <!--   <div class="project-one__single px-2">-->
          <!--      <div class="project-one__img">-->
          <!--         <div class="p-inimg">-->
-         <!--             <img src="https://www.hrmexports.com/storage/images/65117322264bb.jpg" alt="HRM Exports">-->
+         <!--             <img src="https://www.hrmexports.com/storage/images/65117322264bb.jpg" alt="JKR SOZHAN Exim">-->
          <!--         </div>-->
                   <!--<a href="https://www.hrmexports.com/storage/images/65117322264bb.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
@@ -2736,7 +2736,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a47e7c2df47.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a47e7c2df47.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -2749,7 +2749,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a4884436e27.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a4884436e27.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -2762,7 +2762,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a48862d9184.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a48862d9184.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -2775,7 +2775,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a4886ab0837.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a4886ab0837.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -2788,7 +2788,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a48872b51e0.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a48872b51e0.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -2801,7 +2801,7 @@
             <div class="project-one__single px-2">
                <div class="project-one__img">
                   <div class="p-inimg">
-                      <img src="https://www.hrmexports.com/storage/images/67a4887b2a40a.jpg" alt="HRM Exports">
+                      <img src="https://www.hrmexports.com/storage/images/67a4887b2a40a.jpg" alt="JKR SOZHAN Exim">
                   </div>
 
                   <div class="p-content text-center">
@@ -2816,7 +2816,7 @@
                                                       <!--<div class="col-6 mb-3" data-wow-delay="300ms" data-wow-duration="1500ms">-->
          <!--   <div class="project-one__single mobpimg">-->
          <!--      <div class="project-one__img">-->
-         <!--         <img src="https://www.hrmexports.com/storage/images/6777a90a97126.jpg" alt="HRM Exports">-->
+         <!--         <img src="https://www.hrmexports.com/storage/images/6777a90a97126.jpg" alt="JKR SOZHAN Exim">-->
                   <!--<a href="https://www.hrmexports.com/storage/images/6777a90a97126.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
                   <!--</a>-->
@@ -2837,7 +2837,7 @@
                                              <!--<div class="col-6 mb-3" data-wow-delay="300ms" data-wow-duration="1500ms">-->
          <!--   <div class="project-one__single mobpimg">-->
          <!--      <div class="project-one__img">-->
-         <!--         <img src="https://www.hrmexports.com/storage/images/66e844d1b5fa6.jpg" alt="HRM Exports">-->
+         <!--         <img src="https://www.hrmexports.com/storage/images/66e844d1b5fa6.jpg" alt="JKR SOZHAN Exim">-->
                   <!--<a href="https://www.hrmexports.com/storage/images/66e844d1b5fa6.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
                   <!--</a>-->
@@ -2858,7 +2858,7 @@
                                              <!--<div class="col-6 mb-3" data-wow-delay="300ms" data-wow-duration="1500ms">-->
          <!--   <div class="project-one__single mobpimg">-->
          <!--      <div class="project-one__img">-->
-         <!--         <img src="https://www.hrmexports.com/storage/images/66e6b24739d3d.png" alt="HRM Exports">-->
+         <!--         <img src="https://www.hrmexports.com/storage/images/66e6b24739d3d.png" alt="JKR SOZHAN Exim">-->
                   <!--<a href="https://www.hrmexports.com/storage/images/66e6b24739d3d.png" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
                   <!--</a>-->
@@ -2879,7 +2879,7 @@
                                              <!--<div class="col-6 mb-3" data-wow-delay="300ms" data-wow-duration="1500ms">-->
          <!--   <div class="project-one__single mobpimg">-->
          <!--      <div class="project-one__img">-->
-         <!--         <img src="https://www.hrmexports.com/storage/images/651aa0d391fbd.jpg" alt="HRM Exports">-->
+         <!--         <img src="https://www.hrmexports.com/storage/images/651aa0d391fbd.jpg" alt="JKR SOZHAN Exim">-->
                   <!--<a href="https://www.hrmexports.com/storage/images/651aa0d391fbd.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
                   <!--</a>-->
@@ -2900,7 +2900,7 @@
                                              <!--<div class="col-6 mb-3" data-wow-delay="300ms" data-wow-duration="1500ms">-->
          <!--   <div class="project-one__single mobpimg">-->
          <!--      <div class="project-one__img">-->
-         <!--         <img src="https://www.hrmexports.com/storage/images/650fdb645ceb1.jpg" alt="HRM Exports">-->
+         <!--         <img src="https://www.hrmexports.com/storage/images/650fdb645ceb1.jpg" alt="JKR SOZHAN Exim">-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650fdb645ceb1.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
                   <!--</a>-->
@@ -2921,7 +2921,7 @@
                                              <!--<div class="col-6 mb-3" data-wow-delay="300ms" data-wow-duration="1500ms">-->
          <!--   <div class="project-one__single mobpimg">-->
          <!--      <div class="project-one__img">-->
-         <!--         <img src="https://www.hrmexports.com/storage/images/650fdac5ceea2.jpg" alt="HRM Exports">-->
+         <!--         <img src="https://www.hrmexports.com/storage/images/650fdac5ceea2.jpg" alt="JKR SOZHAN Exim">-->
                   <!--<a href="https://www.hrmexports.com/storage/images/650fdac5ceea2.jpg" class="img-popup project-one__icon">-->
                   <!--   <i class="fas fa-eye"></i>-->
                   <!--</a>-->
@@ -2957,7 +2957,7 @@
             <div class="why-choose-one__left">
                <div class="section-title text-left">
                   <div class="section-title__icon">
-                     <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="HRM Exports">
+                     <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="JKR SOZHAN Exim">
                   </div>
                   <h3 class="section-title__title wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">Vision & Mission</h3>
                   <h3 class="section-title__title fnt-36 mt-15 wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">Our Vision </h3>
@@ -2969,7 +2969,7 @@
                   <h3 class="section-title__title mt-15 fnt-36">Our Mission</h3>
                </div>
                <p class="why-choose-one__text-1 text-justify wow fadeInUp" data-wow-delay="500ms" data-wow-duration="1500ms">
-                  Our mission is to make the world experience the true Indian and Natural flavours in its authentic form that brings joy and happiness to the palates of global consumers. Our vision is to make HRM Exports as the most trusted and preferred food brand in Rice from India in the global markets.
+                  Our mission is to make the world experience the true Indian and Natural flavours in its authentic form that brings joy and happiness to the palates of global consumers. Our vision is to make JKR SOZHAN Exim as the most trusted and preferred food brand in Rice from India in the global markets.
                </p>
             </div>
          </div>
@@ -2977,7 +2977,7 @@
             <div class="why-choose-one__right">
                <div class="why-choose-one__img-box">
                   <div class="why-choose-one__img wow fadeInUp" data-wow-delay="600ms" data-wow-duration="1500ms">
-                     <img src="https://www.hrmexports.com/assets/images/resources/why-choose-one-img-1.jpg" alt="HRM Exports">
+                     <img src="https://www.hrmexports.com/assets/images/resources/why-choose-one-img-1.jpg" alt="JKR SOZHAN Exim">
                   </div>
                </div>
             </div>
@@ -2992,13 +2992,13 @@
    <div class="container-fluid mt-5">
       <div class="section-title text-center">
          <div class="section-title__icon">
-            <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="HRM Exports">
+            <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="JKR SOZHAN Exim">
          </div>
          <span class="section-title__tagline wow fadeInUp" data-wow-delay="100ms">WHAT WE DO?
          </span>
          <h3 class="section-title__title wow fadeInUp" data-wow-delay="200ms">Rice Milling Process</h3>
          <p class="mtb-15 w-75 mx-auto">
-         The rice milling operations enable us at HRM Exports to manufacture high-quality rice products which go well in meeting the international requirements and that is ascertained for the need of global customers.
+         The rice milling operations enable us at JKR SOZHAN Exim to manufacture high-quality rice products which go well in meeting the international requirements and that is ascertained for the need of global customers.
          </p>
       </div>
       <div class="row">
@@ -3482,7 +3482,7 @@
    <div class="container">
       <div class="section-title text-center">
          <div class="section-title__icon">
-            <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="HRM Exports">
+            <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="JKR SOZHAN Exim">
          </div>
          <span class="section-title__tagline wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">The best way to be ready for future is to invest in it</span>
          <h3 class="section-title__title wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">We are Certified
@@ -3526,31 +3526,31 @@
                     }}'>
             <div class="swiper-wrapper">
                <div class="swiper-slide">
-                  <img src="https://www.hrmexports.com/assets/images/resources/certificate-logo-5.png" alt="HRM Exports">
+                  <img src="https://www.hrmexports.com/assets/images/resources/certificate-logo-5.png" alt="JKR SOZHAN Exim">
                </div><!-- /.swiper-slide -->
                <div class="swiper-slide">
-                  <img src="https://www.hrmexports.com/assets/images/resources/certificate-logo-6.png" alt="HRM Exports">
+                  <img src="https://www.hrmexports.com/assets/images/resources/certificate-logo-6.png" alt="JKR SOZHAN Exim">
                </div><!-- /.swiper-slide -->
                <div class="swiper-slide">
-                  <img src="https://www.hrmexports.com/assets/images/resources/certificate-logo-8.png" alt="HRM Exports">
+                  <img src="https://www.hrmexports.com/assets/images/resources/certificate-logo-8.png" alt="JKR SOZHAN Exim">
                </div><!-- /.swiper-slide -->
                <div class="swiper-slide">
-                  <img src="https://www.hrmexports.com/assets/images/resources/certificate-logo-3.png" alt="HRM Exports">
+                  <img src="https://www.hrmexports.com/assets/images/resources/certificate-logo-3.png" alt="JKR SOZHAN Exim">
                </div><!-- /.swiper-slide -->
                <div class="swiper-slide">
-                  <img src="https://www.hrmexports.com/assets/images/resources/certificate-logo-4.png" alt="HRM Exports">
+                  <img src="https://www.hrmexports.com/assets/images/resources/certificate-logo-4.png" alt="JKR SOZHAN Exim">
                </div><!-- /.swiper-slide -->
                <div class="swiper-slide">
-                  <img src="https://www.hrmexports.com/assets/images/resources/certificate-logo-2.png" alt="HRM Exports">
+                  <img src="https://www.hrmexports.com/assets/images/resources/certificate-logo-2.png" alt="JKR SOZHAN Exim">
                </div><!-- /.swiper-slide -->
                <div class="swiper-slide">
-                  <img src="https://www.hrmexports.com/assets/images/resources/certificate-logo-7.png" alt="HRM Exports">
+                  <img src="https://www.hrmexports.com/assets/images/resources/certificate-logo-7.png" alt="JKR SOZHAN Exim">
                </div><!-- /.swiper-slide -->
                <div class="swiper-slide">
-                  <img src="https://www.hrmexports.com/assets/images/resources/certificate-logo-9.png" alt="HRM Exports">
+                  <img src="https://www.hrmexports.com/assets/images/resources/certificate-logo-9.png" alt="JKR SOZHAN Exim">
                </div><!-- /.swiper-slide -->
                <div class="swiper-slide">
-                  <img src="https://www.hrmexports.com/assets/images/resources/certificate-logo-10.png" alt="HRM Exports">
+                  <img src="https://www.hrmexports.com/assets/images/resources/certificate-logo-10.png" alt="JKR SOZHAN Exim">
                </div><!-- /.swiper-slide -->
 
             </div>
@@ -3562,21 +3562,21 @@
 <!--Contact One Start-->
 <section class="contact-one bdmbcolor" style="padding:79px 0 95px;background-image: url('assets/static/Reasons-to-Choose-HRM.webp');background-size: cover;">
    <div class="contact-one__img">
-      <!--<img src="https://www.hrmexports.com/assets/images/resources/contact-one-img-1.png" alt="HRM Exports">-->
+      <!--<img src="https://www.hrmexports.com/assets/images/resources/contact-one-img-1.png" alt="JKR SOZHAN Exim">-->
       <div class=" ">
       </div>
    </div>
    <!-- <div class="contact-one__shape-2">
-      <img src="assets/images/shapes/contact-one-shape-2.png" alt="HRM Exports">
+      <img src="assets/images/shapes/contact-one-shape-2.png" alt="JKR SOZHAN Exim">
    </div>
    <div class="contact-one__shape-3">
-      <img src="assets/images/shapes/contact-one-shape-3.png" alt="HRM Exports">
+      <img src="assets/images/shapes/contact-one-shape-3.png" alt="JKR SOZHAN Exim">
    </div> -->
    <!--<div class="contact-one__shape-1">-->
-   <!--   <img src="https://www.hrmexports.com/assets/images/shapes/contact-one-shape-1.png" alt="HRM Exports">-->
+   <!--   <img src="https://www.hrmexports.com/assets/images/shapes/contact-one-shape-1.png" alt="JKR SOZHAN Exim">-->
    <!--</div>-->
    <!--<div class="contact-one__shape-4 float-bob-y">-->
-   <!--   <img src="https://www.hrmexports.com/assets/images/shapes/contact-one-shape-4.png" alt="HRM Exports">-->
+   <!--   <img src="https://www.hrmexports.com/assets/images/shapes/contact-one-shape-4.png" alt="JKR SOZHAN Exim">-->
    <!--</div>-->
    <div class="container">
       <div class="row">
@@ -3587,29 +3587,29 @@
          <div class="col-xl-7 col-lg-12 col-md-12">
             <div class="why-choose-one__left">
                <div class="section-title text-left">
-                  <h3 class="section-title__title">Reasons to Choose HRM Exports</h3>
+                  <h3 class="section-title__title">Reasons to Choose JKR SOZHAN Exim</h3>
                </div>
-               <!-- <p class="why-choose-one__text-1 text-justify">HRM Exports loyal to quality and that's why we have access to the world's infinite customers. HRM Exports has all the essential certifications which are vital for the export of basmati rice throughout the world.</p> -->
+               <!-- <p class="why-choose-one__text-1 text-justify">JKR SOZHAN Exim loyal to quality and that's why we have access to the world's infinite customers. JKR SOZHAN Exim has all the essential certifications which are vital for the export of basmati rice throughout the world.</p> -->
                <div class="why-choose-one__points-list mt-30">
                   <ul class="why-choose-one__points list-unstyled mt-10">
                      <li>
                         <div class="icon">
-                           <img src="https://www.hrmexports.com/assets/images/icon/8.png" alt="HRM Exports">
+                           <img src="https://www.hrmexports.com/assets/images/icon/8.png" alt="JKR SOZHAN Exim">
                         </div>
                         <div class="content">
                            <h3>Quality Assurance</h3>
-                           <p>HRM Exports , the name itself promises that you’re getting an quality product that has been grown, harvested, stored and cared.</p>
+                           <p>JKR SOZHAN Exim , the name itself promises that you’re getting an quality product that has been grown, harvested, stored and cared.</p>
                         </div>
                      </li>
                   </ul>
                   <ul class="why-choose-one__points list-unstyled mt-10">
                      <li>
                          <div class="icon">
-                           <img src="https://www.hrmexports.com/assets/images/icon/9.png" alt="HRM Exports">
+                           <img src="https://www.hrmexports.com/assets/images/icon/9.png" alt="JKR SOZHAN Exim">
                         </div>
                         <div class="content">
                            <h3>Advanced Milling & Processing</h3>
-                           <p>By using state-of-the-art milling and processing, we are at HRM Exports, the milling and processing the paddy with international quality standards.</p>
+                           <p>By using state-of-the-art milling and processing, we are at JKR SOZHAN Exim, the milling and processing the paddy with international quality standards.</p>
                         </div>
                         
                      </li>
@@ -3617,7 +3617,7 @@
                   <ul class="why-choose-one__points list-unstyled mt-10">
                      <li>
                         <div class="icon">
-                           <img src="https://www.hrmexports.com/assets/images/icon/10.png" alt="HRM Exports">
+                           <img src="https://www.hrmexports.com/assets/images/icon/10.png" alt="JKR SOZHAN Exim">
                         </div>
                         <div class="content">
                            <h3>Ageing</h3>
@@ -3629,7 +3629,7 @@
                   <ul class="why-choose-one__points list-unstyled mt-10">
                      <li>
                         <div class="icon">
-                           <img src="https://www.hrmexports.com/assets/images/icon/12.png" alt="HRM Exports">
+                           <img src="https://www.hrmexports.com/assets/images/icon/12.png" alt="JKR SOZHAN Exim">
                         </div>
                         <div class="content">
                            <h3>Advanced Testing</h3>
@@ -3643,7 +3643,7 @@
                   <ul class="why-choose-one__points list-unstyled mt-10">
                      <li>
                         <div class="icon">
-                           <img src="https://www.hrmexports.com/assets/images/icon/13.png" alt="HRM Exports">
+                           <img src="https://www.hrmexports.com/assets/images/icon/13.png" alt="JKR SOZHAN Exim">
                         </div>
                         <div class="content">
                            <h3>On Time Delivery</h3>
@@ -3667,10 +3667,10 @@
             <div class="testimonial-one__left">
                <div class="section-title text-left">
                   <div class="section-title__icon">
-                     <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="HRM Exports">
+                     <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="JKR SOZHAN Exim">
                   </div>
                   <span class="section-title__tagline">Customer Reviews</span>
-                  <h3 class="section-title__title">Customer talking About HRM Exports</h3>
+                  <h3 class="section-title__title">Customer talking About JKR SOZHAN Exim</h3>
                </div>
 
             </div>
@@ -3711,7 +3711,7 @@
                                                                   <i class="fa fa-star"></i>
                                                                   <i class="fa fa-star"></i>
                                                             </div>
-                           <p class="testimonial-one__text-2">I have been consistently impressed with the quality of rice provided by HRM Exports. Their commitment to delivering top-notch rice products, along with exceptional customer service, makes them a trusted partner in the industry.
+                           <p class="testimonial-one__text-2">I have been consistently impressed with the quality of rice provided by JKR SOZHAN Exim. Their commitment to delivering top-notch rice products, along with exceptional customer service, makes them a trusted partner in the industry.
                            </p>
                            <div class="testimonial-one__client-info">
 
@@ -3786,7 +3786,7 @@
                                                                   <i class="fa fa-star"></i>
                                                                   <i class="fa fa-star"></i>
                                                             </div>
-                           <p class="testimonial-one__text-2">Our partnership with HRM Exports has been nothing short of excellent. Their consistent quality, reliability, and professionalism make them our preferred choice, and we look forward to many more years of collaboration.
+                           <p class="testimonial-one__text-2">Our partnership with JKR SOZHAN Exim has been nothing short of excellent. Their consistent quality, reliability, and professionalism make them our preferred choice, and we look forward to many more years of collaboration.
                            </p>
                            <div class="testimonial-one__client-info">
 
@@ -3815,8 +3815,8 @@
       <div class="before-and-after__img-box wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1500ms">
          <div class="before-after">
             <div class="before-after-twentytwenty" id="wrinkle-before-after">
-               <img src="https://www.hrmexports.com/assets/images/resources/before-and-after-img.jpg" alt="HRM Exports">
-               <img src="https://www.hrmexports.com/assets/images/resources/before-and-after-img-2.jpg" alt="HRM Exports">
+               <img src="https://www.hrmexports.com/assets/images/resources/before-and-after-img.jpg" alt="JKR SOZHAN Exim">
+               <img src="https://www.hrmexports.com/assets/images/resources/before-and-after-img-2.jpg" alt="JKR SOZHAN Exim">
             </div>
          </div>
       </div>
@@ -3834,7 +3834,7 @@
             <div class="counter-one__left">
                <div class="section-title text-left">
                   <div class="section-title__icon">
-                     <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="HRM Exports">
+                     <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="JKR SOZHAN Exim">
                   </div>
                   <h3 class="section-title__title wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">We are focused towards
                      providing best quality Rice
@@ -3912,7 +3912,7 @@
    <div class="container">
       <div class="section-title text-center">
          <div class="section-title__icon">
-            <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="HRM Exports">
+            <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="JKR SOZHAN Exim">
          </div>
          <h3 class="section-title__title wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">Rice Recipes</h3>
       </div>
@@ -3922,7 +3922,7 @@
             <div class="blog-one__single wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                <div class="blog-one__img-box">
                   <div class="blog-one__img">
-                     <img src="https://www.hrmexports.com/storage/recipe_images/YIeFrGR0YgdUmOmGzZTCsbMJsOa7sBOwBdctl4LH.jpg" alt="HRM Exports">
+                     <img src="https://www.hrmexports.com/storage/recipe_images/YIeFrGR0YgdUmOmGzZTCsbMJsOa7sBOwBdctl4LH.jpg" alt="JKR SOZHAN Exim">
                      <a href="https://www.hrmexports.com/mushroom-biryani.html">
                         <span class="blog-one__plus"></span>
                      </a>
@@ -3951,7 +3951,7 @@
             <div class="blog-one__single wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                <div class="blog-one__img-box">
                   <div class="blog-one__img">
-                     <img src="https://www.hrmexports.com/storage/recipe_images/VaIYCwJWfBaSjLdY69plTLsqOMognzK7awUxOsnm.jpg" alt="HRM Exports">
+                     <img src="https://www.hrmexports.com/storage/recipe_images/VaIYCwJWfBaSjLdY69plTLsqOMognzK7awUxOsnm.jpg" alt="JKR SOZHAN Exim">
                      <a href="https://www.hrmexports.com/lemon-rice.html">
                         <span class="blog-one__plus"></span>
                      </a>
@@ -3980,7 +3980,7 @@
             <div class="blog-one__single wow fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
                <div class="blog-one__img-box">
                   <div class="blog-one__img">
-                     <img src="https://www.hrmexports.com/storage/recipe_images/ko0UfhwnTJ9NxVlDEuGf5ZIwqbG9BcXdHQDApFzG.jpg" alt="HRM Exports">
+                     <img src="https://www.hrmexports.com/storage/recipe_images/ko0UfhwnTJ9NxVlDEuGf5ZIwqbG9BcXdHQDApFzG.jpg" alt="JKR SOZHAN Exim">
                      <a href="https://www.hrmexports.com/corn-pulao.html">
                         <span class="blog-one__plus"></span>
                      </a>
@@ -4015,7 +4015,7 @@
    <div class="container">
       <div class="section-title text-center">
          <div class="section-title__icon">
-            <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="HRM Exports">
+            <img src="https://www.hrmexports.com/assets/images/icon/section-title-icon.png" alt="JKR SOZHAN Exim">
          </div>
          <span class="section-title__tagline">Our Blogs Updates</span>
          <h3 class="section-title__title">Latest articles & Blogs</h3>
@@ -4026,7 +4026,7 @@
             <div class="blog-two__single">
                <div class="blog-two__img-box">
                   <div class="blog-two__img">
-                     <img src="https://www.hrmexports.com/storage/images/69e210f31f926.png" alt="HRM Exports">
+                     <img src="https://www.hrmexports.com/storage/images/69e210f31f926.png" alt="JKR SOZHAN Exim">
                   </div>
                   <div class="blog-two__date">
                      <p>17 Apr, 2026</p>
@@ -4044,7 +4044,7 @@
             <div class="blog-two__single">
                <div class="blog-two__img-box">
                   <div class="blog-two__img">
-                     <img src="https://www.hrmexports.com/storage/images/69b29d0b236d3.jpg" alt="HRM Exports">
+                     <img src="https://www.hrmexports.com/storage/images/69b29d0b236d3.jpg" alt="JKR SOZHAN Exim">
                   </div>
                   <div class="blog-two__date">
                      <p>12 Mar, 2026</p>
@@ -4062,7 +4062,7 @@
             <div class="blog-two__single">
                <div class="blog-two__img-box">
                   <div class="blog-two__img">
-                     <img src="https://www.hrmexports.com/storage/images/69a016cae83f9.jpg" alt="HRM Exports">
+                     <img src="https://www.hrmexports.com/storage/images/69a016cae83f9.jpg" alt="JKR SOZHAN Exim">
                   </div>
                   <div class="blog-two__date">
                      <p>26 Feb, 2026</p>
@@ -4239,7 +4239,7 @@ $("#phone").keyup(function(event) {
 </style>
 <!--Site Footer Start-->
 <div class="fixed-sec-fot">
-    <a href="https://api.whatsapp.com/send?phone=917351000031&text=Hello, I saw your Company profile on your Hrm Exports website, can i get more Details?" class="float-ban shakehv" data-bs-toggle="tooltip" data-bs-placement="right" title="WhatsApp" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=919003374455&text=Hello, I saw your Company profile on your JKR SOZHAN Exim website, can i get more Details?" class="float-ban shakehv" data-bs-toggle="tooltip" data-bs-placement="right" title="WhatsApp" target="_blank">
        <span class="fab fa-whatsapp"></span>
     </a>
     
@@ -4351,7 +4351,7 @@ India, Karnal-132001, India</p>
                <div class="site-footer__bottom-inner">
                <p><a href="https://www.hrmexports.com/basmati-rice/exporter-from-india-to-canada.html">Basmati Rice Exporter From India to Canada</a> | <a href="https://www.hrmexports.com/basmati-rice/exporter-from-india-to-australia.html">Basmati Rice Exporter From India to Australia</a> | <a href="https://www.hrmexports.com/basmati-rice/exporter-from-india-to-sweden.html">Basmati Rice Exporter From India to Sweden</a> | <a href="https://www.hrmexports.com/basmati-rice/exporter-from-india-to-germany.html">Basmati Rice Exporter From India to Germany</a> | <a href="https://www.hrmexports.com/basmati-rice/exporter-from-india-to-belgium.html">Basmati Rice Exporter From India to Belgium</a> | 
                <a href="https://www.hrmexports.com/basmati-rice/exporter-from-india-to-france.html">Basmati Rice Exporter From India to France</a> | <a href="https://www.hrmexports.com/basmati-rice/exporter-from-india-to-italy.html">Basmati Rice Exporter From India to Italy</a> | <a href="https://www.hrmexports.com/basmati-rice/exporter-from-india-to-nepal.html">Basmati Rice Exporter From India to Nepal</a> | <a href="https://www.hrmexports.com/basmati-rice/exporter-from-india-to-netherlands.html">Basmati Rice Exporter From India to Netherlands</a> | <a href="https://www.hrmexports.com/basmati-rice/exporter-from-india-to-switzerland.html">Basmati Rice Exporter From India to Switzerland</a> | <a href="https://www.hrmexports.com/basmati-rice/exporter-from-india-to-turkey.html">Basmati Rice Exporter From India to Turkey</a></p>
-                  <p class="site-footer__bottom-text wow rubberBand" data-wow-delay="1400ms" data-wow-duration="1500ms">© Copyright 2026 by <a href="#" class="text-white">HRM Exports</a> || Develop By <a href="http://www.hrmexport.com/">HRM EXPORT</a></p>
+                  <p class="site-footer__bottom-text wow rubberBand" data-wow-delay="1400ms" data-wow-duration="1500ms">© Copyright 2026 by <a href="#" class="text-white">JKR SOZHAN Exim</a> || Develop By <a href="http://www.hrmexport.com/">HRM EXPORT</a></p>
                </div>
             </div>
          </div>

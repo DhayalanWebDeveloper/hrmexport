@@ -133,7 +133,7 @@ span.fab {
   display: inline-block;
 }
 
-/* Hybrid mode: the HRM Exports template CSS (loaded via CDN in layout.tsx) still
+/* Hybrid mode: the JKR SOZHAN Exim template CSS (loaded via CDN in layout.tsx) still
    drives the bulk of the layout, typography, and vendor-JS-driven animations
    (Swiper, Vegas, WOW, Owl, etc.). Tailwind utilities are layered on top for
    color accents, hover transitions, and polish. */

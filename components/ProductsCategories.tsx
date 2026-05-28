@@ -14,7 +14,7 @@ export default function ProductsCategories() {
       <div className="container">
         <div className="section-title text-center">
           <div className="section-title__icon">
-            <img src="/assets/images/icon/section-title-icon.png" alt="HRM Exports" />
+            <img src="/assets/images/icon/section-title-icon.png" alt="JKR SOZHAN Exim" />
           </div>
           <h3
             className="section-title__title wow slideInUp"

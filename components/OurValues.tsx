@@ -16,7 +16,7 @@ export default function OurValues() {
           <div className="section-title__icon">
             <img
               src="/assets/images/icon/section-title-icon.png"
-              alt="HRM Exports"
+              alt="JKR SOZHAN Exim"
             />
           </div>
           <span
@@ -91,7 +91,7 @@ export default function OurValues() {
                       </a>
                     </h3>
                     <p className="feature-one__text mt-15 text-justify">
-                      At HRM Exports, we have a belief that by providing our
+                      At JKR SOZHAN Exim, we have a belief that by providing our
                       basmati rice to the world, we can play our part in
                       eradicating global hunger..
                     </p>

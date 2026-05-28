@@ -75,7 +75,7 @@ export default function OurProducts() {
           <div className="section-title__icon">
             <img
               src="/assets/images/icon/section-title-icon.png"
-              alt="HRM Exports"
+              alt="JKR SOZHAN Exim"
             />
           </div>
           <span

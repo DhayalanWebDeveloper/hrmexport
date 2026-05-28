@@ -44,7 +44,7 @@ export default function BrandPage() {
                   <div className="section-title__icon">
                     <img
                       src="/assets/images/icon/section-title-icon.png"
-                      alt="HRM EXPORTS"
+                      alt="JKR SOZHAN Exim"
                     />
                   </div>
                   <span
@@ -52,7 +52,7 @@ export default function BrandPage() {
                     data-wow-delay="300ms"
                     data-wow-duration="1500ms"
                   >
-                    HRM EXPORTS
+                    JKR SOZHAN Exim
                   </span>
                   <h1
                     className="section-title__title wow fadeInUp"
@@ -135,7 +135,7 @@ export default function BrandPage() {
                   <div className="section-title__icon">
                     <img
                       src="/assets/images/icon/section-title-icon.png"
-                      alt="HRM Exports"
+                      alt="JKR SOZHAN Exim"
                     />
                   </div>
                   <h3

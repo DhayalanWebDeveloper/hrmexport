@@ -3,7 +3,7 @@ const testimonials = [
     name: "Faisal",
     stars: 5,
     text:
-      "I have been consistently impressed with the quality of rice provided by HRM Exports. Their commitment to delivering top-notch rice products, along with exceptional customer service, makes them a trusted partner in the industry.",
+      "I have been consistently impressed with the quality of rice provided by JKR SOZHAN Exim. Their commitment to delivering top-notch rice products, along with exceptional customer service, makes them a trusted partner in the industry.",
   },
   {
     name: "Freddy",
@@ -21,7 +21,7 @@ const testimonials = [
     name: "Mohammad",
     stars: 5,
     text:
-      "Our partnership with HRM Exports has been nothing short of excellent. Their consistent quality, reliability, and professionalism make them our preferred choice, and we look forward to many more years of collaboration.",
+      "Our partnership with JKR SOZHAN Exim has been nothing short of excellent. Their consistent quality, reliability, and professionalism make them our preferred choice, and we look forward to many more years of collaboration.",
   },
 ];
 
@@ -58,14 +58,14 @@ export default function CustomerTestimonials() {
                 <div className="section-title__icon left">
                   <img
                     src="/assets/images/icon/section-title-icon.png"
-                    alt="HRM Exports"
+                    alt="JKR SOZHAN Exim"
                   />
                 </div>
                 <span className="section-title__tagline text-hrm-lime font-medium tracking-wide">
                   Customer Reviews
                 </span>
                 <h3 className="section-title__title text-hrm-green">
-                  Customer talking About HRM Exports
+                  Customer talking About JKR SOZHAN Exim
                 </h3>
               </div>
             </div>

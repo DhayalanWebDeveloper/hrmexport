@@ -28,20 +28,20 @@ export default function HRMExports() {
                     <img
                       src="/assets/images/resources/ricemanu.png"
                       className="img-fluid"
-                      alt="HRM Exports"
+                      alt="JKR SOZHAN Exim"
                     />
                   </div>
                   <div className="about-one__experience">
                     <div className="about-one__experience-shape-1">
                       <img
                         src="/assets/images/shapes/about-one-experience-shape-1.png"
-                        alt="HRM Exports"
+                        alt="JKR SOZHAN Exim"
                       />
                     </div>
                     <div className="about-one__experience-shape-2">
                       <img
                         src="/assets/images/shapes/about-one-experience-shape-2.png"
-                        alt="HRM Exports"
+                        alt="JKR SOZHAN Exim"
                       />
                     </div>
                     <div className="about-one__experience-year">
@@ -64,7 +64,7 @@ export default function HRMExports() {
                   <div className="section-title__icon left">
                     <img
                       src="/assets/images/icon/section-title-icon.png"
-                      alt="HRM Exports"
+                      alt="JKR SOZHAN Exim"
                     />
                   </div>
                   <h2
@@ -72,7 +72,7 @@ export default function HRMExports() {
                     data-wow-delay="200ms"
                     data-wow-duration="1500ms"
                   >
-                    HRM Exports
+                    JKR SOZHAN Exim
                   </h2>
                   <h1
                     className="section-title__title wow slideInUp"
@@ -95,7 +95,7 @@ export default function HRMExports() {
                   data-wow-delay="400ms"
                   data-wow-duration="1500ms"
                 >
-                  HRM Exports is a leading exporter of premium quality
+                  JKR SOZHAN Exim is a leading exporter of premium quality
                   agricultural products, known for its commitment to excellence
                   and customer satisfaction. With a strong focus on quality
                   control and sustainable practices. We delivers a diverse range
@@ -110,9 +110,9 @@ export default function HRMExports() {
                   In a commodity market, Competitive prices are given, and
                   supplier options are a necessity. Too often, though,
                   that&apos;s the whole story in the rice industry &ndash; which
-                  is why HRM Exports set out to be more than you&apos;ve come to
+                  is why JKR SOZHAN Exim set out to be more than you&apos;ve come to
                   expect. We understand the benefits of a closer relationship
-                  with the customer, HRM Exports has taken the industrial rice
+                  with the customer, JKR SOZHAN Exim has taken the industrial rice
                   supply chain back to its roots &ndash; and into the 21st
                   century
                 </p>
@@ -127,7 +127,7 @@ export default function HRMExports() {
                   data-wow-delay="500ms"
                   data-wow-duration="1500ms"
                 >
-                  Today, we at HRM Exports commit to achieve customer
+                  Today, we at JKR SOZHAN Exim commit to achieve customer
                   satisfaction with quality, quantity and services.
                 </p>
                 <p
@@ -167,13 +167,13 @@ export default function HRMExports() {
                     <img
                       src="/assets/images/resources/quantity.webp"
                       className="img-fluid"
-                      alt="HRM Exports"
+                      alt="JKR SOZHAN Exim"
                     />
                   </div>
                   <div className="about-one__img-two">
                     <img
                       src="/assets/images/resources/about-three-img-2.jpg"
-                      alt="HRM Exports"
+                      alt="JKR SOZHAN Exim"
                     />
                   </div>
                 </div>

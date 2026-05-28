@@ -8,9 +8,9 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Best Rice Manufacturers, Suppliers & Exporters in India | HRM Exports",
+  title: "Best Rice Manufacturers, Suppliers & Exporters in India | JKR SOZHAN Exim",
   description:
-    "HRM Exports is one of the leading top rice manufacturers, suppliers, and exporters in India with trusted quality and delivery at the right time in the global market.",
+    "JKR SOZHAN Exim is one of the leading top rice manufacturers, suppliers, and exporters in India with trusted quality and delivery at the right time in the global market.",
   keywords:
     "Rice Manufacturers In India, Rice Exporters In India, Rice Suppliers In India, Rice Suppliers From India",
   icons: {

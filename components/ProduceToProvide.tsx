@@ -23,11 +23,11 @@ export default function ProduceToProvide() {
             >
               <img
                 src="/assets/images/resources/before-and-after-img.jpg"
-                alt="HRM Exports"
+                alt="JKR SOZHAN Exim"
               />
               <img
                 src="/assets/images/resources/before-and-after-img-2.jpg"
-                alt="HRM Exports"
+                alt="JKR SOZHAN Exim"
               />
             </div>
           </div>
