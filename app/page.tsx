@@ -2,7 +2,7 @@ import HeroSlider from "@/components/HeroSlider";
 import ProductsCategories from "@/components/ProductsCategories";
 import HRMExports from "@/components/HRMExports";
 import OurValues from "@/components/OurValues";
-import OurProducts from "@/components/OurProducts";
+// import OurProducts from "@/components/OurProducts";
 import VisionMission from "@/components/VisionMission";
 import RiceMillingProcess from "@/components/RiceMillingProcess";
 import WeAreCertified from "@/components/WeAreCertified";
@@ -22,8 +22,8 @@ export default function Home() {
       <ProductsCategories />
       <HRMExports />
       <OurValues />
-      <OurProducts />
-      <section className="position-relative">
+      {/* <OurProducts /> */}
+      {/* <section className="position-relative">
         <img
           src="/assets/images/middle-banner.jpg"
           alt="middle banner"
@@ -33,15 +33,15 @@ export default function Home() {
         <a href="/brand" className="about-one__btn thm-btn hbbtn">
           Know More
         </a>
-      </section>
+      </section> */}
       <VisionMission />
-      <RiceMillingProcess />
+      {/* <RiceMillingProcess /> */}
       <WeAreCertified />
       <ReasonsToChoose />
       <CustomerTestimonials />
       <ProduceToProvide />
       <QualityRice />
-      <RiceRecipes />
+      {/* <RiceRecipes /> */}
       <LatestArticles />
       <MapSection />
       <EnquiryForm />
