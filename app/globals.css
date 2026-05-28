@@ -187,6 +187,11 @@ span.fab {
   }
 }
 
+.main-menu__left {
+  width: 100%;
+  justify-content: space-between;
+}
+
 /* Responsive visibility helpers — the original page defined these in an
    inline <style> block, so they aren't in the CDN CSS. Without them both
    the desktop (`mobilehide`) and mobile (`mobileshow`) hero carousels

@@ -56,12 +56,12 @@ export default function Header() {
                       <ul className="sub-menu">
                         <li><Link href="/about">About Us</Link></li>
                         <li><Link href="/history">History </Link></li>
-                        <li><Link href="/infrastructure">Infrastructure </Link></li>
+                        {/* <li><Link href="/infrastructure">Infrastructure </Link></li> */}
                         <li><Link href="/certificates">Certifications </Link></li>
                       </ul>
                     </li>
 
-                    <li><Link href="/brand" className="transition-colors duration-300 hover:text-[#afc836]">Behrouz Brand</Link> </li>
+                    {/* <li><Link href="/brand" className="transition-colors duration-300 hover:text-[#afc836]">Behrouz Brand</Link> </li> */}
 
                     <li className="dropdown">
                       <a href="#" className="transition-colors duration-300 hover:text-[#afc836]">Products</a>
@@ -90,16 +90,18 @@ export default function Header() {
                       </ul>
                     </li>
                     <li><Link href="/quality-control" className="transition-colors duration-300 hover:text-[#afc836]">Quality Control</Link></li>
-                    <li><Link href="/recipes" className="transition-colors duration-300 hover:text-[#afc836]">Recipes</Link></li>
+                    {/* <li><Link href="/recipes" className="transition-colors duration-300 hover:text-[#afc836]">Recipes</Link></li> */}
                     <li><Link href="/contact" className="transition-colors duration-300 hover:text-[#afc836]">Contact Us</Link></li>
                   </ul>
                 </div>
-              </div>
-              <div className="main-menu__right">
-                <div className="main-menu__btn-box">
-                  <a href="/assets/images/hrm_exports_catalogue.pdf" download className="thm-btn main-menu__btn transition-all duration-300 hover:brightness-110 hover:shadow-lg"> E-Brochure </a>
+                <div className="main-menu__right">
+                  <div className="main-menu__btn-box">
+                    <a href="/assets/images/hrm_exports_catalogue.pdf" download className="thm-btn main-menu__btn transition-all duration-300 hover:brightness-110 hover:shadow-lg"> E-Brochure </a>
+                  </div>
                 </div>
+
               </div>
+
             </div>
           </div>
         </nav>
