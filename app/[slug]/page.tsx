@@ -30,7 +30,7 @@ export default async function ProductPage({
         <div
           className="page-header-bg"
           style={{
-            backgroundImage: "url(/storage/images/651304c2cd4dd.jpg)",
+            backgroundImage: "url(/assets/images/backgrounds/banner03.webp)",
           }}
         ></div>
         <div className="container">
@@ -376,7 +376,7 @@ function CutView({
                     href={`/${category.slug}`}
                     className="transition-colors duration-300 hover:text-[#afc836]"
                   >
-                    &larr; All Rice Varieties
+                    &larr; All Products
                   </Link>
                 </div>
               </div>
@@ -426,7 +426,7 @@ function CutView({
                   href={`/${category.slug}`}
                   className="thm-btn transition-all duration-300 hover:brightness-110 hover:shadow-lg"
                 >
-                  All Rice Varieties
+                  All Products
                 </Link>
               </div>
             </div>

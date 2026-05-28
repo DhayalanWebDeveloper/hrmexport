@@ -83,7 +83,7 @@ export default function OurProducts() {
             data-wow-delay="100ms"
             data-wow-duration="1500ms"
           >
-            Selection of pure and top grade Rice
+            Selection of pure and top grade agricultural products
           </span>
           <h3
             className="section-title__title wow text-white fadeInUp"

@@ -66,25 +66,18 @@ export default function Header() {
                     <li className="dropdown">
                       <a href="#" className="transition-colors duration-300 hover:text-[#afc836]">Products</a>
                       <ul className="sub-menu">
-                        {productCategories.map((cat) => (
-                          <li key={cat.slug} className="dropdown">
-                            <Link href={`/${cat.slug}`}>{cat.name.toUpperCase()}</Link>
-                            <ul className="sub-menu">
-                              {cat.varieties.map((v) => (
-                                <li key={v.slug} className="dropdown">
-                                  <Link href={`/${v.slug}`}>{v.name.toUpperCase()}</Link>
-                                  {v.cuts.length > 0 && (
-                                    <ul className="sub-menu">
-                                      {v.cuts.map((c) => (
-                                        <li key={c.slug} className="dropdown">
-                                          <Link href={`/${c.slug}`}>{c.name.toUpperCase()}</Link>
-                                        </li>
-                                      ))}
-                                    </ul>
-                                  )}
-                                </li>
-                              ))}
-                            </ul>
+                        {productCategories.flatMap(cat => cat.varieties).map((v) => (
+                          <li key={v.slug} className="dropdown">
+                            <Link href={`/${v.slug}`}>{v.name.toUpperCase()}</Link>
+                            {v.cuts.length > 0 && (
+                              <ul className="sub-menu">
+                                {v.cuts.map((c) => (
+                                  <li key={c.slug} className="dropdown">
+                                    <Link href={`/${c.slug}`}>{c.name.toUpperCase()}</Link>
+                                  </li>
+                                ))}
+                              </ul>
+                            )}
                           </li>
                         ))}
                       </ul>
