@@ -319,7 +319,7 @@ export default function Footer() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    HRM EXPORT
+                    JKR SOZHAN EXIM
                   </a>
                 </p>
               </div>
